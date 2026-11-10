@@ -1,0 +1,384 @@
+/* src/layout.css */
+
+/* --- 1. LE HEADER (100% FLEXBOX) --- */
+.global-header-container {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 152px;
+  
+  /* --- CORRECTION Z-INDEX --- */
+  position: relative; /* Base pour les enfants */
+  z-index: 900; 
+}
+
+/* --- 2. LE LOGO (Au centre) --- */
+.global-logo-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  z-index: 940; /* En dessous de la barre de recherche (950) */
+}
+.global-logos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.global-logo {
+  height: 70px; 
+  display: block;
+  object-fit: contain;
+}
+.global-logo-sncf {
+  height: 50px;
+}
+.header-logo-separator {
+  display: block;
+  width: 1.5px;
+  height: 46px;
+  background-color: #ced4da;
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+
+/* --- 3. LE BOUTON HAMBURGER (À gauche) --- */
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000; /* Toujours le plus haut */
+  width: 44px; 
+}
+.hamburger-btn span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+.hamburger-btn.open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.hamburger-btn.open span:nth-child(2) { opacity: 0; }
+.hamburger-btn.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+/* --- 4. NOUVELLE SECTION RECHERCHE (À droite) --- */
+
+.header-search-wrapper {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  width: auto; /* MODIFIÉ: 44px -> auto */
+  height: 50px; 
+  
+  /* --- MODIFICATION ICI --- */
+  z-index: 950; /* Au-dessus du logo (940) */
+}
+
+/* Le bouton qui est toujours visible */
+.header-search-toggle-btn {
+  position: relative;
+  z-index: 10; /* Au-dessus de l'input */
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+  /* --- MODIFIÉ ICI --- */
+  width: auto; /* 50px -> auto */
+  height: 50px;
+  padding: 0 16px; /* 13px -> 0 16px */
+  box-sizing: border-box;
+  flex-shrink: 0; 
+  
+  /* --- AJOUTS ICI --- */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s; /* Ajout d'un hover */
+  border-radius: 16px; /* Ajout pour le hover */
+}
+
+.header-search-toggle-btn:hover {
+  background-color: rgba(0,0,0,0.04); /* Léger fond au survol */
+}
+
+/* L'icône de la loupe */
+.search-icon-loupe {
+  width: 24px; 
+  height: 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s, transform 0.2s;
+  flex-shrink: 0; /* AJOUT */
+}
+.search-icon-loupe.hidden {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+/* L'icône 'X' (créée en CSS) */
+.search-icon-close {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  transform: scale(0.5);
+}
+.search-icon-close.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+.search-icon-close span {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  background-color: #333;
+  top: 10.5px; 
+  left: 0;
+}
+.search-icon-close span:nth-child(1) { transform: rotate(45deg); }
+.search-icon-close span:nth-child(2) { transform: rotate(-45deg); }
+
+
+/* --- NOUVEAUX STYLES POUR LE TEXTE --- */
+.search-toggle-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  /* Animation d'apparition */
+  transition: opacity 0.2s ease-in 0.1s, width 0.2s ease-in-out, margin-left 0.2s ease-in-out;
+}
+
+.search-toggle-text.hidden {
+  opacity: 0;
+  width: 0; /* S'effondre sur lui-même */
+  margin-left: -8px; /* Cache le 'gap' du flex container */
+  /* Animation de disparition */
+  transition: opacity 0.1s ease-out, width 0.2s ease-out, margin-left 0.2s ease-out;
+}
+/* --- FIN NOUVEAUX STYLES --- */
+
+
+/* La barre de recherche (input) */
+.header-search-input {
+  position: absolute;
+  right: 0; 
+  top: 0;
+  
+  z-index: 2; /* Inférieur au bouton (10) mais dans le wrapper */
+  
+  /* Style de carte */
+  height: 50px; 
+  background-color: #ffffff; 
+  border-radius: 16px; 
+  
+  width: 0; 
+  padding: 12px 20px;
+  padding-right: 50px; /* Espace pour le bouton 'X' (qui fait 50x50) */
+  
+  font-size: 1rem;
+  border: 1px solid transparent; 
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none; 
+  transition: width 0.3s ease-in-out, opacity 0.2s ease-in-out, border-color 0.2s, box-shadow 0.2s;
+}
+
+/* L'état ouvert de la recherche */
+.header-search-input.open {
+  width: 380px; 
+  opacity: 1;
+  pointer-events: auto; 
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.header-search-input.open:focus {
+  outline: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+/* --- 5. LE CONTENEUR DE PAGE --- */
+.page-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 152px;
+  position: relative;
+  z-index: 100; 
+}
+.page-content {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+/* --- 6. OVERLAY (POUR LE MENU HAMBURGER) --- */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 999; 
+  cursor: pointer;
+}
+
+/* --- 7. PANNEAU DE RÉSULTATS DE RECHERCHE --- */
+.header-search-results-container {
+  position: absolute; 
+  top: 83px; 
+  right: 152px; 
+  width: 380px; 
+  
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 16px; 
+  overflow: hidden; 
+  
+  z-index: 950; /* Au-dessus du contenu, mais sous le logo (qui n'est plus à 950) */
+  
+  max-height: 70vh; 
+  overflow-y: auto;
+  
+  /* État initial pour l'animation */
+  opacity: 0;
+  transform: translateY(-10px); 
+
+  /* --- CORRECTION ANIMATION --- */
+  clip-path: inset(0 0 0 100%); /* S'ouvre de droite à gauche */
+  
+  pointer-events: none;
+  transition: opacity 0.2s ease-out, 
+              transform 0.3s ease-out, 
+              clip-path 0.3s ease-out;
+  
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f7f7f7;
+}
+
+/* État ouvert pour l'animation */
+.header-search-results-container.open {
+  opacity: 1;
+  transform: translateY(0);
+  clip-path: inset(0 0 0 0); 
+  pointer-events: auto;
+}
+
+.header-search-results-container::-webkit-scrollbar { width: 8px; }
+.header-search-results-container::-webkit-scrollbar-track { background: #f7f7f7; }
+.header-search-results-container::-webkit-scrollbar-thumb { background-color: #ccc; border-radius: 4px; }
+
+/* Styles pour les résultats (prompt, aucun résultat, items) */
+
+/* --- CORRECTION ALIGNEMENT TEXTE --- */
+.search-prompt,
+.search-no-results {
+  padding: 24px;
+  color: #6c757d;
+  text-align: left;    /* MODIFIÉ: center -> left */
+  padding-left: 28px;  /* AJOUTÉ: pour aligner avec le texte des résultats */
+  font-size: 1.1rem;
+}
+
+.result-item { padding: 12px 24px; border-bottom: 1px solid #f0f0f0; }
+.result-item:first-child { padding-top: 16px; }
+.result-item:last-child { border-bottom: none; padding-bottom: 16px; }
+
+.result-item-titre-link {
+  text-decoration: none;
+  color: inherit;
+}
+.result-item-titre-link:hover .result-item-titre {
+  background-color: #f0f0f0; /* Le fond gris est appliqué au H4 */
+}
+.result-item-titre { 
+  font-size: 1.2rem; 
+  font-weight: 700; 
+  margin: 0 0 8px 0; /* Marge en bas du H4 */
+  
+  /* Style du rectangle */
+  display: inline-block; 
+  padding: 2px 8px;
+  margin-left: -8px; 
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.result-item-lignes { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; align-items: center; }
+.result-item-logo { width: 30px; height: 30px; object-fit: contain; transition: transform 0.2s; display: block; }
+.result-item-logo:hover { transform: scale(1.1); }
+.result-item-rames-label { font-size: 0.8rem; color: #6c757d; margin: 0 0 4px 0; text-transform: uppercase; font-weight: 600; }
+.result-item-rames { display: flex; flex-wrap: wrap; gap: 6px; }
+.result-item-rame-tag { font-size: 0.9rem; font-weight: 500; color: #333; background-color: #f0f0f0; padding: 3px 8px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s; }
+.result-item-rame-tag:hover { background-color: #e0e0e0; text-decoration: none; }
+
+
+/* --- MOBILE --- */
+@media (max-width: 768px) {
+  .global-header-container {
+    padding: 10px 20px; 
+  }
+  .page-container {
+    padding: 0 20px;
+  }
+  .global-logos-wrapper {
+    gap: 12px;
+  }
+  .global-logo {
+    height: 46px;
+  }
+  .global-logo-sncf {
+    height: 34px;
+  }
+  .header-logo-separator {
+    height: 32px;
+  }
+  .hamburger-btn {
+    width: 44px; 
+  }
+  
+  .header-search-wrapper {
+    height: 44px; 
+  }
+  .header-search-toggle-btn {
+    height: 44px;
+    width: auto; /* MODIFIÉ */
+    padding: 0 12px; /* MODIFIÉ */
+  }
+  /* Masquer le texte sur mobile pour garder juste l'icône */
+  .search-toggle-text {
+    display: none;
+  }
+  
+  .search-icon-close {
+    top: 10px;
+    left: 10px;
+  }
+  .header-search-input {
+    height: 44px;
+  }
+
+  .header-search-input.open {
+    width: calc(100vw - 120px); 
+    height: 44px;
+  }
+  
+  .header-search-results-container {
+    top: 65px; 
+    left: 20px; 
+    right: 20px; 
+    width: auto; 
+    border-radius: 16px;
+    border: 1px solid #e0e0e0;
+  }
+  .result-item { padding: 12px 16px; }
+}

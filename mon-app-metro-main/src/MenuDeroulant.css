@@ -1,0 +1,140 @@
+/* src/MenuDeroulant.css */
+
+.menu-deroulant {
+  position: fixed;
+  top: 0;
+  
+  /* --- MODIFICATIONS : Positionnement à gauche --- */
+  left: 0; 
+  /* right: 0; (Supprimé) */
+  
+  height: 100vh;
+  width: 400px; 
+  max-width: 90%;
+  
+  background-color: #f8f9fa; /* Fond gris clair (idem que le body) */
+  
+  /* --- MODIFICATIONS : Bordure et ombre à droite --- */
+  border-right: 1px solid #e0e0e0; /* Bordure à droite */
+  /* border-left: 1px solid #e0e0e0; (Supprimé) */
+  box-shadow: 5px 0 20px rgba(0,0,0,0.07); /* Ombre à droite */
+  /* box-shadow: -5px 0 20px rgba(0,0,0,0.07); (Supprimé) */
+  
+  z-index: 1000;
+  
+  /* --- MODIFICATIONS : Animation depuis la gauche --- */
+  transform: translateX(-100%); 
+  /* transform: translateX(100%); (Supprimé) */
+  
+  transition: transform 0.3s ease-in-out;
+  
+  pointer-events: none;
+}
+.menu-deroulant.open {
+  transform: translateX(0);
+  pointer-events: auto; 
+}
+.menu-content {
+  padding: 30px 24px 24px 24px;
+  
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto; 
+  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.menu-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* STYLE TITRES DE SECTION */
+.menu-titre-section {
+  color: #212529; /* Texte noir */
+  font-weight: 600; /* Plus gras */
+  font-size: 1.2rem; /* Plus grand */
+  border-bottom: 1px solid #e0e0e0; /* Ligne de séparation */
+  padding-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.menu-content .menu-titre-section:first-child {
+  margin-top: 0;
+}
+
+/* STYLE "CARTE" POUR LES LIENS */
+.menu-link-repertoire {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600; /* Gras */
+  color: #212529; 
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 16px; /* Arrondi de vos cartes */
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 12px;
+  
+  /* Style de carte */
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.menu-link-repertoire:hover {
+  text-decoration: none;
+  /* Effet "hover" de vos cartes */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+
+/* STYLE POUR LA GRILLE DES LIGNES */
+.menu-grille {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 12px; /* Un peu plus d'espace */
+}
+
+/* STYLE "CARTE" POUR LES ITEMS DE GRILLE */
+.menu-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; /* Centré */
+  gap: 8px; 
+  padding: 12px 5px; 
+  text-decoration: none;
+  color: #333;
+  border-radius: 16px; /* Arrondi de vos cartes */
+  transition: transform 0.2s, box-shadow 0.2s;
+  
+  /* Style de carte */
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  
+  height: 90px; /* Hauteur fixe pour un bel alignement */
+}
+.menu-item:hover {
+  /* Effet "hover" de vos cartes */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.menu-item-logo {
+  height: 40px; /* Ajusté */
+  width: 40px;
+  object-fit: contain; 
+}
+.menu-item span {
+  font-size: 0.9rem; 
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .menu-deroulant {
+    width: 90vw;
+    max-width: 400px;
+  }
+  .menu-grille {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

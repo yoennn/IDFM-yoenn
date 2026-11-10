@@ -1,0 +1,58 @@
+/* src/PageCarte.css */
+.carte-container {
+  width: 100%;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.carte-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.carte-container p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 24px;
+}
+
+.carte-image-wrapper {
+  /* overflow-x a été supprimé */
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Les règles de scrollbar ont été supprimées */
+
+.carte-image-wrapper img {
+  /* min-width a été supprimé */
+  width: 100%; 
+  height: auto;
+}
+
+.note-carte {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .carte-container h1 {
+    font-size: 2rem;
+  }
+  .carte-image-wrapper {
+    padding: 10px;
+  }
+  
+  /* --- CORRECTION ICI --- */
+  /* Le sélecteur .carte-image-wrapper img 
+     a été totalement supprimé car il était vide.
+  */
+}

@@ -1,0 +1,145 @@
+/* src/PageRepertoire.css */
+
+.repertoire-container {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.repertoire-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+
+.repertoire-grille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.rame-carte {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  gap: 24px;
+  align-items: center;
+}
+
+.rame-carte-image-container {
+  width: 40%;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.rame-carte-image {
+  width: 100%;
+  height: auto;
+}
+
+.rame-carte-infos {
+  flex-grow: 1;
+  /* --- AJOUT : Permet de placer la barre en haut --- */
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- STYLES POUR LA BARRE DE COULEUR --- */
+.rame-carte-couleurs {
+  display: flex;
+  height: 6px; /* Hauteur sobre */
+  border-radius: 3px; /* Léger arrondi */
+  overflow: hidden; /* Force les segments à respecter l'arrondi */
+  margin-bottom: 16px; /* Espace avant le titre */
+  width: 100%;
+}
+
+.couleur-segment {
+  flex-grow: 1; /* Chaque segment prend une part égale */
+  height: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Petit effet hover sobre */
+.rame-carte-couleurs:hover .couleur-segment {
+  opacity: 0.7;
+}
+.rame-carte-couleurs .couleur-segment:hover {
+  opacity: 1;
+  transform: scale(1.05); /* Léger zoom sur le segment survolé */
+  z-index: 2;
+}
+/* --- FIN STYLES BARRE --- */
+
+
+.rame-carte-infos h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Style lien "Rectangle" */
+.rame-carte-infos h3 a {
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-left: -8px; 
+  border-radius: 6px;
+}
+.rame-carte-infos h3 a:hover {
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.rame-carte-infos p {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.rame-lignes-liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ligne-logo-link {
+  display: block;
+}
+
+.ligne-logo-repertoire {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.ligne-logo-repertoire:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .repertoire-container h1 {
+    font-size: 2rem;
+  }
+  .rame-carte {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+  .rame-carte-image-container {
+    width: 100%;
+  }
+  .rame-carte-infos h3 {
+    font-size: 1.5rem;
+  }
+}
