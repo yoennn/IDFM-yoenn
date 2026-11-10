@@ -3,31 +3,16 @@
 .menu-deroulant {
   position: fixed;
   top: 0;
-  
-  /* --- MODIFICATIONS : Positionnement à gauche --- */
   left: 0; 
-  /* right: 0; (Supprimé) */
-  
   height: 100vh;
-  width: 400px; 
-  max-width: 90%;
-  
-  background-color: #f8f9fa; /* Fond gris clair (idem que le body) */
-  
-  /* --- MODIFICATIONS : Bordure et ombre à droite --- */
-  border-right: 1px solid #e0e0e0; /* Bordure à droite */
-  /* border-left: 1px solid #e0e0e0; (Supprimé) */
-  box-shadow: 5px 0 20px rgba(0,0,0,0.07); /* Ombre à droite */
-  /* box-shadow: -5px 0 20px rgba(0,0,0,0.07); (Supprimé) */
-  
+  width: 420px; 
+  max-width: 92%;
+  background-color: #f8f9fa;
+  border-right: 1px solid #e0e0e0;
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.07);
   z-index: 1000;
-  
-  /* --- MODIFICATIONS : Animation depuis la gauche --- */
   transform: translateX(-100%); 
-  /* transform: translateX(100%); (Supprimé) */
-  
   transition: transform 0.3s ease-in-out;
-  
   pointer-events: none;
 }
 .menu-deroulant.open {
@@ -35,106 +20,163 @@
   pointer-events: auto; 
 }
 .menu-content {
-  padding: 30px 24px 24px 24px;
-  
+  padding: 72px 20px 20px 20px;
   height: 100%;
   box-sizing: border-box;
   overflow-y: auto; 
-  
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .menu-content::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* STYLE TITRES DE SECTION */
 .menu-titre-section {
-  color: #212529; /* Texte noir */
-  font-weight: 600; /* Plus gras */
-  font-size: 1.2rem; /* Plus grand */
-  border-bottom: 1px solid #e0e0e0; /* Ligne de séparation */
-  padding-bottom: 8px;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  color: #212529;
+  font-weight: 700;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px;
+  margin-top: 14px;
+  margin-bottom: 10px;
 }
-.menu-content .menu-titre-section:first-child {
+.menu-content > .menu-titre-section:first-child {
   margin-top: 0;
 }
 
-/* STYLE "CARTE" POUR LES LIENS */
+/* GRILLE NAVIGATION COMPACTE (2 colonnes) */
+.menu-nav-grille {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 4px;
+}
 .menu-link-repertoire {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: 600; /* Gras */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 700;
   color: #212529; 
   text-decoration: none;
-  padding: 16px;
-  border-radius: 16px; /* Arrondi de vos cartes */
+  padding: 12px 10px;
+  border-radius: 14px;
   transition: transform 0.2s, box-shadow 0.2s;
-  margin-bottom: 12px;
-  
-  /* Style de carte */
   background-color: #ffffff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 .menu-link-repertoire:hover {
   text-decoration: none;
-  /* Effet "hover" de vos cartes */
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
 }
 
+/* ONGLETS DE FILTRAGE PAR MODE DANS LA SIDEBAR */
+.menu-modes-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.menu-mode-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 4px;
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s, color 0.2s;
+}
+.menu-mode-tab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+.menu-mode-tab.active {
+  background-color: #212529;
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+}
+.menu-mode-tab-icon {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  flex-shrink: 0;
+}
 
 /* STYLE POUR LA GRILLE DES LIGNES */
+.menu-section-block {
+  animation: fadeInUp 0.25s ease-out;
+}
 .menu-grille {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  gap: 12px; /* Un peu plus d'espace */
+  gap: 8px;
 }
 
-/* STYLE "CARTE" POUR LES ITEMS DE GRILLE */
+/* STYLE "CARTE" COMPACTE POUR LES ITEMS DE GRILLE */
 .menu-item {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  justify-content: center; /* Centré */
-  gap: 8px; 
-  padding: 12px 5px; 
+  justify-content: center;
+  gap: 5px; 
+  padding: 8px 4px; 
   text-decoration: none;
   color: #333;
-  border-radius: 16px; /* Arrondi de vos cartes */
+  border-radius: 12px;
   transition: transform 0.2s, box-shadow 0.2s;
-  
-  /* Style de carte */
   background-color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  
-  height: 90px; /* Hauteur fixe pour un bel alignement */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 70px;
+  box-sizing: border-box;
 }
 .menu-item:hover {
-  /* Effet "hover" de vos cartes */
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
 
 .menu-item-logo {
-  height: 40px; /* Ajusté */
-  width: 40px;
-  object-fit: contain; 
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  flex-shrink: 0;
 }
 .menu-item span {
-  font-size: 0.9rem; 
-  font-weight: 500;
+  font-size: 0.8rem; 
+  font-weight: 600;
   white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .menu-deroulant {
-    width: 90vw;
+    width: 92vw;
     max-width: 400px;
   }
+  .menu-content {
+    padding: 64px 16px 16px 16px;
+  }
   .menu-grille {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }

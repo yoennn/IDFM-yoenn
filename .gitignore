@@ -1,1 +1,4 @@
 ﻿node_modules/
+dist/
+mon-app-metro-main/node_modules/
+mon-app-metro-main/dist/

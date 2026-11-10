@@ -5,7 +5,7 @@ import './App.css';
 
 export function LogoLigne({ id }) {
   const ligne = lignesMetro.find(l => l.id === String(id));
-  const modeLogo = ligne ? (ligne.modeLogo || getModeLogo(ligne.mode)) : '/assets/metro-logo.png';
+  const modeLogo = ligne ? (ligne.modeLogo || getModeLogo(ligne.mode, false)) : '/assets/logo-metro-noir.svg';
   const lineLogo = ligne ? (ligne.logo || getLineLogo(id)) : getLineLogo(id);
 
   return (

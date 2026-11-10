@@ -1,21 +1,19 @@
 // src/App.jsx
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useOutletContext } from 'react-router-dom';
 import { lignesMetro, getLineLogo, getModeLogo } from './data.js';
 import './App.css'; 
 
 const FILTRES_MODES = [
-  { id: 'tous', label: 'Tous les réseaux', mode: null },
   { id: 'metro', label: 'Métro', mode: 'metro' },
   { id: 'rer', label: 'RER', mode: 'rer' },
   { id: 'transilien', label: 'Transilien', mode: 'transilien' },
   { id: 'tram', label: 'Tramway', mode: 'tram' },
+  { id: 'tous', label: 'Tous les réseaux', mode: null },
 ];
 
 function CarteLigne({ ligne, extraClass = '' }) {
-  const modeIconSrc = ligne.mode === 'metro'
-    ? '/assets/metro-logo.png'
-    : (ligne.modeLogo || getModeLogo(ligne.mode));
+  const modeIconSrc = getModeLogo(ligne.mode, false);
   const lineIconSrc = ligne.logo || getLineLogo(ligne.id);
 
   return (
@@ -37,7 +35,10 @@ function CarteLigne({ ligne, extraClass = '' }) {
 }
 
 export default function App() {
-  const [filtreMode, setFiltreMode] = useState('tous');
+  const outletCtx = useOutletContext();
+  const [localFiltreMode, setLocalFiltreMode] = useState('metro');
+  const filtreMode = outletCtx?.filtreMode || localFiltreMode;
+  const setFiltreMode = outletCtx?.setFiltreMode || setLocalFiltreMode;
 
   const lignesActuelles = lignesMetro.filter(l => l.type === 'actuel');
   const lignesGPE = lignesMetro.filter(l => l.type === 'gpe');

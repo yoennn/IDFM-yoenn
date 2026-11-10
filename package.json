@@ -1,0 +1,13 @@
+{
+  "name": "idfm-transports-idf-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prebuild": "npm --prefix mon-app-metro-main install --legacy-peer-deps",
+    "build": "npm --prefix mon-app-metro-main run build && node -e \"const fs=require('fs'); fs.rmSync('dist',{recursive:true,force:true}); fs.cpSync('mon-app-metro-main/dist','dist',{recursive:true});\"",
+    "dev": "npm --prefix mon-app-metro-main run dev",
+    "lint": "npm --prefix mon-app-metro-main run lint",
+    "preview": "npm --prefix mon-app-metro-main run preview"
+  }
+}

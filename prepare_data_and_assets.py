@@ -165,11 +165,11 @@ def download_all_wikimedia_assets():
         print(f"  [OK] Logo SNCF -> {sncf_dest.name}")
 
     commons_svg_map = {
-        "File:Paris transit icons - Métro.svg": ["Paris_transit_icons_-_Métro.svg"],
+        "File:Paris transit icons - Métro.svg": ["Paris_transit_icons_-_Métro.svg", "logo-metro-noir.svg"],
         "File:Paris transit icons - RER.svg": ["Paris_transit_icons_-_RER.svg"],
         "File:Paris transit icons - Train.svg": ["Paris_transit_icons_-_Train.svg"],
         "File:Paris transit icons - Tram.svg": ["Paris_transit_icons_-_Tram.svg"],
-        "File:Paris transit icons white - Métro.svg": ["Paris_transit_icons_white_-_Métro.svg"],
+        "File:Paris transit icons white - Métro.svg": ["Paris_transit_icons_white_-_Métro.svg", "logo-metro-blanc.svg"],
         "File:Paris transit icons white - RER.svg": ["Paris_transit_icons_white_-_RER.svg"],
         "File:Paris transit icons white - Train.svg": ["Paris_transit_icons_white_-_Train.svg"],
         "File:Paris transit icons white - Tram.svg": ["Paris_transit_icons_white_-_Tram.svg"],
@@ -690,7 +690,7 @@ def get_all_data_definitions():
             "id": "1", "nom": "Ligne 1", "type": "actuel", "mode": "metro",
             "terminus": ["La Défense", "Château de Vincennes"],
             "ouverture": "1900", "stations": 25, "longueur": "16,6 km",
-            "logo": "/assets/1-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/1-plan.png",
+            "logo": "/assets/1-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/1-plan.png",
             "materiel": [
                 {"nom": "MP 05", "description": "<strong>Rame automatique (CA) à 6 voitures.</strong><br>Déployées lors de l'automatisation intégrale de la ligne (2008-2011), elles remplacent les anciennes rames MP 89 CC (à conduite manuelle)."}
             ]
@@ -699,7 +699,7 @@ def get_all_data_definitions():
             "id": "2", "nom": "Ligne 2", "type": "actuel", "mode": "metro",
             "terminus": ["Porte Dauphine", "Nation"],
             "ouverture": "1900", "stations": 25, "longueur": "12,4 km",
-            "logo": "/assets/2-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/2-plan.png",
+            "logo": "/assets/2-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/2-plan.png",
             "materiel": [
                 {"nom": "MF 01", "description": "<strong>Rame boa climatisée à 5 voitures.</strong><br>Ces rames modernes (aussi appelées MF 2000) ont remplacé les MF 67 vieillissants, apportant plus de confort, la climatisation et l'intercirculation."}
             ]
@@ -708,7 +708,7 @@ def get_all_data_definitions():
             "id": "3", "nom": "Ligne 3", "type": "actuel", "mode": "metro",
             "terminus": ["Pont de Levallois", "Gallieni"],
             "ouverture": "1904", "stations": 25, "longueur": "11,7 km",
-            "logo": "/assets/3-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/3-plan.png",
+            "logo": "/assets/3-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/3-plan.png",
             "materiel": [
                 {"nom": "MF 67", "description": "<strong>Rame historique à 5 voitures.</strong><br>Matériel emblématique du réseau, il est en service sur la 3 depuis les années 70. Il est en cours de remplacement progressif par le nouveau MF 19."}
             ]
@@ -717,7 +717,7 @@ def get_all_data_definitions():
             "id": "3bis", "nom": "Ligne 3bis", "type": "actuel", "mode": "metro",
             "terminus": ["Gambetta", "Porte des Lilas"],
             "ouverture": "1921 (1971 en 3bis)", "stations": 4, "longueur": "1,3 km",
-            "logo": "/assets/3bis-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/3bis-plan.png",
+            "logo": "/assets/3bis-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/3bis-plan.png",
             "materiel": [
                 {"nom": "MF 67", "description": "<strong>Rame courte à 3 voitures.</strong><br>Ces rames spécifiques proviennent de la Ligne 9 et ont été adaptées à la très faible fréquentation de la plus petite ligne du réseau."}
             ]
@@ -726,7 +726,7 @@ def get_all_data_definitions():
             "id": "4", "nom": "Ligne 4", "type": "actuel", "mode": "metro",
             "terminus": ["Porte de Clignancourt", "Bagneux–Lucie Aubrac"],
             "ouverture": "1908", "stations": 29, "longueur": "14 km",
-            "logo": "/assets/4-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/4-plan.png",
+            "logo": "/assets/4-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/4-plan.png",
             "materiel": [
                 {"nom": "MP 14 CA", "description": "<strong>Rame automatique (CA) neuve à 6 voitures.</strong><br>Déployées pour finaliser l'automatisation et augmenter la capacité de la ligne."},
                 {"nom": "MP 05 IDFM", "description": "<strong>Rame automatique (CA) rénovée à 6 voitures.</strong><br>Provenant de la Ligne 1, elles ont été transférées et rénovées pour l'automatisation de la 4."},
@@ -737,7 +737,7 @@ def get_all_data_definitions():
             "id": "5", "nom": "Ligne 5", "type": "actuel", "mode": "metro",
             "terminus": ["Bobigny–Pablo Picasso", "Place d'Italie"],
             "ouverture": "1906", "stations": 22, "longueur": "14,6 km",
-            "logo": "/assets/5-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/5-plan.png",
+            "logo": "/assets/5-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/5-plan.png",
             "materiel": [
                 {"nom": "MF 01", "description": "<strong>Rame boa climatisée à 5 voitures.</strong><br>Tout comme la Ligne 2, la 5 a été équipée de ce matériel moderne pour remplacer les anciens MF 67."}
             ]
@@ -746,7 +746,7 @@ def get_all_data_definitions():
             "id": "6", "nom": "Ligne 6", "type": "actuel", "mode": "metro",
             "terminus": ["Charles de Gaulle–Étoile", "Nation"],
             "ouverture": "1909", "stations": 28, "longueur": "13,7 km",
-            "logo": "/assets/6-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/6-plan.png",
+            "logo": "/assets/6-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/6-plan.png",
             "materiel": [
                 {"nom": "MP 73", "description": "<strong>Rame sur pneus à 5 voitures.</strong><br>Ce matériel a été conçu spécifiquement pour la Ligne 6 et ses nombreux viaducs. Ses bogies sont adaptés aux virages serrés."},
                 {"nom": "MP 89 CC", "description": "<strong>Rame boa à 5 voitures (ex-Ligne 4).</strong><br>Transférées après l'automatisation de la Ligne 4, ces rames sont raccourcies à 5 voitures."}
@@ -756,7 +756,7 @@ def get_all_data_definitions():
             "id": "7", "nom": "Ligne 7", "type": "actuel", "mode": "metro",
             "terminus": ["La Courneuve–8 Mai 1945", "Mairie d'Ivry / Villejuif"],
             "ouverture": "1910", "stations": 38, "longueur": "22,5 km",
-            "logo": "/assets/7-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/7-plan.png",
+            "logo": "/assets/7-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/7-plan.png",
             "materiel": [
                 {"nom": "MF 77", "description": "<strong>Rame à 5 voitures (design 'requin').</strong><br>Conçues pour les lignes longues avec des branches, elles sont en service sur la 7 depuis 1979 et sont actuellement en cours de rénovation."}
             ]
@@ -765,7 +765,7 @@ def get_all_data_definitions():
             "id": "7bis", "nom": "Ligne 7bis", "type": "actuel", "mode": "metro",
             "terminus": ["Louis Blanc", "Pré-Saint-Gervais"],
             "ouverture": "1911 (1967 en 7bis)", "stations": 8, "longueur": "3,1 km",
-            "logo": "/assets/7bis-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/7bis-plan.png",
+            "logo": "/assets/7bis-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/7bis-plan.png",
             "materiel": [
                 {"nom": "MF 88", "description": "<strong>Rame expérimentale à 3 voitures.</strong><br>Prototype unique à 9 exemplaires, il testait des essieux orientables pour les virages serrés de la ligne. Il sera remplacé par le MF 19."}
             ]
@@ -774,7 +774,7 @@ def get_all_data_definitions():
             "id": "8", "nom": "Ligne 8", "type": "actuel", "mode": "metro",
             "terminus": ["Balard", "Pointe du Lac"],
             "ouverture": "1913", "stations": 38, "longueur": "23,4 km",
-            "logo": "/assets/8-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/8-plan.png",
+            "logo": "/assets/8-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/8-plan.png",
             "materiel": [
                 {"nom": "MF 77", "description": "<strong>Rame à 5 voitures (design 'requin').</strong><br>Matériel historique de la ligne, conçu pour les longs trajets de banlieue à banlieue."}
             ]
@@ -783,7 +783,7 @@ def get_all_data_definitions():
             "id": "9", "nom": "Ligne 9", "type": "actuel", "mode": "metro",
             "terminus": ["Pont de Sèvres", "Mairie de Montreuil"],
             "ouverture": "1922", "stations": 37, "longueur": "19,6 km",
-            "logo": "/assets/9-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/9-plan.png",
+            "logo": "/assets/9-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/9-plan.png",
             "materiel": [
                 {"nom": "MF 01", "description": "<strong>Rame boa climatisée à 5 voitures.</strong><br>Le déploiement de ces rames s'est achevé en 2016, remplaçant les MF 67 et modernisant cette ligne très fréquentée."}
             ]
@@ -792,7 +792,7 @@ def get_all_data_definitions():
             "id": "10", "nom": "Ligne 10", "type": "actuel", "mode": "metro",
             "terminus": ["Boulogne–Pont de St-Cloud", "Gare d'Austerlitz"],
             "ouverture": "1913", "stations": 23, "longueur": "11,7 km",
-            "logo": "/assets/10-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/10-plan.png",
+            "logo": "/assets/10-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/10-plan.png",
             "materiel": [
                 {"nom": "MF 67", "description": "<strong>Rame historique à 5 voitures.</strong><br>C'est l'une des dernières lignes à être entièrement équipée de ce matériel fiable mais vieillissant."},
                 {"nom": "MF 19 CC", "description": "<strong>Nouveau matériel (Conduite Conducteur).</strong><br>La Ligne 10 est la première ligne équipée de la nouvelle rame MF 19 remplaçant les MF 67."}
@@ -802,7 +802,7 @@ def get_all_data_definitions():
             "id": "11", "nom": "Ligne 11", "type": "actuel", "mode": "metro",
             "terminus": ["Châtelet", "Rosny–Bois-Perrier"],
             "ouverture": "1935", "stations": 19, "longueur": "11,7 km",
-            "logo": "/assets/11-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/11-plan.png",
+            "logo": "/assets/11-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/11-plan.png",
             "materiel": [
                 {"nom": "MP 14 CC", "description": "<strong>Rame sur pneus neuve à 5 voitures (Conduite Conducteur).</strong><br>Déployées en 2023 pour le prolongement de la ligne et le remplacement des très anciens MP 59."}
             ]
@@ -811,7 +811,7 @@ def get_all_data_definitions():
             "id": "12", "nom": "Ligne 12", "type": "actuel", "mode": "metro",
             "terminus": ["Mairie d'Aubervilliers", "Mairie d'Issy"],
             "ouverture": "1910", "stations": 29, "longueur": "17,2 km",
-            "logo": "/assets/12-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/12-plan.png",
+            "logo": "/assets/12-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/12-plan.png",
             "materiel": [
                 {"nom": "MF 67", "description": "<strong>Rame historique à 5 voitures.</strong><br>Identifiable à sa livrée spécifique, ce matériel équipe la ligne depuis les années 70 et sera remplacé par le MF 19."}
             ]
@@ -820,7 +820,7 @@ def get_all_data_definitions():
             "id": "13", "nom": "Ligne 13", "type": "actuel", "mode": "metro",
             "terminus": ["Asnières–Gennevilliers / St-Denis", "Châtillon–Montrouge"],
             "ouverture": "1911", "stations": 32, "longueur": "24,4 km",
-            "logo": "/assets/13-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/13-plan.png",
+            "logo": "/assets/13-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/13-plan.png",
             "materiel": [
                 {"nom": "MF 77", "description": "<strong>Rame à 5 voitures (rénovée IDFM).</strong><br>Ces rames ont été rénovées (livrée IDFM) et équipées du pilotage automatique OURAGAN pour gérer la saturation de la ligne."}
             ]
@@ -829,7 +829,7 @@ def get_all_data_definitions():
             "id": "14", "nom": "Ligne 14", "type": "actuel", "mode": "metro",
             "terminus": ["Saint-Denis Pleyel", "Aéroport d'Orly"],
             "ouverture": "1998", "stations": 20, "longueur": "27,8 km",
-            "logo": "/assets/14-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/14-plan.png",
+            "logo": "/assets/14-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/14-plan.png",
             "materiel": [
                 {"nom": "MP 14 CA", "description": "<strong>Rame automatique (CA) longue à 8 voitures.</strong><br>Ce sont les rames les plus longues (120m) et les plus récentes du réseau, déployées pour les prolongements Nord et Sud."}
             ]
@@ -839,7 +839,7 @@ def get_all_data_definitions():
             "id": "15", "nom": "Ligne 15", "type": "gpe", "mode": "metro",
             "terminus": ["Pont de Sèvres", "Noisy–Champs"],
             "ouverture": "Prévue 2026", "stations": 36, "longueur": "33 km",
-            "logo": "/assets/15-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/15-plan.png",
+            "logo": "/assets/15-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/15-plan.png",
             "materiel": [
                 {"nom": "MR6V", "description": "<strong>Rame automatique à 6 voitures (108m).</strong><br>Futur matériel lourd sur fer, à grand gabarit, conçu pour la haute capacité de la rocade GPE."}
             ]
@@ -848,7 +848,7 @@ def get_all_data_definitions():
             "id": "16", "nom": "Ligne 16", "type": "gpe", "mode": "metro",
             "terminus": ["Saint-Denis Pleyel", "Noisy–Champs"],
             "ouverture": "Prévue 2026", "stations": 10, "longueur": "29 km",
-            "logo": "/assets/16-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/16-plan.png",
+            "logo": "/assets/16-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/16-plan.png",
             "materiel": [
                 {"nom": "MR3V", "description": "<strong>Rame automatique à 3 voitures (54m).</strong><br>Version plus courte du matériel GPE, adaptée à un trafic moins dense que la ligne 15."}
             ]
@@ -857,7 +857,7 @@ def get_all_data_definitions():
             "id": "17", "nom": "Ligne 17", "type": "gpe", "mode": "metro",
             "terminus": ["Saint-Denis Pleyel", "Le Mesnil-Amelot"],
             "ouverture": "Prévue 2026", "stations": 9, "longueur": "26,5 km",
-            "logo": "/assets/17-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/17-plan.png",
+            "logo": "/assets/17-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/17-plan.png",
             "materiel": [
                 {"nom": "MR3V", "description": "<strong>Rame automatique à 3 voitures (54m).</strong><br>Même matériel que la ligne 16, destiné à desservir les aéroports du Bourget et de Roissy."}
             ]
@@ -866,7 +866,7 @@ def get_all_data_definitions():
             "id": "18", "nom": "Ligne 18", "type": "gpe", "mode": "metro",
             "terminus": ["Aéroport d'Orly", "Versailles Chantiers"],
             "ouverture": "Prévue 2027", "stations": 10, "longueur": "35 km",
-            "logo": "/assets/18-logo.png", "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg", "plan": "/assets/18-plan.png",
+            "logo": "/assets/18-logo.png", "modeLogo": "/assets/logo-metro-noir.svg", "plan": "/assets/18-plan.png",
             "materiel": [
                 {"nom": "MRV", "description": "<strong>Rame automatique rapide (Métro léger).</strong><br>Matériel spécifique alimenté par 3e rail, conçu pour de hautes vitesses (120 km/h) sur le plateau de Saclay."}
             ]
@@ -1400,7 +1400,7 @@ export function getModeLogo(mode, white = false) {{
       return `/assets/${{prefix}}Tram.svg`;
     case "metro":
     default:
-      return white ? `/assets/${{prefix}}Métro.svg` : "/assets/metro-logo.png";
+      return white ? "/assets/logo-metro-blanc.svg" : "/assets/logo-metro-noir.svg";
   }}
 }}
 """

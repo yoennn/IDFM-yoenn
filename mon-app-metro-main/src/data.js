@@ -388,7 +388,7 @@ export const lignesMetro = [
     "stations": 25,
     "longueur": "16,6 km",
     "logo": "/assets/1-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/1-plan.png",
     "materiel": [
       {
@@ -436,7 +436,7 @@ export const lignesMetro = [
     "stations": 25,
     "longueur": "12,4 km",
     "logo": "/assets/2-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/2-plan.png",
     "materiel": [
       {
@@ -473,7 +473,7 @@ export const lignesMetro = [
     "stations": 25,
     "longueur": "11,7 km",
     "logo": "/assets/3-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/3-plan.png",
     "materiel": [
       {
@@ -515,7 +515,7 @@ export const lignesMetro = [
     "stations": 4,
     "longueur": "1,3 km",
     "logo": "/assets/3bis-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/3bis-plan.png",
     "materiel": [
       {
@@ -544,7 +544,7 @@ export const lignesMetro = [
     "stations": 29,
     "longueur": "14 km",
     "logo": "/assets/4-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/4-plan.png",
     "materiel": [
       {
@@ -602,7 +602,7 @@ export const lignesMetro = [
     "stations": 22,
     "longueur": "14,6 km",
     "logo": "/assets/5-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/5-plan.png",
     "materiel": [
       {
@@ -647,7 +647,7 @@ export const lignesMetro = [
     "stations": 28,
     "longueur": "13,7 km",
     "logo": "/assets/6-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/6-plan.png",
     "materiel": [
       {
@@ -691,7 +691,7 @@ export const lignesMetro = [
     "stations": 38,
     "longueur": "22,5 km",
     "logo": "/assets/7-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/7-plan.png",
     "materiel": [
       {
@@ -740,7 +740,7 @@ export const lignesMetro = [
     "stations": 8,
     "longueur": "3,1 km",
     "logo": "/assets/7bis-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/7bis-plan.png",
     "materiel": [
       {
@@ -769,7 +769,7 @@ export const lignesMetro = [
     "stations": 38,
     "longueur": "23,4 km",
     "logo": "/assets/8-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/8-plan.png",
     "materiel": [
       {
@@ -809,7 +809,7 @@ export const lignesMetro = [
     "stations": 37,
     "longueur": "19,6 km",
     "logo": "/assets/9-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/9-plan.png",
     "materiel": [
       {
@@ -853,7 +853,7 @@ export const lignesMetro = [
     "stations": 23,
     "longueur": "11,7 km",
     "logo": "/assets/10-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/10-plan.png",
     "materiel": [
       {
@@ -892,7 +892,7 @@ export const lignesMetro = [
     "stations": 19,
     "longueur": "11,7 km",
     "logo": "/assets/11-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/11-plan.png",
     "materiel": [
       {
@@ -935,7 +935,7 @@ export const lignesMetro = [
     "stations": 29,
     "longueur": "17,2 km",
     "logo": "/assets/12-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/12-plan.png",
     "materiel": [
       {
@@ -978,7 +978,7 @@ export const lignesMetro = [
     "stations": 32,
     "longueur": "24,4 km",
     "logo": "/assets/13-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/13-plan.png",
     "materiel": [
       {
@@ -1025,7 +1025,7 @@ export const lignesMetro = [
     "stations": 20,
     "longueur": "27,8 km",
     "logo": "/assets/14-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/14-plan.png",
     "materiel": [
       {
@@ -1074,7 +1074,7 @@ export const lignesMetro = [
     "stations": 36,
     "longueur": "33 km",
     "logo": "/assets/15-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/15-plan.png",
     "materiel": [
       {
@@ -1125,7 +1125,7 @@ export const lignesMetro = [
     "stations": 10,
     "longueur": "29 km",
     "logo": "/assets/16-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/16-plan.png",
     "materiel": [
       {
@@ -1159,7 +1159,7 @@ export const lignesMetro = [
     "stations": 9,
     "longueur": "26,5 km",
     "logo": "/assets/17-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/17-plan.png",
     "materiel": [
       {
@@ -1189,7 +1189,7 @@ export const lignesMetro = [
     "stations": 10,
     "longueur": "35 km",
     "logo": "/assets/18-logo.png",
-    "modeLogo": "/assets/Paris_transit_icons_-_Métro.svg",
+    "modeLogo": "/assets/logo-metro-noir.svg",
     "plan": "/assets/18-plan.png",
     "materiel": [
       {
@@ -14179,6 +14179,6 @@ export function getModeLogo(mode, white = false) {
       return `/assets/${prefix}Tram.svg`;
     case "metro":
     default:
-      return white ? `/assets/${prefix}Métro.svg` : "/assets/metro-logo.png";
+      return white ? "/assets/logo-metro-blanc.svg" : "/assets/logo-metro-noir.svg";
   }
 }

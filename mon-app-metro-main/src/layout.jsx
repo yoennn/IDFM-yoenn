@@ -24,7 +24,8 @@ const lineIdLookup = new Map(
 export default function Layout() { 
   const [menuOuvert, setMenuOuvert] = useState(false);
   const [rechercheOuvert, setRechercheOuvert] = useState(false);
-  const [recherche, setRecherche] = useState(''); 
+  const [recherche, setRecherche] = useState('');
+  const [filtreMode, setFiltreMode] = useState('metro');
 
   const matchedLineId = useMemo(() => {
     const raw = normalizeString(recherche);
@@ -79,7 +80,6 @@ export default function Layout() {
         return { ...station, rames: uniqueRames };
       })
       .sort((a, b) => {
-        // Prioriser les stations dont le nom commence par la requête
         const aStarts = normalizeString(a.nom).startsWith(query) ? 0 : 1;
         const bStarts = normalizeString(b.nom).startsWith(query) ? 0 : 1;
         if (aStarts !== bStarts) return aStarts - bStarts;
@@ -216,12 +216,17 @@ export default function Layout() {
               </Link>
               <div className="result-item-lignes">
                 {station.lignes.map(id => (
-                  <Link key={id} to={`/ligne/${id}`} onClick={handleLinkClick}>
+                  <Link
+                    key={id}
+                    to={`/ligne/${id}`}
+                    onClick={handleLinkClick}
+                    className="result-item-logo-link"
+                    title={`Ligne ${id}`}
+                  >
                     <img 
                       src={getLineLogo(id)} 
                       alt={`Ligne ${id}`} 
                       className="result-item-logo"
-                      title={`Ligne ${id}`}
                     />
                   </Link>
                 ))}
@@ -241,13 +246,15 @@ export default function Layout() {
 
       <div className="page-container" onClick={closeRecherche}>
         <main className="page-content">
-          <Outlet /> 
+          <Outlet context={{ filtreMode, setFiltreMode }} /> 
         </main>
       </div>
 
       <MenuDeroulant 
         estOuvert={menuOuvert} 
-        onClose={closeMenu} 
+        onClose={closeMenu}
+        filtreMode={filtreMode}
+        onSelectMode={setFiltreMode}
       />
     </>
   );

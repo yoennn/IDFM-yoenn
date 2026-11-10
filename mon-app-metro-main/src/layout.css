@@ -1,15 +1,13 @@
 /* src/layout.css */
 
-/* --- 1. LE HEADER (100% FLEXBOX) --- */
+/* --- 1. LE HEADER (100% FLEXBOX COMPACT) --- */
 .global-header-container {
   background-color: #f8f9fa;
   display: flex;
   justify-content: space-between; 
   align-items: center; 
-  padding: 15px 152px;
-  
-  /* --- CORRECTION Z-INDEX --- */
-  position: relative; /* Base pour les enfants */
+  padding: 10px 152px;
+  position: relative;
   z-index: 900; 
 }
 
@@ -18,26 +16,26 @@
   display: inline-block;
   position: relative;
   text-decoration: none;
-  z-index: 940; /* En dessous de la barre de recherche (950) */
+  z-index: 940;
 }
 .global-logos-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 18px;
 }
 .global-logo {
-  height: 70px; 
+  height: 58px; 
   display: block;
   object-fit: contain;
 }
 .global-logo-sncf {
-  height: 50px;
+  height: 42px;
 }
 .header-logo-separator {
   display: block;
   width: 1.5px;
-  height: 46px;
+  height: 38px;
   background-color: #ced4da;
   border-radius: 1px;
   flex-shrink: 0;
@@ -49,7 +47,7 @@
   border: none;
   cursor: pointer;
   padding: 10px;
-  z-index: 1000; /* Toujours le plus haut */
+  z-index: 1005;
   width: 44px; 
 }
 .hamburger-btn span {
@@ -64,65 +62,54 @@
 .hamburger-btn.open span:nth-child(2) { opacity: 0; }
 .hamburger-btn.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-/* --- 4. NOUVELLE SECTION RECHERCHE (À droite) --- */
-
+/* --- 4. SECTION RECHERCHE (À droite) --- */
 .header-search-wrapper {
   position: relative; 
   display: flex;
   align-items: center;
   justify-content: flex-end; 
-  width: auto; /* MODIFIÉ: 44px -> auto */
-  height: 50px; 
-  
-  /* --- MODIFICATION ICI --- */
-  z-index: 950; /* Au-dessus du logo (940) */
+  width: auto;
+  height: 46px; 
+  z-index: 950;
 }
 
-/* Le bouton qui est toujours visible */
 .header-search-toggle-btn {
   position: relative;
-  z-index: 10; /* Au-dessus de l'input */
+  z-index: 10;
   background: none;
   border: none;
   cursor: pointer;
-  
-  /* --- MODIFIÉ ICI --- */
-  width: auto; /* 50px -> auto */
-  height: 50px;
-  padding: 0 16px; /* 13px -> 0 16px */
+  width: auto;
+  height: 46px;
+  padding: 0 14px;
   box-sizing: border-box;
   flex-shrink: 0; 
-  
-  /* --- AJOUTS ICI --- */
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: background-color 0.2s; /* Ajout d'un hover */
-  border-radius: 16px; /* Ajout pour le hover */
+  transition: background-color 0.2s;
+  border-radius: 14px;
 }
-
 .header-search-toggle-btn:hover {
-  background-color: rgba(0,0,0,0.04); /* Léger fond au survol */
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
-/* L'icône de la loupe */
 .search-icon-loupe {
-  width: 24px; 
-  height: 24px;
+  width: 22px; 
+  height: 22px;
   opacity: 0.8;
   transition: opacity 0.2s, transform 0.2s;
-  flex-shrink: 0; /* AJOUT */
+  flex-shrink: 0;
 }
 .search-icon-loupe.hidden {
   opacity: 0;
   transform: scale(0.5);
 }
 
-/* L'icône 'X' (créée en CSS) */
 .search-icon-close {
   position: absolute;
-  top: 13px;
-  left: 13px;
+  top: 11px;
+  left: 11px;
   width: 24px;
   height: 24px;
   opacity: 0;
@@ -136,64 +123,49 @@
 .search-icon-close span {
   display: block;
   position: absolute;
-  width: 24px;
+  width: 22px;
   height: 3px;
   background-color: #333;
   top: 10.5px; 
-  left: 0;
+  left: 1px;
 }
 .search-icon-close span:nth-child(1) { transform: rotate(45deg); }
 .search-icon-close span:nth-child(2) { transform: rotate(-45deg); }
 
-
-/* --- NOUVEAUX STYLES POUR LE TEXTE --- */
 .search-toggle-text {
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 600;
   color: #333;
   opacity: 1;
   white-space: nowrap;
   overflow: hidden;
-  /* Animation d'apparition */
   transition: opacity 0.2s ease-in 0.1s, width 0.2s ease-in-out, margin-left 0.2s ease-in-out;
 }
-
 .search-toggle-text.hidden {
   opacity: 0;
-  width: 0; /* S'effondre sur lui-même */
-  margin-left: -8px; /* Cache le 'gap' du flex container */
-  /* Animation de disparition */
+  width: 0;
+  margin-left: -8px;
   transition: opacity 0.1s ease-out, width 0.2s ease-out, margin-left 0.2s ease-out;
 }
-/* --- FIN NOUVEAUX STYLES --- */
 
-
-/* La barre de recherche (input) */
 .header-search-input {
   position: absolute;
   right: 0; 
   top: 0;
-  
-  z-index: 2; /* Inférieur au bouton (10) mais dans le wrapper */
-  
-  /* Style de carte */
-  height: 50px; 
+  z-index: 2;
+  height: 46px; 
   background-color: #ffffff; 
-  border-radius: 16px; 
-  
+  border-radius: 14px; 
   width: 0; 
-  padding: 12px 20px;
-  padding-right: 50px; /* Espace pour le bouton 'X' (qui fait 50x50) */
-  
-  font-size: 1rem;
+  padding: 10px 18px;
+  padding-right: 46px;
+  font-size: 0.96rem;
   border: 1px solid transparent; 
   box-sizing: border-box;
   opacity: 0;
   pointer-events: none; 
   transition: width 0.3s ease-in-out, opacity 0.2s ease-in-out, border-color 0.2s, box-shadow 0.2s;
 }
-
-/* L'état ouvert de la recherche */
 .header-search-input.open {
   width: 380px; 
   opacity: 1;
@@ -206,7 +178,7 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
 }
 
-/* --- 5. LE CONTENEUR DE PAGE --- */
+/* --- 5. LE CONTENEUR DE PAGE COMPACT --- */
 .page-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -215,8 +187,8 @@
   z-index: 100; 
 }
 .page-content {
-  padding-top: 20px;
-  padding-bottom: 32px;
+  padding-top: 12px;
+  padding-bottom: 24px;
 }
 
 /* --- 6. OVERLAY (POUR LE MENU HAMBURGER) --- */
@@ -234,78 +206,64 @@
 /* --- 7. PANNEAU DE RÉSULTATS DE RECHERCHE --- */
 .header-search-results-container {
   position: absolute; 
-  top: 83px; 
+  top: 72px; 
   right: 152px; 
   width: 380px; 
-  
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   border-radius: 16px; 
   overflow: hidden; 
-  
-  z-index: 950; /* Au-dessus du contenu, mais sous le logo (qui n'est plus à 950) */
-  
-  max-height: 70vh; 
+  z-index: 950;
+  max-height: calc(100vh - 96px); 
   overflow-y: auto;
-  
-  /* État initial pour l'animation */
   opacity: 0;
   transform: translateY(-10px); 
-
-  /* --- CORRECTION ANIMATION --- */
-  clip-path: inset(0 0 0 100%); /* S'ouvre de droite à gauche */
-  
+  clip-path: inset(0 0 0 100%);
   pointer-events: none;
   transition: opacity 0.2s ease-out, 
               transform 0.3s ease-out, 
               clip-path 0.3s ease-out;
-  
   scrollbar-width: thin;
   scrollbar-color: #ccc #f7f7f7;
 }
-
-/* État ouvert pour l'animation */
 .header-search-results-container.open {
   opacity: 1;
   transform: translateY(0);
   clip-path: inset(0 0 0 0); 
   pointer-events: auto;
 }
-
 .header-search-results-container::-webkit-scrollbar { width: 8px; }
 .header-search-results-container::-webkit-scrollbar-track { background: #f7f7f7; }
 .header-search-results-container::-webkit-scrollbar-thumb { background-color: #ccc; border-radius: 4px; }
 
-/* Styles pour les résultats (prompt, aucun résultat, items) */
-
-/* --- CORRECTION ALIGNEMENT TEXTE --- */
 .search-prompt,
 .search-no-results {
-  padding: 24px;
+  padding: 20px 24px;
   color: #6c757d;
-  text-align: left;    /* MODIFIÉ: center -> left */
-  padding-left: 28px;  /* AJOUTÉ: pour aligner avec le texte des résultats */
-  font-size: 1.1rem;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0;
 }
 
-.result-item { padding: 12px 24px; border-bottom: 1px solid #f0f0f0; }
-.result-item:first-child { padding-top: 16px; }
-.result-item:last-child { border-bottom: none; padding-bottom: 16px; }
+.result-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.result-item:first-child { padding-top: 14px; }
+.result-item:last-child { border-bottom: none; padding-bottom: 14px; }
 
 .result-item-titre-link {
   text-decoration: none;
   color: inherit;
 }
 .result-item-titre-link:hover .result-item-titre {
-  background-color: #f0f0f0; /* Le fond gris est appliqué au H4 */
+  background-color: #f0f0f0;
 }
 .result-item-titre { 
-  font-size: 1.2rem; 
+  font-size: 1.1rem; 
   font-weight: 700; 
-  margin: 0 0 8px 0; /* Marge en bas du H4 */
-  
-  /* Style du rectangle */
+  margin: 0 0 6px 0;
   display: inline-block; 
   padding: 2px 8px;
   margin-left: -8px; 
@@ -313,72 +271,118 @@
   transition: background-color 0.2s;
 }
 
-.result-item-lignes { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; align-items: center; }
-.result-item-logo { width: 30px; height: 30px; object-fit: contain; transition: transform 0.2s; display: block; }
+.result-item-lignes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+.result-item-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.result-item-logo {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.2s;
+  display: block;
+  flex-shrink: 0;
+}
 .result-item-logo:hover { transform: scale(1.1); }
-.result-item-rames-label { font-size: 0.8rem; color: #6c757d; margin: 0 0 4px 0; text-transform: uppercase; font-weight: 600; }
-.result-item-rames { display: flex; flex-wrap: wrap; gap: 6px; }
-.result-item-rame-tag { font-size: 0.9rem; font-weight: 500; color: #333; background-color: #f0f0f0; padding: 3px 8px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s; }
-.result-item-rame-tag:hover { background-color: #e0e0e0; text-decoration: none; }
-
+.result-item-rames-label {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin: 0 0 4px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.result-item-rames {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.result-item-rame-tag {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.result-item-rame-tag:hover {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
 
 /* --- MOBILE --- */
 @media (max-width: 768px) {
   .global-header-container {
-    padding: 10px 20px; 
+    padding: 8px 16px; 
   }
   .page-container {
-    padding: 0 20px;
+    padding: 0 16px;
   }
   .global-logos-wrapper {
-    gap: 12px;
+    gap: 10px;
   }
   .global-logo {
-    height: 46px;
+    height: 44px;
   }
   .global-logo-sncf {
-    height: 34px;
+    height: 32px;
   }
   .header-logo-separator {
-    height: 32px;
+    height: 30px;
   }
   .hamburger-btn {
     width: 44px; 
   }
-  
   .header-search-wrapper {
-    height: 44px; 
+    height: 42px; 
   }
   .header-search-toggle-btn {
-    height: 44px;
-    width: auto; /* MODIFIÉ */
-    padding: 0 12px; /* MODIFIÉ */
+    height: 42px;
+    width: auto;
+    padding: 0 10px;
   }
-  /* Masquer le texte sur mobile pour garder juste l'icône */
   .search-toggle-text {
     display: none;
   }
-  
   .search-icon-close {
-    top: 10px;
-    left: 10px;
+    top: 9px;
+    left: 9px;
   }
   .header-search-input {
-    height: 44px;
+    height: 42px;
   }
-
   .header-search-input.open {
-    width: calc(100vw - 120px); 
-    height: 44px;
+    width: calc(100vw - 110px); 
+    height: 42px;
   }
-  
   .header-search-results-container {
-    top: 65px; 
-    left: 20px; 
-    right: 20px; 
+    top: 62px; 
+    left: 16px; 
+    right: 16px; 
     width: auto; 
     border-radius: 16px;
     border: 1px solid #e0e0e0;
   }
-  .result-item { padding: 12px 16px; }
+  .result-item { padding: 10px 16px; }
 }
