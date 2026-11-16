@@ -46,10 +46,10 @@
   top: 120px; 
 }
 .infobox-section {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 18px 20px;
 }
 .infobox-section h3 {
   font-size: 1.3rem;
@@ -95,6 +95,7 @@
 /* --- COLONNE CONTENU (droite) --- */
 .station-detail-main {
   flex-grow: 1;
+  min-width: 0;
 }
 
 /* Titres de section H2 */
@@ -130,15 +131,15 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  padding: 12px; /* Padding "moyen" */
-  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 12px;
+  transition: border-color 0.15s, transform 0.15s;
 }
 .rame-mini-carte:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+  border-color: #CBD5E1;
 }
 
 .rame-mini-carte-img-wrapper {

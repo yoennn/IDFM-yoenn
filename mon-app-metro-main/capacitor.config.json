@@ -1,0 +1,13 @@
+{
+  "appId": "fr.idfm.transports",
+  "appName": "IDFM Transports",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

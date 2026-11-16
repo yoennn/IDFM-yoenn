@@ -410,7 +410,6 @@ export const lignesMetro = [
       "14",
       "15",
       "A",
-      "B",
       "C",
       "D",
       "E",
@@ -421,7 +420,8 @@ export const lignesMetro = [
       "T3a",
       "T3b"
     ],
-    "color": "#FFCD00"
+    "color": "#ffbe00",
+    "idfmLineId": "C01371"
   },
   {
     "id": "2",
@@ -458,7 +458,8 @@ export const lignesMetro = [
       "13",
       "A"
     ],
-    "color": "#003CA6"
+    "color": "#0055c8",
+    "idfmLineId": "C01372"
   },
   {
     "id": "3",
@@ -493,14 +494,13 @@ export const lignesMetro = [
       "12",
       "13",
       "14",
-      "A",
       "D",
-      "E",
       "J",
       "L",
       "T3b"
     ],
-    "color": "#837902"
+    "color": "#6e6e00",
+    "idfmLineId": "C01373"
   },
   {
     "id": "3bis",
@@ -529,7 +529,8 @@ export const lignesMetro = [
       "D",
       "T3b"
     ],
-    "color": "#6EC4E8"
+    "color": "#82c8e6",
+    "idfmLineId": "C01386"
   },
   {
     "id": "4",
@@ -575,11 +576,8 @@ export const lignesMetro = [
       "13",
       "14",
       "15",
-      "A",
       "B",
-      "C",
       "D",
-      "E",
       "H",
       "K",
       "N",
@@ -587,7 +585,8 @@ export const lignesMetro = [
       "T3a",
       "T3b"
     ],
-    "color": "#BE418D"
+    "color": "#a0006e",
+    "idfmLineId": "C01374"
   },
   {
     "id": "5",
@@ -626,13 +625,13 @@ export const lignesMetro = [
       "B",
       "C",
       "D",
-      "E",
       "H",
       "K",
       "P",
       "T1"
     ],
-    "color": "#FF7E2E"
+    "color": "#ff5a00",
+    "idfmLineId": "C01375"
   },
   {
     "id": "6",
@@ -676,7 +675,8 @@ export const lignesMetro = [
       "N",
       "R"
     ],
-    "color": "#6ECA97"
+    "color": "#82dc73",
+    "idfmLineId": "C01376"
   },
   {
     "id": "7",
@@ -713,19 +713,14 @@ export const lignesMetro = [
       "11",
       "14",
       "15",
-      "A",
-      "B",
-      "D",
-      "E",
-      "H",
-      "K",
       "P",
       "T1",
       "T3a",
       "T7",
       "T9"
     ],
-    "color": "#FA9ABA"
+    "color": "#ff82b4",
+    "idfmLineId": "C01377"
   },
   {
     "id": "7bis",
@@ -754,7 +749,8 @@ export const lignesMetro = [
       "7",
       "11"
     ],
-    "color": "#6ECA97"
+    "color": "#82dc73",
+    "idfmLineId": "C01387"
   },
   {
     "id": "8",
@@ -794,7 +790,8 @@ export const lignesMetro = [
       "C",
       "T3a"
     ],
-    "color": "#D27AD2"
+    "color": "#d282be",
+    "idfmLineId": "C01378"
   },
   {
     "id": "9",
@@ -828,17 +825,13 @@ export const lignesMetro = [
       "8",
       "10",
       "11",
-      "12",
       "13",
-      "14",
       "15",
       "A",
-      "E",
-      "J",
-      "L",
       "T3b"
     ],
-    "color": "#B6BD00"
+    "color": "#d2d200",
+    "idfmLineId": "C01379"
   },
   {
     "id": "10",
@@ -874,10 +867,10 @@ export const lignesMetro = [
       "9",
       "12",
       "13",
-      "B",
       "C"
     ],
-    "color": "#C9910D"
+    "color": "#dc9600",
+    "idfmLineId": "C01380"
   },
   {
     "id": "11",
@@ -913,14 +906,11 @@ export const lignesMetro = [
       "9",
       "14",
       "15",
-      "A",
-      "B",
-      "D",
       "E",
-      "T1",
       "T3b"
     ],
-    "color": "#704B1C"
+    "color": "#6e491e",
+    "idfmLineId": "C01381"
   },
   {
     "id": "12",
@@ -950,12 +940,9 @@ export const lignesMetro = [
       "4",
       "6",
       "8",
-      "9",
       "10",
       "13",
       "14",
-      "A",
-      "E",
       "J",
       "L",
       "N",
@@ -963,7 +950,8 @@ export const lignesMetro = [
       "T3a",
       "T3b"
     ],
-    "color": "#007852"
+    "color": "#00643c",
+    "idfmLineId": "C01382"
   },
   {
     "id": "13",
@@ -998,9 +986,7 @@ export const lignesMetro = [
       "12",
       "14",
       "15",
-      "A",
       "C",
-      "E",
       "J",
       "L",
       "N",
@@ -1010,7 +996,8 @@ export const lignesMetro = [
       "T6",
       "T8"
     ],
-    "color": "#6EC4E8"
+    "color": "#82c8e6",
+    "idfmLineId": "C01383"
   },
   {
     "id": "14",
@@ -1040,7 +1027,6 @@ export const lignesMetro = [
       "6",
       "7",
       "8",
-      "9",
       "11",
       "12",
       "13",
@@ -1049,17 +1035,16 @@ export const lignesMetro = [
       "17",
       "18",
       "A",
-      "B",
       "C",
       "D",
-      "E",
       "J",
       "L",
       "R",
       "T3b",
       "T7"
     ],
-    "color": "#62259D"
+    "color": "#640082",
+    "idfmLineId": "C01384"
   },
   {
     "id": "15",
@@ -1110,7 +1095,8 @@ export const lignesMetro = [
       "T7",
       "T9"
     ],
-    "color": "#DE005C"
+    "color": "#aaaaaa",
+    "idfmLineId": "C02874"
   },
   {
     "id": "16",
@@ -1207,7 +1193,8 @@ export const lignesMetro = [
       "T7",
       "T12"
     ],
-    "color": "#339999"
+    "color": "#00a092",
+    "idfmLineId": "C02833"
   },
   {
     "id": "A",
@@ -1237,14 +1224,8 @@ export const lignesMetro = [
     "correspondances": [
       "1",
       "2",
-      "3",
-      "4",
       "6",
-      "7",
       "9",
-      "11",
-      "12",
-      "13",
       "14",
       "15",
       "16",
@@ -1258,7 +1239,8 @@ export const lignesMetro = [
       "T2",
       "T13"
     ],
-    "color": "#eb2132"
+    "color": "#eb2132",
+    "idfmLineId": "C01742"
   },
   {
     "id": "B",
@@ -1286,14 +1268,9 @@ export const lignesMetro = [
       }
     ],
     "correspondances": [
-      "1",
       "4",
       "5",
       "6",
-      "7",
-      "10",
-      "11",
-      "14",
       "15",
       "16",
       "17",
@@ -1301,7 +1278,6 @@ export const lignesMetro = [
       "A",
       "C",
       "D",
-      "E",
       "H",
       "K",
       "V",
@@ -1311,7 +1287,8 @@ export const lignesMetro = [
       "T11",
       "T12"
     ],
-    "color": "#5091cb"
+    "color": "#5091cb",
+    "idfmLineId": "C01743"
   },
   {
     "id": "C",
@@ -1348,7 +1325,6 @@ export const lignesMetro = [
     ],
     "correspondances": [
       "1",
-      "4",
       "5",
       "8",
       "10",
@@ -1375,7 +1351,8 @@ export const lignesMetro = [
       "T12",
       "T13"
     ],
-    "color": "#ffcc30"
+    "color": "#ffcc30",
+    "idfmLineId": "C01727"
   },
   {
     "id": "D",
@@ -1412,14 +1389,11 @@ export const lignesMetro = [
       "3bis",
       "4",
       "5",
-      "7",
-      "11",
       "14",
       "15",
       "A",
       "B",
       "C",
-      "E",
       "H",
       "K",
       "R",
@@ -1429,7 +1403,8 @@ export const lignesMetro = [
       "T11",
       "T12"
     ],
-    "color": "#008b5b"
+    "color": "#008b5b",
+    "idfmLineId": "C01728"
   },
   {
     "id": "E",
@@ -1462,24 +1437,11 @@ export const lignesMetro = [
     ],
     "correspondances": [
       "1",
-      "3",
-      "4",
-      "5",
-      "7",
-      "9",
       "11",
-      "12",
-      "13",
-      "14",
       "15",
       "16",
       "A",
-      "B",
       "C",
-      "D",
-      "H",
-      "J",
-      "K",
       "L",
       "P",
       "U",
@@ -1488,7 +1450,8 @@ export const lignesMetro = [
       "T3b",
       "T4"
     ],
-    "color": "#b94e9a"
+    "color": "#b94e9a",
+    "idfmLineId": "C01729"
   },
   {
     "id": "H",
@@ -1514,18 +1477,17 @@ export const lignesMetro = [
     "correspondances": [
       "4",
       "5",
-      "7",
       "B",
       "C",
       "D",
-      "E",
       "J",
       "K",
       "T1",
       "T8",
       "T11"
     ],
-    "color": "#84653d"
+    "color": "#84653d",
+    "idfmLineId": "C01737"
   },
   {
     "id": "J",
@@ -1550,19 +1512,18 @@ export const lignesMetro = [
     ],
     "correspondances": [
       "3",
-      "9",
       "12",
       "13",
       "14",
       "15",
       "A",
       "C",
-      "E",
       "H",
       "L",
       "N"
     ],
-    "color": "#cec73d"
+    "color": "#cec73d",
+    "idfmLineId": "C01739"
   },
   {
     "id": "K",
@@ -1588,14 +1549,13 @@ export const lignesMetro = [
     "correspondances": [
       "4",
       "5",
-      "7",
       "B",
       "D",
-      "E",
       "H",
       "T4"
     ],
-    "color": "#9b9842"
+    "color": "#9b9842",
+    "idfmLineId": "C01738"
   },
   {
     "id": "L",
@@ -1621,7 +1581,6 @@ export const lignesMetro = [
     "correspondances": [
       "1",
       "3",
-      "9",
       "12",
       "13",
       "14",
@@ -1634,7 +1593,8 @@ export const lignesMetro = [
       "T6",
       "T13"
     ],
-    "color": "#c4a4cc"
+    "color": "#c4a4cc",
+    "idfmLineId": "C01740"
   },
   {
     "id": "N",
@@ -1671,7 +1631,8 @@ export const lignesMetro = [
       "T6",
       "T13"
     ],
-    "color": "#00b297"
+    "color": "#00b297",
+    "idfmLineId": "C01736"
   },
   {
     "id": "P",
@@ -1710,7 +1671,8 @@ export const lignesMetro = [
       "E",
       "T14"
     ],
-    "color": "#f58f53"
+    "color": "#f58f53",
+    "idfmLineId": "C01730"
   },
   {
     "id": "R",
@@ -1740,7 +1702,8 @@ export const lignesMetro = [
       "A",
       "D"
     ],
-    "color": "#f49fb3"
+    "color": "#f49fb3",
+    "idfmLineId": "C01731"
   },
   {
     "id": "U",
@@ -1776,7 +1739,8 @@ export const lignesMetro = [
       "T2",
       "T13"
     ],
-    "color": "#b6134c"
+    "color": "#b6134c",
+    "idfmLineId": "C01741"
   },
   {
     "id": "V",
@@ -1819,7 +1783,8 @@ export const lignesMetro = [
       "U",
       "T12"
     ],
-    "color": "#9f9825"
+    "color": "#9f9825",
+    "idfmLineId": "C02711"
   },
   {
     "id": "T1",
@@ -1849,7 +1814,6 @@ export const lignesMetro = [
     "correspondances": [
       "5",
       "7",
-      "11",
       "13",
       "15",
       "16",
@@ -1861,7 +1825,8 @@ export const lignesMetro = [
       "T5",
       "T8"
     ],
-    "color": "#0055c8"
+    "color": "#0055c8",
+    "idfmLineId": "C01389"
   },
   {
     "id": "T2",
@@ -1895,7 +1860,8 @@ export const lignesMetro = [
       "U",
       "T3a"
     ],
-    "color": "#a0006e"
+    "color": "#a0006e",
+    "idfmLineId": "C01390"
   },
   {
     "id": "T3a",
@@ -1931,7 +1897,8 @@ export const lignesMetro = [
       "T3b",
       "T9"
     ],
-    "color": "#ff5a00"
+    "color": "#ff5a00",
+    "idfmLineId": "C01391"
   },
   {
     "id": "T3b",
@@ -1968,7 +1935,8 @@ export const lignesMetro = [
       "E",
       "T3a"
     ],
-    "color": "#00643c"
+    "color": "#00643c",
+    "idfmLineId": "C01679"
   },
   {
     "id": "T4",
@@ -2002,7 +1970,8 @@ export const lignesMetro = [
       "E",
       "K"
     ],
-    "color": "#dc9600"
+    "color": "#dc9600",
+    "idfmLineId": "C01843"
   },
   {
     "id": "T5",
@@ -2029,7 +1998,8 @@ export const lignesMetro = [
       "D",
       "T1"
     ],
-    "color": "#640082"
+    "color": "#640082",
+    "idfmLineId": "C01684"
   },
   {
     "id": "T6",
@@ -2060,7 +2030,8 @@ export const lignesMetro = [
       "N",
       "T10"
     ],
-    "color": "#ff0000"
+    "color": "#ff0000",
+    "idfmLineId": "C01794"
   },
   {
     "id": "T7",
@@ -2089,7 +2060,8 @@ export const lignesMetro = [
       "15",
       "18"
     ],
-    "color": "#6e491e"
+    "color": "#6e491e",
+    "idfmLineId": "C01774"
   },
   {
     "id": "T8",
@@ -2120,7 +2092,8 @@ export const lignesMetro = [
       "T1",
       "T11"
     ],
-    "color": "#6e6e00"
+    "color": "#6e6e00",
+    "idfmLineId": "C01795"
   },
   {
     "id": "T9",
@@ -2149,7 +2122,8 @@ export const lignesMetro = [
       "C",
       "T3a"
     ],
-    "color": "#3c91dc"
+    "color": "#3c91dc",
+    "idfmLineId": "C02317"
   },
   {
     "id": "T10",
@@ -2176,7 +2150,8 @@ export const lignesMetro = [
       "B",
       "T6"
     ],
-    "color": "#6e6e00"
+    "color": "#6e6e00",
+    "idfmLineId": "C02528"
   },
   {
     "id": "T11",
@@ -2206,7 +2181,8 @@ export const lignesMetro = [
       "H",
       "T8"
     ],
-    "color": "#ff5a00"
+    "color": "#ff5a00",
+    "idfmLineId": "C01999"
   },
   {
     "id": "T12",
@@ -2236,7 +2212,8 @@ export const lignesMetro = [
       "D",
       "V"
     ],
-    "color": "#a50034"
+    "color": "#a50034",
+    "idfmLineId": "C02529"
   },
   {
     "id": "T13",
@@ -2266,7 +2243,8 @@ export const lignesMetro = [
       "N",
       "U"
     ],
-    "color": "#8d653d"
+    "color": "#8d653d",
+    "idfmLineId": "C02344"
   },
   {
     "id": "T14",
@@ -2292,60 +2270,61 @@ export const lignesMetro = [
     "correspondances": [
       "P"
     ],
-    "color": "#00a092"
+    "color": "#00a092",
+    "idfmLineId": "C02732"
   }
 ];
 
 export const ligneColors = {
-  "1": "#FFCD00",
-  "2": "#003CA6",
-  "3": "#837902",
-  "3bis": "#6EC4E8",
-  "4": "#BE418D",
-  "5": "#FF7E2E",
-  "6": "#6ECA97",
-  "7": "#FA9ABA",
-  "7bis": "#6ECA97",
-  "8": "#D27AD2",
-  "9": "#B6BD00",
-  "10": "#C9910D",
-  "11": "#704B1C",
-  "12": "#007852",
-  "13": "#6EC4E8",
-  "14": "#62259D",
-  "15": "#DE005C",
+  "1": "#ffbe00",
+  "2": "#0055c8",
+  "3": "#6e6e00",
+  "3bis": "#82c8e6",
+  "4": "#a0006e",
+  "5": "#ff5a00",
+  "6": "#82dc73",
+  "7": "#ff82b4",
+  "7bis": "#82dc73",
+  "8": "#d282be",
+  "9": "#d2d200",
+  "10": "#dc9600",
+  "11": "#6e491e",
+  "12": "#00643c",
+  "13": "#82c8e6",
+  "14": "#640082",
+  "15": "#aaaaaa",
   "16": "#F1B19B",
   "17": "#944D9B",
-  "18": "#339999",
-  "T3a": "#ff5a00",
-  "P": "#f58f53",
-  "H": "#84653d",
-  "K": "#9b9842",
-  "J": "#cec73d",
-  "T8": "#6e6e00",
-  "T10": "#6e6e00",
-  "T3b": "#00643c",
-  "T5": "#640082",
-  "D": "#008b5b",
-  "E": "#b94e9a",
-  "U": "#b6134c",
+  "18": "#00a092",
+  "A": "#eb2132",
   "B": "#5091cb",
   "C": "#ffcc30",
-  "R": "#f49fb3",
-  "T4": "#dc9600",
-  "T11": "#ff5a00",
-  "T13": "#8d653d",
-  "T12": "#a50034",
-  "T14": "#00a092",
+  "D": "#008b5b",
+  "E": "#b94e9a",
+  "H": "#84653d",
+  "J": "#cec73d",
+  "K": "#9b9842",
+  "L": "#c4a4cc",
   "N": "#00b297",
-  "T7": "#6e491e",
-  "T6": "#ff0000",
-  "T9": "#3c91dc",
+  "P": "#f58f53",
+  "R": "#f49fb3",
+  "U": "#b6134c",
+  "V": "#9f9825",
   "T1": "#0055c8",
   "T2": "#a0006e",
-  "L": "#c4a4cc",
-  "A": "#eb2132",
-  "V": "#9f9825"
+  "T3a": "#ff5a00",
+  "T3b": "#00643c",
+  "T4": "#dc9600",
+  "T5": "#640082",
+  "T6": "#ff0000",
+  "T7": "#6e491e",
+  "T8": "#6e6e00",
+  "T9": "#3c91dc",
+  "T10": "#6e6e00",
+  "T11": "#ff5a00",
+  "T12": "#a50034",
+  "T13": "#8d653d",
+  "T14": "#00a092"
 };
 
 export const stationsData = [
@@ -2354,9 +2333,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42155"
+    ],
+    "stopPointIds": [
+      "22059",
+      "463116"
     ]
   },
   {
@@ -2370,6 +2356,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46387"
+    ],
+    "stopPointIds": [
+      "41311",
+      "471630",
+      "472782"
     ]
   },
   {
@@ -2381,6 +2375,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "47915"
+    ],
+    "stopPointIds": [
+      "411358",
+      "472019",
+      "472135",
+      "472259",
+      "472507"
     ]
   },
   {
@@ -2394,6 +2398,14 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46647"
+    ],
+    "stopPointIds": [
+      "41528",
+      "471010",
+      "473017"
     ]
   },
   {
@@ -2404,6 +2416,13 @@ export const stationsData = [
     "resume": "Station située à Paris 20e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58502"
+    ],
+    "stopPointIds": [
+      "24421",
+      "24422"
     ]
   },
   {
@@ -2415,6 +2434,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "462398"
+    ],
+    "stopPointIds": [
+      "411398",
+      "471913",
+      "472226",
+      "472853",
+      "472997"
     ]
   },
   {
@@ -2426,6 +2455,18 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "473364"
+    ],
+    "stopPointIds": [
+      "411295",
+      "470611",
+      "470932",
+      "471441",
+      "471892",
+      "472284",
+      "472501"
     ]
   },
   {
@@ -2433,10 +2474,12 @@ export const stationsData = [
     "lignes": [
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Aéroport d'Orly",
@@ -2450,6 +2493,16 @@ export const stationsData = [
       "MP 14 CA",
       "MRV",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "462747",
+      "490909"
+    ],
+    "stopPointIds": [
+      "29894",
+      "35927",
+      "490908",
+      "490917"
     ]
   },
   {
@@ -2460,6 +2513,12 @@ export const stationsData = [
     "resume": "Station située à Argenteuil.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "492818"
+    ],
+    "stopPointIds": [
+      "492817"
     ]
   },
   {
@@ -2467,9 +2526,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Aubervilliers.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "483901"
+    ],
+    "stopPointIds": [
+      "483900",
+      "483903"
     ]
   },
   {
@@ -2480,6 +2546,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "46345"
+    ],
+    "stopPointIds": [
+      "28856",
+      "28859"
     ]
   },
   {
@@ -2490,6 +2563,13 @@ export const stationsData = [
     "resume": "Station située à Paris 12e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45215"
+    ],
+    "stopPointIds": [
+      "24107",
+      "24139"
     ]
   },
   {
@@ -2497,9 +2577,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45196"
+    ],
+    "stopPointIds": [
+      "22122",
+      "463117"
     ]
   },
   {
@@ -2507,11 +2594,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "42175"
+    ],
+    "stopPointIds": [
+      "22154",
+      "463118"
     ]
   },
   {
@@ -2523,6 +2617,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "462929"
+    ],
+    "stopPointIds": [
+      "471757",
+      "472172"
     ]
   },
   {
@@ -2533,16 +2634,30 @@ export const stationsData = [
     "resume": "Station située à Saint-Cyr-l'École.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480935"
+    ],
+    "stopPointIds": [
+      "480934",
+      "481074"
     ]
   },
   {
-    "nom": "Alma–Marceau",
+    "nom": "Alma - Marceau",
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42182"
+    ],
+    "stopPointIds": [
+      "21935",
+      "463052"
     ]
   },
   {
@@ -2553,6 +2668,13 @@ export const stationsData = [
     "resume": "Station située à Viry-Châtillon.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486974"
+    ],
+    "stopPointIds": [
+      "486973",
+      "486975"
     ]
   },
   {
@@ -2560,9 +2682,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Levallois-Perret.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42195"
+    ],
+    "stopPointIds": [
+      "22036",
+      "463119"
     ]
   },
   {
@@ -2573,6 +2702,14 @@ export const stationsData = [
     "resume": "Station située à Andrésy.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47916"
+    ],
+    "stopPointIds": [
+      "41149",
+      "471059",
+      "472150"
     ]
   },
   {
@@ -2586,6 +2723,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47917"
+    ],
+    "stopPointIds": [
+      "41293",
+      "472379",
+      "472965"
     ]
   },
   {
@@ -2596,6 +2741,13 @@ export const stationsData = [
     "resume": "Station située à Paris 18e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45531"
+    ],
+    "stopPointIds": [
+      "462437",
+      "462443"
     ]
   },
   {
@@ -2606,6 +2758,13 @@ export const stationsData = [
     "resume": "Station située à Paris 16e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "490880"
+    ],
+    "stopPointIds": [
+      "490879",
+      "490881"
     ]
   },
   {
@@ -2616,6 +2775,13 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "490885"
+    ],
+    "stopPointIds": [
+      "490884",
+      "490886"
     ]
   },
   {
@@ -2627,6 +2793,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43066"
+    ],
+    "stopPointIds": [
+      "412829",
+      "473980",
+      "473996"
     ]
   },
   {
@@ -2634,19 +2808,28 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Anvers",
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42210"
+    ],
+    "stopPointIds": [
+      "22123",
+      "463120"
     ]
   },
   {
@@ -2658,6 +2841,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "478647"
+    ],
+    "stopPointIds": [
+      "478646",
+      "478651"
     ]
   },
   {
@@ -2671,6 +2861,14 @@ export const stationsData = [
       "MR6V",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43067"
+    ],
+    "stopPointIds": [
+      "412836",
+      "473979",
+      "473983"
     ]
   },
   {
@@ -2681,6 +2879,18 @@ export const stationsData = [
     "resume": "Station située à Argenteuil.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47875"
+    ],
+    "stopPointIds": [
+      "41166",
+      "471033",
+      "471242",
+      "472690",
+      "472730",
+      "472826",
+      "472859"
     ]
   },
   {
@@ -2688,20 +2898,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MP 05"
-    ]
-  },
-  {
-    "nom": "Aristide Briand",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Montreuil.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "42213"
+    ],
+    "stopPointIds": [
+      "22088",
+      "463121"
     ]
   },
   {
@@ -2715,6 +2921,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43068"
+    ],
+    "stopPointIds": [
+      "41318",
+      "470664",
+      "470919"
     ]
   },
   {
@@ -2723,10 +2937,42 @@ export const stationsData = [
       "3",
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 3e.",
     "materiel": [
       "MF 67",
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "42230"
+    ],
+    "stopPointIds": [
+      "21994",
+      "21997",
+      "463108",
+      "463122"
+    ]
+  },
+  {
+    "nom": "Asnières - Gennevilliers - Les Courtilles",
+    "lignes": [
+      "13",
+      "T1"
+    ],
+    "resume": "Station située à Gennevilliers.",
+    "materiel": [
+      "MF 77",
+      "Citadis 305",
+      "TFS"
+    ],
+    "stopAreaIds": [
+      "42231",
+      "462328"
+    ],
+    "stopPointIds": [
+      "22233",
+      "23277",
+      "23278",
+      "463109"
     ]
   },
   {
@@ -2738,6 +2984,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42142"
+    ],
+    "stopPointIds": [
+      "477913",
+      "477914"
     ]
   },
   {
@@ -2749,16 +3002,21 @@ export const stationsData = [
     "resume": "Station située à Asnières-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
-    ]
-  },
-  {
-    "nom": "Asnières–Gennevilliers–Les Courtilles",
-    "lignes": [
-      "13"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
+    "stopAreaIds": [
+      "43069"
+    ],
+    "stopPointIds": [
+      "41138",
+      "470673",
+      "471132",
+      "471224",
+      "471962",
+      "472289",
+      "472391",
+      "472448",
+      "472565",
+      "472878"
     ]
   },
   {
@@ -2766,9 +3024,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45704"
+    ],
+    "stopPointIds": [
+      "22060",
+      "463123"
     ]
   },
   {
@@ -2782,6 +3047,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46395"
+    ],
+    "stopPointIds": [
+      "41310",
+      "470944",
+      "472115"
     ]
   },
   {
@@ -2793,6 +3066,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43068"
+    ],
+    "stopPointIds": [
+      "41318",
+      "470664",
+      "470919"
     ]
   },
   {
@@ -2803,16 +3084,32 @@ export const stationsData = [
     "resume": "Station située à Aubergenville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43070"
+    ],
+    "stopPointIds": [
+      "41201",
+      "471523",
+      "472002",
+      "472707"
     ]
   },
   {
-    "nom": "Aubervilliers–Pantin–Quatre Chemins",
+    "nom": "Aubervilliers - Pantin - Quatre Chemins",
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Aubervilliers.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "46492"
+    ],
+    "stopPointIds": [
+      "22394",
+      "463031"
     ]
   },
   {
@@ -2824,6 +3121,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42245"
+    ],
+    "stopPointIds": [
+      "22257",
+      "22258"
     ]
   },
   {
@@ -2834,6 +3138,13 @@ export const stationsData = [
     "resume": "Station située à Chevilly-Larue.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58784"
+    ],
+    "stopPointIds": [
+      "29897",
+      "35931"
     ]
   },
   {
@@ -2850,6 +3161,20 @@ export const stationsData = [
       "Z 50000 Francilien",
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43071",
+      "473095"
+    ],
+    "stopPointIds": [
+      "411410",
+      "470950",
+      "471113",
+      "471766",
+      "472147",
+      "472363",
+      "472589",
+      "472815"
     ]
   },
   {
@@ -2857,10 +3182,12 @@ export const stationsData = [
     "lignes": [
       "16"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Auneau",
@@ -2873,6 +3200,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "59049"
+    ],
+    "stopPointIds": [
+      "41325",
+      "471357",
+      "472037"
     ]
   },
   {
@@ -2883,6 +3218,14 @@ export const stationsData = [
     "resume": "Station située à Auvers-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47918"
+    ],
+    "stopPointIds": [
+      "41112",
+      "470610",
+      "472941"
     ]
   },
   {
@@ -2893,6 +3236,13 @@ export const stationsData = [
     "resume": "Station située à Paris 13e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45305"
+    ],
+    "stopPointIds": [
+      "24123",
+      "24137"
     ]
   },
   {
@@ -2906,17 +3256,32 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45419"
+    ],
+    "stopPointIds": [
+      "41295",
+      "471131",
+      "471932"
     ]
   },
   {
-    "nom": "Avenue Émile-Zola",
+    "nom": "Avenue Émile Zola",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42265"
+    ],
+    "stopPointIds": [
+      "21987",
+      "463124"
     ]
   },
   {
@@ -2930,6 +3295,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45437"
+    ],
+    "stopPointIds": [
+      "41132",
+      "470620",
+      "471843"
     ]
   },
   {
@@ -2943,6 +3316,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45447"
+    ],
+    "stopPointIds": [
+      "41133",
+      "471187",
+      "471355",
+      "471484"
     ]
   },
   {
@@ -2950,9 +3332,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42271"
+    ],
+    "stopPointIds": [
+      "22124",
+      "463125"
     ]
   },
   {
@@ -2963,6 +3352,14 @@ export const stationsData = [
     "resume": "Station située à Bagneaux-sur-Loing.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47119"
+    ],
+    "stopPointIds": [
+      "41392",
+      "470977",
+      "471282"
     ]
   },
   {
@@ -2974,20 +3371,36 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "44493"
+    ],
+    "stopPointIds": [
+      "412843",
+      "473981",
+      "473986"
     ]
   },
   {
-    "nom": "Bagneux–Lucie Aubrac",
+    "nom": "Bagneux - Lucie Aubrac",
     "lignes": [
       "4",
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Bagneux.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MR6V"
+    ],
+    "stopAreaIds": [
+      "483280"
+    ],
+    "stopPointIds": [
+      "483279",
+      "483314",
+      "483423"
     ]
   },
   {
@@ -2998,6 +3411,13 @@ export const stationsData = [
     "resume": "Station située à Bailly.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480933"
+    ],
+    "stopPointIds": [
+      "480932",
+      "481073"
     ]
   },
   {
@@ -3010,6 +3430,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45357",
+      "463354"
+    ],
+    "stopPointIds": [
+      "22186",
+      "24103",
+      "24108",
+      "463051"
     ]
   },
   {
@@ -3022,6 +3452,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43087"
+    ],
+    "stopPointIds": [
+      "41350",
+      "470722",
+      "471285"
     ]
   },
   {
@@ -3029,35 +3467,58 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Bagneux.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "483278"
+    ],
+    "stopPointIds": [
+      "483277",
+      "483313"
     ]
   },
   {
-    "nom": "Barbès–Rochechouart",
+    "nom": "Barbès - Rochechouart",
     "lignes": [
       "2",
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MF 01",
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "42280"
+    ],
+    "stopPointIds": [
+      "22127",
+      "22130",
+      "463093",
+      "463094"
     ]
   },
   {
-    "nom": "Baron le Roy",
+    "nom": "Baron Le Roy",
     "lignes": [
       "T3a"
     ],
     "resume": "Station située à Paris 12e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58730"
+    ],
+    "stopPointIds": [
+      "36482",
+      "460561"
     ]
   },
   {
@@ -3071,6 +3532,16 @@ export const stationsData = [
       "MF 77",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44859",
+      "463329"
+    ],
+    "stopPointIds": [
+      "22240",
+      "22633",
+      "22634",
+      "463126"
     ]
   },
   {
@@ -3080,11 +3551,22 @@ export const stationsData = [
       "5",
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MP 05",
       "MF 01",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42288"
+    ],
+    "stopPointIds": [
+      "22010",
+      "22089",
+      "22097",
+      "463000",
+      "463018",
+      "463019"
     ]
   },
   {
@@ -3095,6 +3577,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "58637"
+    ],
+    "stopPointIds": [
+      "28866",
+      "28867"
     ]
   },
   {
@@ -3105,6 +3594,17 @@ export const stationsData = [
     "resume": "Station située à Beauvais.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411317"
+    ],
+    "stopPointIds": [
+      "411316",
+      "471046",
+      "471404",
+      "471709",
+      "471822",
+      "472914"
     ]
   },
   {
@@ -3115,6 +3615,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "478994"
+    ],
+    "stopPointIds": [
+      "478993",
+      "478996"
     ]
   },
   {
@@ -3122,10 +3629,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45222"
+    ],
+    "stopPointIds": [
+      "22177",
+      "463127"
     ]
   },
   {
@@ -3134,10 +3648,19 @@ export const stationsData = [
       "2",
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 01",
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "42311"
+    ],
+    "stopPointIds": [
+      "21998",
+      "22128",
+      "463110",
+      "463111"
     ]
   },
   {
@@ -3148,6 +3671,16 @@ export const stationsData = [
     "resume": "Station située à Meudon.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43088"
+    ],
+    "stopPointIds": [
+      "41215",
+      "471435",
+      "472441",
+      "472607",
+      "472679"
     ]
   },
   {
@@ -3158,6 +3691,14 @@ export const stationsData = [
     "resume": "Station située à Belloy-en-France.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47524"
+    ],
+    "stopPointIds": [
+      "41113",
+      "471323",
+      "472664"
     ]
   },
   {
@@ -3168,6 +3709,13 @@ export const stationsData = [
     "resume": "Station située à Suresnes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "42315"
+    ],
+    "stopPointIds": [
+      "22303",
+      "22304"
     ]
   },
   {
@@ -3183,6 +3731,23 @@ export const stationsData = [
       "MP 89 CC",
       "MP 14 CA",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "479035",
+      "58728"
+    ],
+    "stopPointIds": [
+      "21957",
+      "22178",
+      "41397",
+      "463128",
+      "463129",
+      "479034",
+      "479038",
+      "479039",
+      "479045",
+      "479047",
+      "479048"
     ]
   },
   {
@@ -3193,6 +3758,14 @@ export const stationsData = [
     "resume": "Station située à Bessancourt.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43090"
+    ],
+    "stopPointIds": [
+      "41121",
+      "471956",
+      "472170"
     ]
   },
   {
@@ -3203,6 +3776,14 @@ export const stationsData = [
     "resume": "Station située à Beynes.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46857"
+    ],
+    "stopPointIds": [
+      "41231",
+      "471879",
+      "472129"
     ]
   },
   {
@@ -3215,6 +3796,20 @@ export const stationsData = [
     "materiel": [
       "MR6V",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47923"
+    ],
+    "stopPointIds": [
+      "41171",
+      "470981",
+      "471561",
+      "471714",
+      "471758",
+      "471815",
+      "472101",
+      "472238",
+      "472599"
     ]
   },
   {
@@ -3222,9 +3817,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Vincennes.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "42318"
+    ],
+    "stopPointIds": [
+      "22105",
+      "463130"
     ]
   },
   {
@@ -3240,6 +3842,21 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45301",
+      "473111"
+    ],
+    "stopPointIds": [
+      "21955",
+      "41128",
+      "463112",
+      "471835",
+      "471854",
+      "472490",
+      "472740",
+      "472741",
+      "472821"
     ]
   },
   {
@@ -3253,6 +3870,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43091"
+    ],
+    "stopPointIds": [
+      "41242",
+      "472234",
+      "472850"
     ]
   },
   {
@@ -3260,9 +3885,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Boulogne-Billancourt.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42334"
+    ],
+    "stopPointIds": [
+      "21939",
+      "463035"
     ]
   },
   {
@@ -3270,10 +3902,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45340"
+    ],
+    "stopPointIds": [
+      "22179",
+      "463005"
     ]
   },
   {
@@ -3281,9 +3920,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42337"
+    ],
+    "stopPointIds": [
+      "22125",
+      "463113"
     ]
   },
   {
@@ -3294,6 +3940,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "59325"
+    ],
+    "stopPointIds": [
+      "42105",
+      "42116"
     ]
   },
   {
@@ -3309,26 +3962,36 @@ export const stationsData = [
       "MR6V",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42345",
+      "462329"
+    ],
+    "stopPointIds": [
+      "22015",
+      "22624",
+      "22625",
+      "463131",
+      "492312",
+      "497210",
+      "497212"
     ]
   },
   {
-    "nom": "Bobigny - Pantin - Raymond Queneau",
+    "nom": "Bobigny-Pantin - Raymond Queneau",
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Bobigny.",
     "materiel": [
       "MF 01"
-    ]
-  },
-  {
-    "nom": "Bobigny–La Folie",
-    "lignes": [
-      "5"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 01"
+    "stopAreaIds": [
+      "42344"
+    ],
+    "stopPointIds": [
+      "22014",
+      "463002"
     ]
   },
   {
@@ -3341,6 +4004,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43092"
+    ],
+    "stopPointIds": [
+      "41395",
+      "470853",
+      "471428"
     ]
   },
   {
@@ -3351,6 +4022,13 @@ export const stationsData = [
     "resume": "Station située à Evry-Courcouronnes.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486964"
+    ],
+    "stopPointIds": [
+      "486963",
+      "486988"
     ]
   },
   {
@@ -3361,6 +4039,13 @@ export const stationsData = [
     "resume": "Station située à Ris-Orangis.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486968"
+    ],
+    "stopPointIds": [
+      "486967",
+      "486969"
     ]
   },
   {
@@ -3373,6 +4058,16 @@ export const stationsData = [
     "materiel": [
       "MR6V",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "51238"
+    ],
+    "stopPointIds": [
+      "41134",
+      "470797",
+      "471375",
+      "471402",
+      "472915"
     ]
   },
   {
@@ -3383,6 +4078,14 @@ export const stationsData = [
     "resume": "Station située à Bois-le-Roi.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47654"
+    ],
+    "stopPointIds": [
+      "41371",
+      "471532",
+      "471832"
     ]
   },
   {
@@ -3390,10 +4093,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "42359"
+    ],
+    "stopPointIds": [
+      "22180",
+      "463114"
     ]
   },
   {
@@ -3406,6 +4116,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45763"
+    ],
+    "stopPointIds": [
+      "41386",
+      "471316",
+      "472629"
     ]
   },
   {
@@ -3416,6 +4134,15 @@ export const stationsData = [
     "resume": "Station située à Boissy-l'Aillerie.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46801"
+    ],
+    "stopPointIds": [
+      "41140",
+      "472168",
+      "472294",
+      "472804"
     ]
   },
   {
@@ -3427,6 +4154,15 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43094"
+    ],
+    "stopPointIds": [
+      "412802",
+      "473984",
+      "473987",
+      "473988"
     ]
   },
   {
@@ -3434,9 +4170,16 @@ export const stationsData = [
     "lignes": [
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "58767"
+    ],
+    "stopPointIds": [
+      "24685",
+      "463132"
     ]
   },
   {
@@ -3454,6 +4197,21 @@ export const stationsData = [
       "Z 50000 Francilien",
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43096",
+      "473143"
+    ],
+    "stopPointIds": [
+      "41013",
+      "470990",
+      "471881",
+      "471982",
+      "472144",
+      "472644",
+      "472881",
+      "473020",
+      "479491"
     ]
   },
   {
@@ -3462,10 +4220,19 @@ export const stationsData = [
       "8",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 77",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45100"
+    ],
+    "stopPointIds": [
+      "21933",
+      "22198",
+      "463115",
+      "463133"
     ]
   },
   {
@@ -3479,6 +4246,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "411446"
+    ],
+    "stopPointIds": [
+      "411445",
+      "471262",
+      "472601"
     ]
   },
   {
@@ -3489,6 +4264,14 @@ export const stationsData = [
     "resume": "Station située à Bonnières-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46984"
+    ],
+    "stopPointIds": [
+      "41290",
+      "470812",
+      "471553"
     ]
   },
   {
@@ -3499,6 +4282,14 @@ export const stationsData = [
     "resume": "Station située à Boran-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411332"
+    ],
+    "stopPointIds": [
+      "411331",
+      "471512",
+      "472426"
     ]
   },
   {
@@ -3506,9 +4297,16 @@ export const stationsData = [
     "lignes": [
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "42369"
+    ],
+    "stopPointIds": [
+      "24686",
+      "463134"
     ]
   },
   {
@@ -3516,9 +4314,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42370"
+    ],
+    "stopPointIds": [
+      "22188",
+      "463135"
     ]
   },
   {
@@ -3529,6 +4334,14 @@ export const stationsData = [
     "resume": "Station située à Bouffémont.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47517"
+    ],
+    "stopPointIds": [
+      "41106",
+      "472645",
+      "472842"
     ]
   },
   {
@@ -3539,6 +4352,14 @@ export const stationsData = [
     "resume": "Station située à La Celle-Saint-Cloud.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47790"
+    ],
+    "stopPointIds": [
+      "41183",
+      "471671",
+      "472113"
     ]
   },
   {
@@ -3552,28 +4373,50 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45453"
+    ],
+    "stopPointIds": [
+      "41294",
+      "470738",
+      "470771"
     ]
   },
   {
-    "nom": "Boulogne–Jean Jaurès",
+    "nom": "Boulogne Jean Jaurès",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Boulogne-Billancourt.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42380"
+    ],
+    "stopPointIds": [
+      "21988",
+      "463137"
     ]
   },
   {
-    "nom": "Boulogne–Pont de Saint-Cloud",
+    "nom": "Boulogne Pont de Saint-Cloud",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Boulogne-Billancourt.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42381"
+    ],
+    "stopPointIds": [
+      "21989",
+      "463136"
     ]
   },
   {
@@ -3587,6 +4430,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47905"
+    ],
+    "stopPointIds": [
+      "41302",
+      "470716",
+      "472759"
     ]
   },
   {
@@ -3598,6 +4449,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43097"
+    ],
+    "stopPointIds": [
+      "412842",
+      "473969",
+      "473970",
+      "473971",
+      "473972"
     ]
   },
   {
@@ -3608,6 +4469,14 @@ export const stationsData = [
     "resume": "Station située à Bourron-Marlotte.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47124"
+    ],
+    "stopPointIds": [
+      "41390",
+      "470903",
+      "472636"
     ]
   },
   {
@@ -3615,9 +4484,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45101"
+    ],
+    "stopPointIds": [
+      "22033",
+      "463090"
     ]
   },
   {
@@ -3630,6 +4506,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47924"
+    ],
+    "stopPointIds": [
+      "41365",
+      "471212",
+      "471545",
+      "472445",
+      "472771"
     ]
   },
   {
@@ -3642,6 +4528,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47895"
+    ],
+    "stopPointIds": [
+      "41352",
+      "471799",
+      "472447"
     ]
   },
   {
@@ -3652,6 +4546,13 @@ export const stationsData = [
     "resume": "Station située à Paris 15e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "42387"
+    ],
+    "stopPointIds": [
+      "24104",
+      "24121"
     ]
   },
   {
@@ -3662,6 +4563,13 @@ export const stationsData = [
     "resume": "Station située à Thiais.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47694"
+    ],
+    "stopPointIds": [
+      "29902",
+      "413057"
     ]
   },
   {
@@ -3675,6 +4583,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47925"
+    ],
+    "stopPointIds": [
+      "41320",
+      "472770",
+      "472810"
     ]
   },
   {
@@ -3688,16 +4604,31 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43099"
+    ],
+    "stopPointIds": [
+      "41321",
+      "471627",
+      "472160"
     ]
   },
   {
-    "nom": "Bréguet–Sabin",
+    "nom": "Bréguet-Sabin",
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42390"
+    ],
+    "stopPointIds": [
+      "22008",
+      "463138"
     ]
   },
   {
@@ -3711,6 +4642,19 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43098"
+    ],
+    "stopPointIds": [
+      "41304",
+      "471292",
+      "471864",
+      "471954",
+      "472014",
+      "472026",
+      "472148",
+      "472590"
     ]
   },
   {
@@ -3721,6 +4665,14 @@ export const stationsData = [
     "resume": "Station située à Bréval.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43100"
+    ],
+    "stopPointIds": [
+      "41157",
+      "471056",
+      "471174"
     ]
   },
   {
@@ -3731,6 +4683,13 @@ export const stationsData = [
     "resume": "Station située à Sèvres.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47364"
+    ],
+    "stopPointIds": [
+      "23441",
+      "27464"
     ]
   },
   {
@@ -3738,9 +4697,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45487"
+    ],
+    "stopPointIds": [
+      "22231",
+      "462978"
     ]
   },
   {
@@ -3753,6 +4719,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "58873"
+    ],
+    "stopPointIds": [
+      "41364",
+      "470689",
+      "471526",
+      "471558",
+      "471840"
     ]
   },
   {
@@ -3763,6 +4739,14 @@ export const stationsData = [
     "resume": "Station située à Bruyères-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47533"
+    ],
+    "stopPointIds": [
+      "41104",
+      "472277",
+      "472847"
     ]
   },
   {
@@ -3774,6 +4758,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43101"
+    ],
+    "stopPointIds": [
+      "412822",
+      "473973",
+      "473974"
     ]
   },
   {
@@ -3784,6 +4776,15 @@ export const stationsData = [
     "resume": "Station située à Bueil.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411362"
+    ],
+    "stopPointIds": [
+      "411361",
+      "470928",
+      "471161",
+      "471477"
     ]
   },
   {
@@ -3796,6 +4797,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43102"
+    ],
+    "stopPointIds": [
+      "41354",
+      "470703",
+      "472752"
     ]
   },
   {
@@ -3807,6 +4816,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43103"
+    ],
+    "stopPointIds": [
+      "412795",
+      "473975",
+      "473978"
     ]
   },
   {
@@ -3818,6 +4835,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "58874"
+    ],
+    "stopPointIds": [
+      "412812",
+      "473960",
+      "473961"
     ]
   },
   {
@@ -3828,6 +4853,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58501"
+    ],
+    "stopPointIds": [
+      "24404",
+      "24416"
     ]
   },
   {
@@ -3838,6 +4870,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "58640"
+    ],
+    "stopPointIds": [
+      "28850",
+      "28853"
     ]
   },
   {
@@ -3845,9 +4884,16 @@ export const stationsData = [
     "lignes": [
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "45609"
+    ],
+    "stopPointIds": [
+      "24683",
+      "463156"
     ]
   },
   {
@@ -3855,9 +4901,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42410"
+    ],
+    "stopPointIds": [
+      "25084",
+      "463039"
     ]
   },
   {
@@ -3865,9 +4918,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42414"
+    ],
+    "stopPointIds": [
+      "22390",
+      "463139"
     ]
   },
   {
@@ -3875,10 +4935,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "42419"
+    ],
+    "stopPointIds": [
+      "22176",
+      "463140"
     ]
   },
   {
@@ -3889,6 +4956,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479015"
+    ],
+    "stopPointIds": [
+      "478992",
+      "479013"
     ]
   },
   {
@@ -3899,16 +4973,30 @@ export const stationsData = [
     "resume": "Station située à Saint-Germain-en-Laye.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480926"
+    ],
+    "stopPointIds": [
+      "480925",
+      "481068"
     ]
   },
   {
-    "nom": "Campo Formio",
+    "nom": "Campo-Formio",
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42426"
+    ],
+    "stopPointIds": [
+      "22009",
+      "463020"
     ]
   },
   {
@@ -3919,6 +5007,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45596"
+    ],
+    "stopPointIds": [
+      "24401",
+      "24402"
     ]
   },
   {
@@ -3926,10 +5021,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42435"
+    ],
+    "stopPointIds": [
+      "21984",
+      "463141"
     ]
   },
   {
@@ -3940,6 +5042,13 @@ export const stationsData = [
     "resume": "Station située à Choisy-le-Roi.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479011"
+    ],
+    "stopPointIds": [
+      "479010",
+      "479012"
     ]
   },
   {
@@ -3950,17 +5059,13 @@ export const stationsData = [
     "resume": "Station située à Orly.",
     "materiel": [
       "Citadis 302"
-    ]
-  },
-  {
-    "nom": "Carrefour de la Vierge",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Noisy-le-Sec.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "58781"
+    ],
+    "stopPointIds": [
+      "29898",
+      "29899"
     ]
   },
   {
@@ -3968,9 +5073,17 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Saint-Denis.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42447"
+    ],
+    "stopPointIds": [
+      "22239",
+      "462976",
+      "495051"
     ]
   },
   {
@@ -3978,19 +5091,28 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
-    "nom": "Censier–Daubenton",
+    "nom": "Censier - Daubenton",
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42461"
+    ],
+    "stopPointIds": [
+      "22391",
+      "463157"
     ]
   },
   {
@@ -4001,6 +5123,13 @@ export const stationsData = [
     "resume": "Station située à Châtillon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "59221"
+    ],
+    "stopPointIds": [
+      "2337",
+      "41952"
     ]
   },
   {
@@ -4014,6 +5143,16 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43104"
+    ],
+    "stopPointIds": [
+      "40918",
+      "472384",
+      "472468",
+      "472554",
+      "478476"
     ]
   },
   {
@@ -4027,6 +5166,14 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "44559"
+    ],
+    "stopPointIds": [
+      "411352",
+      "472439",
+      "472932"
     ]
   },
   {
@@ -4040,6 +5187,14 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47897"
+    ],
+    "stopPointIds": [
+      "411368",
+      "470994",
+      "471703"
     ]
   },
   {
@@ -4055,6 +5210,14 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43105"
+    ],
+    "stopPointIds": [
+      "41086",
+      "470864",
+      "471069"
     ]
   },
   {
@@ -4067,6 +5230,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "42516"
+    ],
+    "stopPointIds": [
+      "41368",
+      "472255",
+      "472531",
+      "472569",
+      "472713"
     ]
   },
   {
@@ -4077,6 +5250,13 @@ export const stationsData = [
     "resume": "Station située à Villetaneuse.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50572"
+    ],
+    "stopPointIds": [
+      "42132",
+      "42133"
     ]
   },
   {
@@ -4089,6 +5269,12 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47926"
+    ],
+    "stopPointIds": [
+      "41053"
     ]
   },
   {
@@ -4102,6 +5288,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47927"
+    ],
+    "stopPointIds": [
+      "41300",
+      "471964",
+      "472432"
     ]
   },
   {
@@ -4112,6 +5306,15 @@ export const stationsData = [
     "resume": "Station située à Soisy-sous-Montmorency.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46477"
+    ],
+    "stopPointIds": [
+      "41084",
+      "470845",
+      "471336",
+      "471506"
     ]
   },
   {
@@ -4125,6 +5328,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "58757"
+    ],
+    "stopPointIds": [
+      "41210",
+      "471988",
+      "472748"
     ]
   },
   {
@@ -4135,6 +5346,14 @@ export const stationsData = [
     "resume": "Station située à Champagne-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47590"
+    ],
+    "stopPointIds": [
+      "41109",
+      "470666",
+      "472567"
     ]
   },
   {
@@ -4145,6 +5364,14 @@ export const stationsData = [
     "resume": "Station située à Champagne-sur-Seine.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43106"
+    ],
+    "stopPointIds": [
+      "41382",
+      "470966",
+      "472416"
     ]
   },
   {
@@ -4157,6 +5384,13 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47174"
+    ],
+    "stopPointIds": [
+      "41030",
+      "471938"
     ]
   },
   {
@@ -4168,6 +5402,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "58270"
+    ],
+    "stopPointIds": [
+      "412801",
+      "473962",
+      "473963"
     ]
   },
   {
@@ -4175,10 +5417,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Champigny-sur-Yonne",
@@ -4188,6 +5432,16 @@ export const stationsData = [
     "resume": "Station située à Champigny.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411461"
+    ],
+    "stopPointIds": [
+      "411460",
+      "471359",
+      "471515",
+      "472754",
+      "472976"
     ]
   },
   {
@@ -4198,18 +5452,34 @@ export const stationsData = [
     "resume": "Station située à Champlan.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486958"
+    ],
+    "stopPointIds": [
+      "486957",
+      "486990"
     ]
   },
   {
-    "nom": "Champs-Élysées–Clemenceau",
+    "nom": "Champs-Élysées - Clemenceau",
     "lignes": [
       "1",
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MP 05",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42531"
+    ],
+    "stopPointIds": [
+      "22090",
+      "22093",
+      "463010",
+      "463011"
     ]
   },
   {
@@ -4222,6 +5492,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47928"
+    ],
+    "stopPointIds": [
+      "41061",
+      "471406",
+      "472092"
     ]
   },
   {
@@ -4232,6 +5510,14 @@ export const stationsData = [
     "resume": "Station située à Chanteloup-les-Vignes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47929"
+    ],
+    "stopPointIds": [
+      "41147",
+      "472114",
+      "472603"
     ]
   },
   {
@@ -4244,6 +5530,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411428"
+    ],
+    "stopPointIds": [
+      "411427",
+      "471772",
+      "471807",
+      "472930"
     ]
   },
   {
@@ -4254,6 +5549,14 @@ export const stationsData = [
     "resume": "Station située à Auvers-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47591"
+    ],
+    "stopPointIds": [
+      "41094",
+      "471130",
+      "471339"
     ]
   },
   {
@@ -4261,20 +5564,33 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42543"
+    ],
+    "stopPointIds": [
+      "21985"
     ]
   },
   {
-    "nom": "Charenton–Écoles",
+    "nom": "Charenton - Écoles",
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Charenton-le-Pont.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42545"
+    ],
+    "stopPointIds": [
+      "22210",
+      "463142"
     ]
   },
   {
@@ -4285,6 +5601,13 @@ export const stationsData = [
     "resume": "Station située à La Garenne-Colombes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47411"
+    ],
+    "stopPointIds": [
+      "23436",
+      "23437"
     ]
   },
   {
@@ -4303,6 +5626,21 @@ export const stationsData = [
       "MP 89 CC",
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "477682",
+      "58759"
+    ],
+    "stopPointIds": [
+      "22086",
+      "22094",
+      "22095",
+      "412807",
+      "463013",
+      "463042",
+      "463043",
+      "473922",
+      "473923"
     ]
   },
   {
@@ -4310,10 +5648,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42557"
+    ],
+    "stopPointIds": [
+      "21986",
+      "463076"
     ]
   },
   {
@@ -4321,9 +5666,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42560"
+    ],
+    "stopPointIds": [
+      "21934",
+      "463143"
     ]
   },
   {
@@ -4334,6 +5686,14 @@ export const stationsData = [
     "resume": "Station située à Chars.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47930"
+    ],
+    "stopPointIds": [
+      "41144",
+      "471358",
+      "472293"
     ]
   },
   {
@@ -4344,6 +5704,19 @@ export const stationsData = [
     "resume": "Station située à Chartres.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411507"
+    ],
+    "stopPointIds": [
+      "411506",
+      "471043",
+      "471084",
+      "471802",
+      "472404",
+      "472592",
+      "472733",
+      "472768"
     ]
   },
   {
@@ -4354,6 +5727,14 @@ export const stationsData = [
     "resume": "Station située à Chartrettes.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43107"
+    ],
+    "stopPointIds": [
+      "41378",
+      "470759",
+      "472933"
     ]
   },
   {
@@ -4365,6 +5746,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "53783"
+    ],
+    "stopPointIds": [
+      "412797",
+      "473964",
+      "473965"
     ]
   },
   {
@@ -4377,6 +5766,12 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47931"
+    ],
+    "stopPointIds": [
+      "41054"
     ]
   },
   {
@@ -4387,18 +5782,35 @@ export const stationsData = [
     "resume": "Station située à Chaumont-en-Vexin.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411345"
+    ],
+    "stopPointIds": [
+      "411344",
+      "471071",
+      "471166"
     ]
   },
   {
-    "nom": "Chaussée d'Antin–La Fayette",
+    "nom": "Chaussée d'Antin - La Fayette",
     "lignes": [
       "7",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42589"
+    ],
+    "stopPointIds": [
+      "21932",
+      "22388",
+      "463144",
+      "463145"
     ]
   },
   {
@@ -4412,6 +5824,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47883"
+    ],
+    "stopPointIds": [
+      "41219",
+      "471121",
+      "471551",
+      "471589",
+      "472982"
     ]
   },
   {
@@ -4424,6 +5846,14 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "43241"
+    ],
+    "stopPointIds": [
+      "41176",
+      "471516",
+      "471723"
     ]
   },
   {
@@ -4434,6 +5864,16 @@ export const stationsData = [
     "resume": "Station située à Chaville.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43108"
+    ],
+    "stopPointIds": [
+      "41220",
+      "471679",
+      "472152",
+      "472291",
+      "472372"
     ]
   },
   {
@@ -4441,21 +5881,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
-    ]
-  },
-  {
-    "nom": "Château de Landon",
-    "lignes": [
-      "7"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
+    "stopAreaIds": [
+      "42579"
+    ],
+    "stopPointIds": [
+      "22153",
+      "462979"
     ]
   },
   {
@@ -4463,9 +5900,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "42582"
+    ],
+    "stopPointIds": [
+      "22104",
+      "463149"
     ]
   },
   {
@@ -4473,11 +5917,35 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "42585"
+    ],
+    "stopPointIds": [
+      "22152",
+      "463148"
+    ]
+  },
+  {
+    "nom": "Château-Landon",
+    "lignes": [
+      "7"
+    ],
+    "resume": "Station située à Paris 10e.",
+    "materiel": [
+      "MF 77"
+    ],
+    "stopAreaIds": [
+      "479053"
+    ],
+    "stopPointIds": [
+      "22367",
+      "463006"
     ]
   },
   {
@@ -4490,6 +5958,17 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "411378"
+    ],
+    "stopPointIds": [
+      "411377",
+      "470760",
+      "471957",
+      "472119",
+      "472783",
+      "472854"
     ]
   },
   {
@@ -4503,6 +5982,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "411443"
+    ],
+    "stopPointIds": [
+      "411442",
+      "470862",
+      "472529",
+      "472579"
     ]
   },
   {
@@ -4513,6 +6001,13 @@ export const stationsData = [
     "resume": "Station située à Ivry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479017"
+    ],
+    "stopPointIds": [
+      "479006",
+      "479007"
     ]
   },
   {
@@ -4522,48 +6017,42 @@ export const stationsData = [
       "4",
       "7",
       "11",
-      "14",
-      "A",
-      "B",
-      "D"
+      "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MP 05",
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MF 77",
-      "MP 14 CC",
-      "MI 09",
-      "MI 2N Altéo",
-      "MI 79",
-      "MI 84",
-      "Z 20500",
-      "RER NG",
-      "Regio 2N"
+      "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "42587"
+    ],
+    "stopPointIds": [
+      "21959",
+      "21966",
+      "22087",
+      "22092",
+      "22364",
+      "463060",
+      "463079",
+      "463158",
+      "463159",
+      "463160"
     ]
   },
   {
     "nom": "Châtelet - Les Halles",
     "lignes": [
-      "1",
-      "4",
-      "7",
-      "11",
-      "14",
       "A",
       "B",
       "D"
     ],
     "resume": "Station située à Paris 1er.",
     "materiel": [
-      "MP 05",
-      "MP 14 CA",
-      "MP 05 IDFM",
-      "MP 89 CA",
-      "MF 77",
-      "MP 14 CC",
       "MI 09",
       "MI 2N Altéo",
       "MI 79",
@@ -4571,6 +6060,20 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45102"
+    ],
+    "stopPointIds": [
+      "412815",
+      "471322",
+      "471719",
+      "472764",
+      "472996",
+      "473921",
+      "473989",
+      "473990",
+      "473993"
     ]
   },
   {
@@ -4585,6 +6088,18 @@ export const stationsData = [
       "MF 77",
       "MR6V",
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "42588",
+      "462350"
+    ],
+    "stopPointIds": [
+      "22237",
+      "2336",
+      "463087",
+      "482428",
+      "495053",
+      "496645"
     ]
   },
   {
@@ -4602,6 +6117,16 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "58879"
+    ],
+    "stopPointIds": [
+      "41039",
+      "471173",
+      "471788",
+      "472240",
+      "472324"
     ]
   },
   {
@@ -4615,6 +6140,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46035"
+    ],
+    "stopPointIds": [
+      "41330",
+      "471004",
+      "471400"
     ]
   },
   {
@@ -4626,6 +6159,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42594"
+    ],
+    "stopPointIds": [
+      "23289",
+      "23293"
     ]
   },
   {
@@ -4633,9 +6173,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45097"
+    ],
+    "stopPointIds": [
+      "22202",
+      "463146"
     ]
   },
   {
@@ -4643,10 +6190,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45267"
+    ],
+    "stopPointIds": [
+      "22174",
+      "463147"
     ]
   },
   {
@@ -4659,6 +6213,16 @@ export const stationsData = [
     "materiel": [
       "MP 14 CA",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47421",
+      "490836"
+    ],
+    "stopPointIds": [
+      "35929",
+      "35930",
+      "490835",
+      "490851"
     ]
   },
   {
@@ -4671,6 +6235,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "411381"
+    ],
+    "stopPointIds": [
+      "411380",
+      "471764",
+      "471821"
     ]
   },
   {
@@ -4681,6 +6253,13 @@ export const stationsData = [
     "resume": "Station située à Chilly-Mazarin.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486893"
+    ],
+    "stopPointIds": [
+      "486892",
+      "486894"
     ]
   },
   {
@@ -4694,6 +6273,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43110"
+    ],
+    "stopPointIds": [
+      "41313",
+      "471085",
+      "471836",
+      "472614",
+      "472887"
     ]
   },
   {
@@ -4704,6 +6293,13 @@ export const stationsData = [
     "resume": "Station située à Orly.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479016"
+    ],
+    "stopPointIds": [
+      "479008",
+      "479009"
     ]
   },
   {
@@ -4715,6 +6311,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46327"
+    ],
+    "stopPointIds": [
+      "23312",
+      "23314"
     ]
   },
   {
@@ -4725,6 +6328,13 @@ export const stationsData = [
     "resume": "Station située à Ivry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479018"
+    ],
+    "stopPointIds": [
+      "479004",
+      "479005"
     ]
   },
   {
@@ -4732,11 +6342,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "42639"
+    ],
+    "stopPointIds": [
+      "22150",
+      "463161"
     ]
   },
   {
@@ -4750,6 +6367,17 @@ export const stationsData = [
       "MI 79",
       "MI 84",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45339",
+      "473843"
+    ],
+    "stopPointIds": [
+      "24100",
+      "24115",
+      "412839",
+      "473991",
+      "473995"
     ]
   },
   {
@@ -4760,6 +6388,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486825"
+    ],
+    "stopPointIds": [
+      "486824",
+      "486846"
     ]
   },
   {
@@ -4772,6 +6407,16 @@ export const stationsData = [
     "materiel": [
       "MR6V",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43111"
+    ],
+    "stopPointIds": [
+      "41206",
+      "471241",
+      "472493",
+      "472858",
+      "472863"
     ]
   },
   {
@@ -4782,6 +6427,18 @@ export const stationsData = [
     "resume": "Station située à Levallois-Perret.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43112"
+    ],
+    "stopPointIds": [
+      "41137",
+      "470726",
+      "471449",
+      "471457",
+      "472249",
+      "472621",
+      "472866"
     ]
   },
   {
@@ -4795,6 +6452,13 @@ export const stationsData = [
       "MR3V",
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "477277"
+    ],
+    "stopPointIds": [
+      "478661",
+      "478664"
     ]
   },
   {
@@ -4806,17 +6470,31 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "477287"
+    ],
+    "stopPointIds": [
+      "477286",
+      "478663"
     ]
   },
   {
-    "nom": "Cluny–La Sorbonne",
+    "nom": "Cluny - La Sorbonne",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42674"
+    ],
+    "stopPointIds": [
+      "21983",
+      "462944"
     ]
   },
   {
@@ -4827,6 +6505,13 @@ export const stationsData = [
     "resume": "Station située à Orly.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58782"
+    ],
+    "stopPointIds": [
+      "35932",
+      "460558"
     ]
   },
   {
@@ -4837,6 +6522,14 @@ export const stationsData = [
     "resume": "Station située à Coignières.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47932"
+    ],
+    "stopPointIds": [
+      "41224",
+      "472242",
+      "472793"
     ]
   },
   {
@@ -4847,17 +6540,13 @@ export const stationsData = [
     "resume": "Station située à Paris 18e.",
     "materiel": [
       "Citadis 402"
-    ]
-  },
-  {
-    "nom": "Collège Gustave Courbet",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Romainville.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "45538"
+    ],
+    "stopPointIds": [
+      "24412",
+      "24420"
     ]
   },
   {
@@ -4868,6 +6557,14 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43113"
+    ],
+    "stopPointIds": [
+      "41135",
+      "471096",
+      "472902"
     ]
   },
   {
@@ -4875,9 +6572,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42732"
+    ],
+    "stopPointIds": [
+      "22120",
+      "462984"
     ]
   },
   {
@@ -4890,6 +6594,17 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45771"
+    ],
+    "stopPointIds": [
+      "41366",
+      "471214",
+      "471773",
+      "472227",
+      "472722",
+      "472963"
     ]
   },
   {
@@ -4897,9 +6612,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42734"
+    ],
+    "stopPointIds": [
+      "22190",
+      "463162"
     ]
   },
   {
@@ -4910,6 +6632,14 @@ export const stationsData = [
     "resume": "Station située à Compans.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46731"
+    ],
+    "stopPointIds": [
+      "41080",
+      "471777",
+      "473013"
     ]
   },
   {
@@ -4919,11 +6649,22 @@ export const stationsData = [
       "8",
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MP 05",
       "MF 77",
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45676"
+    ],
+    "stopPointIds": [
+      "22057",
+      "22085",
+      "22096",
+      "463150",
+      "463151",
+      "463164"
     ]
   },
   {
@@ -4938,6 +6679,16 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43114"
+    ],
+    "stopPointIds": [
+      "411350",
+      "471418",
+      "471534",
+      "471751",
+      "472478"
     ]
   },
   {
@@ -4948,6 +6699,17 @@ export const stationsData = [
     "resume": "Station située à Conflans-Sainte-Honorine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47447"
+    ],
+    "stopPointIds": [
+      "41170",
+      "470959",
+      "471464",
+      "471597",
+      "472871",
+      "472947"
     ]
   },
   {
@@ -4958,6 +6720,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479019"
+    ],
+    "stopPointIds": [
+      "479002",
+      "479003"
     ]
   },
   {
@@ -4965,9 +6734,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42751"
+    ],
+    "stopPointIds": [
+      "22058",
+      "462949"
     ]
   },
   {
@@ -4980,6 +6756,19 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43115"
+    ],
+    "stopPointIds": [
+      "41336",
+      "470889",
+      "472205",
+      "472343",
+      "472398",
+      "472415",
+      "472720",
+      "477108"
     ]
   },
   {
@@ -4987,9 +6776,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45598"
+    ],
+    "stopPointIds": [
+      "22389",
+      "463152"
     ]
   },
   {
@@ -4997,9 +6793,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Issy-les-Moulineaux.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42759"
+    ],
+    "stopPointIds": [
+      "22061",
+      "463153"
     ]
   },
   {
@@ -5010,6 +6813,15 @@ export const stationsData = [
     "resume": "Station située à Cormeilles-en-Parisis.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43116"
+    ],
+    "stopPointIds": [
+      "41167",
+      "471261",
+      "472141",
+      "472832"
     ]
   },
   {
@@ -5017,10 +6829,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45274"
+    ],
+    "stopPointIds": [
+      "22175",
+      "463105"
     ]
   },
   {
@@ -5032,6 +6851,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42763"
+    ],
+    "stopPointIds": [
+      "22628",
+      "22632"
     ]
   },
   {
@@ -5039,9 +6865,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Rosny-sous-Bois.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "490771"
+    ],
+    "stopPointIds": [
+      "490770",
+      "490792"
     ]
   },
   {
@@ -5052,6 +6885,13 @@ export const stationsData = [
     "resume": "Station située à Viry-Châtillon.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486977"
+    ],
+    "stopPointIds": [
+      "486976",
+      "486991"
     ]
   },
   {
@@ -5062,6 +6902,12 @@ export const stationsData = [
     "resume": "Station située à Saint-Germain-sur-Morin.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "492421"
+    ],
+    "stopPointIds": [
+      "492420"
     ]
   },
   {
@@ -5074,16 +6920,32 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43117"
+    ],
+    "stopPointIds": [
+      "41050",
+      "470982",
+      "471311",
+      "472559"
     ]
   },
   {
-    "nom": "Cour Saint-Émilion",
+    "nom": "Cour Saint-Emilion",
     "lignes": [
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "45234"
+    ],
+    "stopPointIds": [
+      "21956",
+      "463165"
     ]
   },
   {
@@ -5094,6 +6956,14 @@ export const stationsData = [
     "resume": "Station située à Courbevoie.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43118"
+    ],
+    "stopPointIds": [
+      "41172",
+      "470814",
+      "472453"
     ]
   },
   {
@@ -5105,6 +6975,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47052"
+    ],
+    "stopPointIds": [
+      "412845",
+      "473966",
+      "473968"
     ]
   },
   {
@@ -5112,9 +6990,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42771"
+    ],
+    "stopPointIds": [
+      "22121",
+      "463154"
     ]
   },
   {
@@ -5122,9 +7007,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42772"
+    ],
+    "stopPointIds": [
+      "22126",
+      "462983"
     ]
   },
   {
@@ -5139,6 +7031,19 @@ export const stationsData = [
       "RER NG",
       "Regio 2N",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411440"
+    ],
+    "stopPointIds": [
+      "411439",
+      "471424",
+      "471640",
+      "471905",
+      "472051",
+      "472060",
+      "472766",
+      "473009"
     ]
   },
   {
@@ -5149,6 +7054,12 @@ export const stationsData = [
     "resume": "Station située à Crécy-la-Chapelle.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "492425"
+    ],
+    "stopPointIds": [
+      "492424"
     ]
   },
   {
@@ -5159,6 +7070,68 @@ export const stationsData = [
     "resume": "Station située à Crépy-en-Valois.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411396"
+    ],
+    "stopPointIds": [
+      "411395",
+      "471748",
+      "472271",
+      "472290"
+    ]
+  },
+  {
+    "nom": "Créteil - L'Échat",
+    "lignes": [
+      "8",
+      "15"
+    ],
+    "resume": "Station située à Créteil.",
+    "materiel": [
+      "MF 77",
+      "MR6V"
+    ],
+    "stopAreaIds": [
+      "45712"
+    ],
+    "stopPointIds": [
+      "22211",
+      "463166"
+    ]
+  },
+  {
+    "nom": "Créteil - Préfecture",
+    "lignes": [
+      "8"
+    ],
+    "resume": "Station située à Créteil.",
+    "materiel": [
+      "MF 77"
+    ],
+    "stopAreaIds": [
+      "42778"
+    ],
+    "stopPointIds": [
+      "22213",
+      "463056"
+    ]
+  },
+  {
+    "nom": "Créteil - Université",
+    "lignes": [
+      "8"
+    ],
+    "resume": "Station située à Créteil.",
+    "materiel": [
+      "MF 77"
+    ],
+    "stopAreaIds": [
+      "42779"
+    ],
+    "stopPointIds": [
+      "22212",
+      "463167"
     ]
   },
   {
@@ -5171,38 +7144,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Créteil–L'Échat",
-    "lignes": [
-      "8",
-      "15"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77",
-      "MR6V"
-    ]
-  },
-  {
-    "nom": "Créteil–Préfecture",
-    "lignes": [
-      "8"
+    "stopAreaIds": [
+      "46286"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
-    ]
-  },
-  {
-    "nom": "Créteil–Université",
-    "lignes": [
-      "8"
-    ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
+    "stopPointIds": [
+      "41530",
+      "472380",
+      "472916",
+      "488126"
     ]
   },
   {
@@ -5210,9 +7160,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42780"
+    ],
+    "stopPointIds": [
+      "22392",
+      "463155"
     ]
   },
   {
@@ -5220,9 +7177,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Montreuil.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42789"
+    ],
+    "stopPointIds": [
+      "21943",
+      "463176"
     ]
   },
   {
@@ -5235,6 +7199,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47491"
+    ],
+    "stopPointIds": [
+      "41066",
+      "471156",
+      "471639"
     ]
   },
   {
@@ -5245,6 +7217,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Mard.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46736"
+    ],
+    "stopPointIds": [
+      "41077",
+      "470808",
+      "472648"
     ]
   },
   {
@@ -5256,6 +7236,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46115"
+    ],
+    "stopPointIds": [
+      "23302",
+      "24427"
     ]
   },
   {
@@ -5263,9 +7250,15 @@ export const stationsData = [
     "lignes": [
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "42822"
+    ],
+    "stopPointIds": [
+      "24687"
     ]
   },
   {
@@ -5274,11 +7267,20 @@ export const stationsData = [
       "6",
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 73",
       "MP 89 CC",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45229"
+    ],
+    "stopPointIds": [
+      "22181",
+      "22184",
+      "463168",
+      "463169"
     ]
   },
   {
@@ -5289,6 +7291,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "59326"
+    ],
+    "stopPointIds": [
+      "42117",
+      "42125"
     ]
   },
   {
@@ -5299,6 +7308,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58500"
+    ],
+    "stopPointIds": [
+      "24533",
+      "460562"
     ]
   },
   {
@@ -5317,6 +7333,20 @@ export const stationsData = [
       "MP 89 CC",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "462351",
+      "473890"
+    ],
+    "stopPointIds": [
+      "22151",
+      "22158",
+      "412819",
+      "463103",
+      "463104",
+      "473994",
+      "473997",
+      "480170"
     ]
   },
   {
@@ -5327,6 +7357,13 @@ export const stationsData = [
     "resume": "Station située à Paris 15e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "42844"
+    ],
+    "stopPointIds": [
+      "24101",
+      "24116"
     ]
   },
   {
@@ -5337,6 +7374,14 @@ export const stationsData = [
     "resume": "Station située à Deuil-la-Barre.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "473159"
+    ],
+    "stopPointIds": [
+      "411425",
+      "472400",
+      "472457"
     ]
   },
   {
@@ -5347,6 +7392,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "42846"
+    ],
+    "stopPointIds": [
+      "2328",
+      "2335"
     ]
   },
   {
@@ -5357,6 +7409,13 @@ export const stationsData = [
     "resume": "Station située à Paris 18e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45537"
+    ],
+    "stopPointIds": [
+      "462415",
+      "462444"
     ]
   },
   {
@@ -5367,6 +7426,13 @@ export const stationsData = [
     "resume": "Station située à Paris 14e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "42847"
+    ],
+    "stopPointIds": [
+      "24105",
+      "24130"
     ]
   },
   {
@@ -5377,6 +7443,13 @@ export const stationsData = [
     "resume": "Station située à Châtillon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "479057"
+    ],
+    "stopPointIds": [
+      "41855",
+      "41856"
     ]
   },
   {
@@ -5387,6 +7460,13 @@ export const stationsData = [
     "resume": "Station située à Chevilly-Larue.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "42882"
+    ],
+    "stopPointIds": [
+      "29895",
+      "29896"
     ]
   },
   {
@@ -5397,6 +7477,14 @@ export const stationsData = [
     "resume": "Station située à Domont.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43120"
+    ],
+    "stopPointIds": [
+      "41103",
+      "471486",
+      "472659"
     ]
   },
   {
@@ -5407,6 +7495,14 @@ export const stationsData = [
     "resume": "Station située à Dordives.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "58955"
+    ],
+    "stopPointIds": [
+      "41394",
+      "471293",
+      "472828"
     ]
   },
   {
@@ -5420,6 +7516,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43121"
+    ],
+    "stopPointIds": [
+      "41324",
+      "470842",
+      "471001",
+      "471744"
     ]
   },
   {
@@ -5433,6 +7538,13 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47095"
+    ],
+    "stopPointIds": [
+      "41292",
+      "471151"
     ]
   },
   {
@@ -5444,6 +7556,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43122"
+    ],
+    "stopPointIds": [
+      "411409",
+      "470605",
+      "470881",
+      "471478",
+      "472688"
     ]
   },
   {
@@ -5455,6 +7577,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42866"
+    ],
+    "stopPointIds": [
+      "23306",
+      "24424"
     ]
   },
   {
@@ -5462,10 +7591,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Dreux",
@@ -5475,6 +7606,17 @@ export const stationsData = [
     "resume": "Station située à Dreux.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411492"
+    ],
+    "stopPointIds": [
+      "411491",
+      "472080",
+      "472214",
+      "472306",
+      "472532",
+      "472594"
     ]
   },
   {
@@ -5485,6 +7627,14 @@ export const stationsData = [
     "resume": "Station située à La Courneuve.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "426092"
+    ],
+    "stopPointIds": [
+      "470721",
+      "472210",
+      "495663"
     ]
   },
   {
@@ -5492,10 +7642,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "42869"
+    ],
+    "stopPointIds": [
+      "22182",
+      "463075"
     ]
   },
   {
@@ -5503,10 +7660,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "42871"
+    ],
+    "stopPointIds": [
+      "22171",
+      "463099"
     ]
   },
   {
@@ -5515,11 +7679,20 @@ export const stationsData = [
       "10",
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67",
       "MF 19 CC",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42874"
+    ],
+    "stopPointIds": [
+      "21970",
+      "22229",
+      "463083",
+      "463084"
     ]
   },
   {
@@ -5527,10 +7700,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45313"
+    ],
+    "stopPointIds": [
+      "22172",
+      "463100"
     ]
   },
   {
@@ -5541,6 +7721,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58499"
+    ],
+    "stopPointIds": [
+      "24398",
+      "24417"
     ]
   },
   {
@@ -5551,6 +7738,14 @@ export const stationsData = [
     "resume": "Station située à Enghien-les-Bains.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43075"
+    ],
+    "stopPointIds": [
+      "41083",
+      "470633",
+      "471398"
     ]
   },
   {
@@ -5561,6 +7756,13 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45478"
+    ],
+    "stopPointIds": [
+      "462439",
+      "462442"
     ]
   },
   {
@@ -5577,6 +7779,20 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47898"
+    ],
+    "stopPointIds": [
+      "41085",
+      "470732",
+      "470813",
+      "471546",
+      "471582",
+      "471689",
+      "471868",
+      "472220",
+      "472940"
     ]
   },
   {
@@ -5587,6 +7803,14 @@ export const stationsData = [
     "resume": "Station située à Ermont.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47920"
+    ],
+    "stopPointIds": [
+      "41116",
+      "470642",
+      "472369"
     ]
   },
   {
@@ -5601,6 +7825,17 @@ export const stationsData = [
       "AGC BiBi",
       "Z 20500",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "47322",
+      "492417"
+    ],
+    "stopPointIds": [
+      "41052",
+      "471034",
+      "471581",
+      "471850",
+      "492416"
     ]
   },
   {
@@ -5612,16 +7847,30 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "47347"
+    ],
+    "stopPointIds": [
+      "22626",
+      "22627"
     ]
   },
   {
-    "nom": "Esplanade de La Défense",
+    "nom": "Esplanade de la Défense",
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Puteaux.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "42962"
+    ],
+    "stopPointIds": [
+      "22102",
+      "463170"
     ]
   },
   {
@@ -5634,6 +7883,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45759"
+    ],
+    "stopPointIds": [
+      "41355",
+      "471584",
+      "471657"
     ]
   },
   {
@@ -5641,9 +7898,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42972"
+    ],
+    "stopPointIds": [
+      "22032",
+      "463069"
     ]
   },
   {
@@ -5651,9 +7915,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42977"
+    ],
+    "stopPointIds": [
+      "21930",
+      "462956"
     ]
   },
   {
@@ -5661,9 +7932,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42885"
+    ],
+    "stopPointIds": [
+      "22191",
+      "463177"
     ]
   },
   {
@@ -5671,9 +7949,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Maisons-Alfort.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42889"
+    ],
+    "stopPointIds": [
+      "22214",
+      "463047"
     ]
   },
   {
@@ -5684,6 +7969,14 @@ export const stationsData = [
     "resume": "Station située à Ézanville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43073"
+    ],
+    "stopPointIds": [
+      "41102",
+      "471263",
+      "472154"
     ]
   },
   {
@@ -5691,10 +7984,16 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "42947"
+    ],
+    "stopPointIds": [
+      "21971"
     ]
   },
   {
@@ -5702,9 +8001,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Pantin.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "42949"
+    ],
+    "stopPointIds": [
+      "22016",
+      "463178"
     ]
   },
   {
@@ -5718,6 +8024,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "415484"
+    ],
+    "stopPointIds": [
+      "41319",
+      "470718",
+      "472581"
     ]
   },
   {
@@ -5730,6 +8044,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43074"
+    ],
+    "stopPointIds": [
+      "41034",
+      "471349",
+      "471629",
+      "471661",
+      "472840"
     ]
   },
   {
@@ -5740,6 +8064,14 @@ export const stationsData = [
     "resume": "Station située à Épernon.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411511"
+    ],
+    "stopPointIds": [
+      "411510",
+      "472652",
+      "473004"
     ]
   },
   {
@@ -5750,6 +8082,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50483"
+    ],
+    "stopPointIds": [
+      "42101",
+      "42109"
     ]
   },
   {
@@ -5762,6 +8101,20 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "43078",
+      "462331"
+    ],
+    "stopPointIds": [
+      "411415",
+      "470874",
+      "470918",
+      "471479",
+      "471519",
+      "471855",
+      "472969",
+      "495666"
     ]
   },
   {
@@ -5777,6 +8130,18 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "43076",
+      "486879"
+    ],
+    "stopPointIds": [
+      "41307",
+      "472230",
+      "472282",
+      "486878",
+      "486898",
+      "486899"
     ]
   },
   {
@@ -5794,6 +8159,20 @@ export const stationsData = [
       "Z 5600",
       "Citadis 302",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "43077",
+      "462330"
+    ],
+    "stopPointIds": [
+      "41073",
+      "42102",
+      "42112",
+      "471248",
+      "472006",
+      "472920",
+      "472986",
+      "495667"
     ]
   },
   {
@@ -5804,6 +8183,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Ouen-l'Aumône.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47596"
+    ],
+    "stopPointIds": [
+      "41092",
+      "470945",
+      "471951"
     ]
   },
   {
@@ -5816,6 +8203,16 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47882"
+    ],
+    "stopPointIds": [
+      "41202",
+      "471058",
+      "471647",
+      "472005",
+      "472454"
     ]
   },
   {
@@ -5826,6 +8223,14 @@ export const stationsData = [
     "resume": "Station située à Éragny.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43079"
+    ],
+    "stopPointIds": [
+      "41145",
+      "471810",
+      "472435"
     ]
   },
   {
@@ -5839,6 +8244,17 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43080"
+    ],
+    "stopPointIds": [
+      "41298",
+      "470824",
+      "471541",
+      "471897",
+      "472064",
+      "472823"
     ]
   },
   {
@@ -5846,11 +8262,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44970"
+    ],
+    "stopPointIds": [
+      "22147",
+      "463171"
     ]
   },
   {
@@ -5861,6 +8284,16 @@ export const stationsData = [
     "resume": "Station située à Étigny.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411455"
+    ],
+    "stopPointIds": [
+      "411454",
+      "470832",
+      "470836",
+      "472153",
+      "472461"
     ]
   },
   {
@@ -5874,6 +8307,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43081"
+    ],
+    "stopPointIds": [
+      "41299",
+      "471367",
+      "471701"
     ]
   },
   {
@@ -5884,6 +8325,42 @@ export const stationsData = [
     "resume": "Station située à Évreux.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411365"
+    ],
+    "stopPointIds": [
+      "411364",
+      "470894",
+      "471713",
+      "472055",
+      "472353",
+      "472524"
+    ]
+  },
+  {
+    "nom": "Évry - Courcouronnes",
+    "lignes": [
+      "D",
+      "T12"
+    ],
+    "resume": "Station située à Evry-Courcouronnes.",
+    "materiel": [
+      "Z 20500",
+      "RER NG",
+      "Regio 2N",
+      "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "47906",
+      "486901"
+    ],
+    "stopPointIds": [
+      "41346",
+      "472133",
+      "472557",
+      "486900",
+      "486902"
     ]
   },
   {
@@ -5896,30 +8373,31 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Évry-Courcouronnes",
-    "lignes": [
-      "D",
-      "T12"
     ],
-    "resume": "Station située à Evry-Courcouronnes.",
-    "materiel": [
-      "Z 20500",
-      "RER NG",
-      "Regio 2N",
-      "Citadis Dualis"
+    "stopAreaIds": [
+      "45745"
+    ],
+    "stopPointIds": [
+      "41344",
+      "471057",
+      "471652"
     ]
   },
   {
-    "nom": "Faidherbe–Chaligny",
+    "nom": "Faidherbe - Chaligny",
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42980"
+    ],
+    "stopPointIds": [
+      "22204",
+      "463172"
     ]
   },
   {
@@ -5927,9 +8405,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "42981"
+    ],
+    "stopPointIds": [
+      "22056",
+      "463173"
     ]
   },
   {
@@ -5942,6 +8427,13 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47199"
+    ],
+    "stopPointIds": [
+      "41047",
+      "471086"
     ]
   },
   {
@@ -5952,6 +8444,13 @@ export const stationsData = [
     "resume": "Station située à Courbevoie.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "479058"
+    ],
+    "stopPointIds": [
+      "23433",
+      "24432"
     ]
   },
   {
@@ -5962,6 +8461,13 @@ export const stationsData = [
     "resume": "Station située à Grigny.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486971"
+    ],
+    "stopPointIds": [
+      "486970",
+      "486972"
     ]
   },
   {
@@ -5972,6 +8478,14 @@ export const stationsData = [
     "resume": "Station située à Fontenay-sur-Loing.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411488"
+    ],
+    "stopPointIds": [
+      "411487",
+      "470635",
+      "471885"
     ]
   },
   {
@@ -5979,9 +8493,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42984"
+    ],
+    "stopPointIds": [
+      "22189",
+      "463163"
     ]
   },
   {
@@ -5989,9 +8510,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "58727"
+    ],
+    "stopPointIds": [
+      "22200",
+      "463048"
     ]
   },
   {
@@ -6003,6 +8531,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43124"
+    ],
+    "stopPointIds": [
+      "412835",
+      "473954",
+      "473955"
     ]
   },
   {
@@ -6013,6 +8549,14 @@ export const stationsData = [
     "resume": "Station située à Fontaine-le-Port.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43123"
+    ],
+    "stopPointIds": [
+      "41379",
+      "470856",
+      "471488"
     ]
   },
   {
@@ -6023,6 +8567,14 @@ export const stationsData = [
     "resume": "Station située à Avon.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47911"
+    ],
+    "stopPointIds": [
+      "41372",
+      "471198",
+      "471830"
     ]
   },
   {
@@ -6034,6 +8586,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43125"
+    ],
+    "stopPointIds": [
+      "412840",
+      "473952",
+      "473953"
     ]
   },
   {
@@ -6044,6 +8604,14 @@ export const stationsData = [
     "resume": "Station située à Fontenay-le-Fleury.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47884"
+    ],
+    "stopPointIds": [
+      "41232",
+      "470834",
+      "472685"
     ]
   },
   {
@@ -6055,6 +8623,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "47238"
+    ],
+    "stopPointIds": [
+      "412810",
+      "473958",
+      "473959"
     ]
   },
   {
@@ -6062,9 +8638,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Aubervilliers.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "47891"
+    ],
+    "stopPointIds": [
+      "22393",
+      "463179"
     ]
   },
   {
@@ -6075,6 +8658,13 @@ export const stationsData = [
     "resume": "Station située à Choisy-le-Roi.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479020"
+    ],
+    "stopPointIds": [
+      "479000",
+      "479001"
     ]
   },
   {
@@ -6085,6 +8675,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Germain-en-Laye.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480941"
+    ],
+    "stopPointIds": [
+      "480940",
+      "481070"
     ]
   },
   {
@@ -6100,6 +8697,14 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43126"
+    ],
+    "stopPointIds": [
+      "41087",
+      "472303",
+      "472994"
     ]
   },
   {
@@ -6108,10 +8713,19 @@ export const stationsData = [
       "1",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MP 05",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43026"
+    ],
+    "stopPointIds": [
+      "21931",
+      "22082",
+      "463180",
+      "463181"
     ]
   },
   {
@@ -6123,6 +8737,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "47933"
+    ],
+    "stopPointIds": [
+      "472197",
+      "472316"
     ]
   },
   {
@@ -6133,6 +8754,14 @@ export const stationsData = [
     "resume": "Station située à Frépillon.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47580"
+    ],
+    "stopPointIds": [
+      "41122",
+      "471503",
+      "471644"
     ]
   },
   {
@@ -6140,9 +8769,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Saint-Denis.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "58497"
+    ],
+    "stopPointIds": [
+      "24679",
+      "463082"
     ]
   },
   {
@@ -6150,9 +8786,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Asnières-sur-Seine.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43042"
+    ],
+    "stopPointIds": [
+      "22234",
+      "462953"
     ]
   },
   {
@@ -6165,6 +8808,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43044"
+    ],
+    "stopPointIds": [
+      "41015",
+      "470639",
+      "470927",
+      "471596",
+      "471685"
     ]
   },
   {
@@ -6172,9 +8825,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43046"
+    ],
+    "stopPointIds": [
+      "22230",
+      "463184"
     ]
   },
   {
@@ -6182,9 +8842,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Bagnolet.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "47890"
+    ],
+    "stopPointIds": [
+      "22037",
+      "463174"
     ]
   },
   {
@@ -6193,9 +8860,18 @@ export const stationsData = [
       "3",
       "3bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "43055"
+    ],
+    "stopPointIds": [
+      "21945",
+      "21950",
+      "462991",
+      "462997"
     ]
   },
   {
@@ -6206,6 +8882,14 @@ export const stationsData = [
     "resume": "Station située à Garancières.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47903"
+    ],
+    "stopPointIds": [
+      "41235",
+      "471183",
+      "472146"
     ]
   },
   {
@@ -6216,6 +8900,15 @@ export const stationsData = [
     "resume": "Station située à Garches.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47770"
+    ],
+    "stopPointIds": [
+      "41174",
+      "470956",
+      "471297",
+      "471447"
     ]
   },
   {
@@ -6234,6 +8927,36 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43072",
+      "462352"
+    ],
+    "stopPointIds": [
+      "21967",
+      "21981",
+      "41333",
+      "463023",
+      "463024",
+      "471077",
+      "471167",
+      "471233",
+      "471335",
+      "471473",
+      "471592",
+      "471646",
+      "471971",
+      "471976",
+      "472323",
+      "472344",
+      "472570",
+      "472582",
+      "472695",
+      "472718",
+      "472724",
+      "472865",
+      "472890",
+      "472959"
     ]
   },
   {
@@ -6242,7 +8965,6 @@ export const stationsData = [
       "4",
       "5",
       "7",
-      "E",
       "P"
     ],
     "resume": "Station située à Paris 10e.",
@@ -6252,11 +8974,51 @@ export const stationsData = [
       "MP 89 CA",
       "MF 01",
       "MF 77",
-      "RER NG",
-      "MI 2N Eole",
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43138",
+      "470519"
+    ],
+    "stopPointIds": [
+      "22013",
+      "22148",
+      "22387",
+      "41010",
+      "463001",
+      "463021",
+      "463022",
+      "470704",
+      "470734",
+      "470740",
+      "470833",
+      "470866",
+      "470879",
+      "470947",
+      "471134",
+      "471211",
+      "471309",
+      "471326",
+      "471533",
+      "471559",
+      "471604",
+      "471607",
+      "471696",
+      "471856",
+      "472048",
+      "472095",
+      "472338",
+      "472502",
+      "472523",
+      "472527",
+      "472541",
+      "472655",
+      "472692",
+      "472723",
+      "472869",
+      "472949"
     ]
   },
   {
@@ -6277,6 +9039,45 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43153",
+      "470195"
+    ],
+    "stopPointIds": [
+      "21958",
+      "22083",
+      "41396",
+      "463046",
+      "463197",
+      "470670",
+      "470743",
+      "470747",
+      "470751",
+      "470907",
+      "470915",
+      "470924",
+      "471073",
+      "471094",
+      "471200",
+      "471393",
+      "471451",
+      "471509",
+      "471520",
+      "471548",
+      "471759",
+      "472015",
+      "472033",
+      "472063",
+      "472088",
+      "472128",
+      "472267",
+      "472348",
+      "472510",
+      "472577",
+      "472743",
+      "474062",
+      "474065"
     ]
   },
   {
@@ -6286,7 +9087,6 @@ export const stationsData = [
       "5",
       "B",
       "D",
-      "E",
       "H",
       "K"
     ],
@@ -6301,8 +9101,49 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N",
-      "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "462394",
+      "462941"
+    ],
+    "stopPointIds": [
+      "22007",
+      "22149",
+      "41071",
+      "463182",
+      "463183",
+      "470724",
+      "470728",
+      "470817",
+      "470821",
+      "471022",
+      "471102",
+      "471186",
+      "471240",
+      "471328",
+      "471482",
+      "471691",
+      "471796",
+      "471869",
+      "471936",
+      "471950",
+      "471968",
+      "472022",
+      "472030",
+      "472034",
+      "472111",
+      "472263",
+      "472354",
+      "472356",
+      "472378",
+      "472560",
+      "472757",
+      "472814",
+      "472856",
+      "472861",
+      "472950",
+      "472961"
     ]
   },
   {
@@ -6324,6 +9165,50 @@ export const stationsData = [
       "MF 67",
       "MF 77",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43238",
+      "58578"
+    ],
+    "stopPointIds": [
+      "22038",
+      "22143",
+      "22156",
+      "22157",
+      "41203",
+      "41204",
+      "462954",
+      "462955",
+      "462980",
+      "462996",
+      "470679",
+      "471135",
+      "471299",
+      "471521",
+      "471552",
+      "471554",
+      "471566",
+      "471567",
+      "471650",
+      "471693",
+      "471704",
+      "471733",
+      "471742",
+      "471794",
+      "471820",
+      "471918",
+      "471935",
+      "472173",
+      "472308",
+      "472319",
+      "472325",
+      "472451",
+      "472624",
+      "472627",
+      "472691",
+      "472888",
+      "472895",
+      "472964"
     ]
   },
   {
@@ -6333,18 +9218,56 @@ export const stationsData = [
       "12",
       "13",
       "14",
-      "E",
       "J",
       "L"
     ],
-    "resume": "Station située à Paris 8e.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67",
       "MF 77",
       "MP 14 CA",
-      "RER NG",
-      "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "462374",
+      "58566"
+    ],
+    "stopPointIds": [
+      "21962",
+      "21963",
+      "21964",
+      "22218",
+      "41194",
+      "462969",
+      "462970",
+      "462971",
+      "462972",
+      "470624",
+      "470674",
+      "470692",
+      "470776",
+      "471063",
+      "471064",
+      "471150",
+      "471238",
+      "471341",
+      "471495",
+      "471658",
+      "471724",
+      "471940",
+      "472013",
+      "472070",
+      "472102",
+      "472110",
+      "472142",
+      "472208",
+      "472273",
+      "472318",
+      "472368",
+      "472519",
+      "472546",
+      "472852",
+      "472934"
     ]
   },
   {
@@ -6356,6 +9279,14 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43128"
+    ],
+    "stopPointIds": [
+      "471825",
+      "472211",
+      "472857"
     ]
   },
   {
@@ -6366,6 +9297,14 @@ export const stationsData = [
     "resume": "Station située à Gargenville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43129"
+    ],
+    "stopPointIds": [
+      "41152",
+      "471040",
+      "472345"
     ]
   },
   {
@@ -6380,6 +9319,18 @@ export const stationsData = [
       "RER NG",
       "Regio 2N",
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "43251",
+      "473306"
+    ],
+    "stopPointIds": [
+      "411426",
+      "470910",
+      "471853",
+      "473018",
+      "479383",
+      "479384"
     ]
   },
   {
@@ -6387,9 +9338,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Saint-Ouen.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43252"
+    ],
+    "stopPointIds": [
+      "22244",
+      "462977"
     ]
   },
   {
@@ -6401,6 +9359,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "47349"
+    ],
+    "stopPointIds": [
+      "22261",
+      "23307"
     ]
   },
   {
@@ -6411,6 +9376,14 @@ export const stationsData = [
     "resume": "Station située à Gazeran.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46832"
+    ],
+    "stopPointIds": [
+      "41230",
+      "471264",
+      "472093"
     ]
   },
   {
@@ -6427,6 +9400,17 @@ export const stationsData = [
       "Z 5600",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "43130",
+      "462332"
+    ],
+    "stopPointIds": [
+      "23281",
+      "23287",
+      "41075",
+      "472491",
+      "472623"
     ]
   },
   {
@@ -6438,6 +9422,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "45877"
+    ],
+    "stopPointIds": [
+      "412838",
+      "473956",
+      "473957"
     ]
   },
   {
@@ -6445,9 +9437,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "43283"
+    ],
+    "stopPointIds": [
+      "22084",
+      "463185"
     ]
   },
   {
@@ -6458,6 +9457,13 @@ export const stationsData = [
     "resume": "Station située à Paris 15e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "43285"
+    ],
+    "stopPointIds": [
+      "24113",
+      "24131"
     ]
   },
   {
@@ -6468,6 +9474,13 @@ export const stationsData = [
     "resume": "Station située à Meudon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "59147"
+    ],
+    "stopPointIds": [
+      "41673",
+      "41674"
     ]
   },
   {
@@ -6478,6 +9491,13 @@ export const stationsData = [
     "resume": "Station située à Clamart.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "50800"
+    ],
+    "stopPointIds": [
+      "2343",
+      "2346"
     ]
   },
   {
@@ -6488,6 +9508,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479021"
+    ],
+    "stopPointIds": [
+      "478998",
+      "478999"
     ]
   },
   {
@@ -6499,6 +9526,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47888"
+    ],
+    "stopPointIds": [
+      "412851",
+      "473945",
+      "473946"
     ]
   },
   {
@@ -6509,6 +9544,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "59249"
+    ],
+    "stopPointIds": [
+      "42111",
+      "42113"
     ]
   },
   {
@@ -6519,6 +9561,16 @@ export const stationsData = [
     "resume": "Station située à Gisors.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "59301"
+    ],
+    "stopPointIds": [
+      "411340",
+      "471054",
+      "471908",
+      "472177",
+      "472480"
     ]
   },
   {
@@ -6526,10 +9578,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45276"
+    ],
+    "stopPointIds": [
+      "22173",
+      "463186"
     ]
   },
   {
@@ -6537,9 +9596,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "43298"
+    ],
+    "stopPointIds": [
+      "21996",
+      "463187"
     ]
   },
   {
@@ -6547,10 +9613,12 @@ export const stationsData = [
     "lignes": [
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Goussainville",
@@ -6562,6 +9630,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47876"
+    ],
+    "stopPointIds": [
+      "41099",
+      "471895",
+      "472420",
+      "472622"
     ]
   },
   {
@@ -6574,6 +9651,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45860"
+    ],
+    "stopPointIds": [
+      "41343",
+      "471416",
+      "472504"
     ]
   },
   {
@@ -6582,10 +9667,19 @@ export const stationsData = [
       "8",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 77",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43310"
+    ],
+    "stopPointIds": [
+      "21909",
+      "22197",
+      "463049",
+      "463058"
     ]
   },
   {
@@ -6596,6 +9690,13 @@ export const stationsData = [
     "resume": "Station située à Longjumeau.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486890"
+    ],
+    "stopPointIds": [
+      "486889",
+      "486891"
     ]
   },
   {
@@ -6608,6 +9709,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43131"
+    ],
+    "stopPointIds": [
+      "41031",
+      "470729",
+      "471886",
+      "472086",
+      "472669"
     ]
   },
   {
@@ -6620,6 +9731,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43132"
+    ],
+    "stopPointIds": [
+      "41345",
+      "471145",
+      "471218"
     ]
   },
   {
@@ -6630,6 +9749,14 @@ export const stationsData = [
     "resume": "Station située à Ermont.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46482"
+    ],
+    "stopPointIds": [
+      "41117",
+      "472694",
+      "472936"
     ]
   },
   {
@@ -6640,6 +9767,14 @@ export const stationsData = [
     "resume": "Station située à Groslay.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43133"
+    ],
+    "stopPointIds": [
+      "411424",
+      "470675",
+      "471808"
     ]
   },
   {
@@ -6652,6 +9787,13 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47205"
+    ],
+    "stopPointIds": [
+      "41046",
+      "472269"
     ]
   },
   {
@@ -6665,6 +9807,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43134"
+    ],
+    "stopPointIds": [
+      "41297",
+      "471199",
+      "471363"
     ]
   },
   {
@@ -6672,9 +9822,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43333"
+    ],
+    "stopPointIds": [
+      "22228",
+      "462952"
     ]
   },
   {
@@ -6685,44 +9842,56 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "50685"
+    ],
+    "stopPointIds": [
+      "28864",
+      "28865"
     ]
   },
   {
     "nom": "Haussmann Saint-Lazare",
     "lignes": [
-      "3",
-      "9",
-      "12",
-      "13",
-      "14",
-      "A",
-      "E",
-      "J",
-      "L"
+      "E"
     ],
     "resume": "Station située à Paris 9e.",
     "materiel": [
-      "MF 67",
-      "MF 01",
-      "MF 77",
-      "MP 14 CA",
-      "MI 09",
-      "MI 2N Altéo",
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "58718"
+    ],
+    "stopPointIds": [
+      "41127",
+      "471272",
+      "471498",
+      "472516",
+      "472796"
     ]
   },
   {
-    "nom": "Havre–Caumartin",
+    "nom": "Havre-Caumartin",
     "lignes": [
       "3",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "462375"
+    ],
+    "stopPointIds": [
+      "21906",
+      "21926",
+      "463188",
+      "463189"
     ]
   },
   {
@@ -6733,6 +9902,13 @@ export const stationsData = [
     "resume": "Station située à Paris 15e.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "45358"
+    ],
+    "stopPointIds": [
+      "460556",
+      "460557"
     ]
   },
   {
@@ -6743,6 +9919,14 @@ export const stationsData = [
     "resume": "Station située à Herblay.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47603"
+    ],
+    "stopPointIds": [
+      "41169",
+      "470983",
+      "472032"
     ]
   },
   {
@@ -6753,6 +9937,13 @@ export const stationsData = [
     "resume": "Station située à Paray-Vieille-Poste.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58813"
+    ],
+    "stopPointIds": [
+      "29893",
+      "35928"
     ]
   },
   {
@@ -6763,6 +9954,14 @@ export const stationsData = [
     "resume": "Station située à Héricy.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47145"
+    ],
+    "stopPointIds": [
+      "41380",
+      "471380",
+      "471779"
     ]
   },
   {
@@ -6770,9 +9969,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Pantin.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43364"
+    ],
+    "stopPointIds": [
+      "22017",
+      "463017"
     ]
   },
   {
@@ -6783,6 +9989,13 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45482"
+    ],
+    "stopPointIds": [
+      "462438",
+      "462445"
     ]
   },
   {
@@ -6793,6 +10006,14 @@ export const stationsData = [
     "resume": "Station située à Houdan.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47935"
+    ],
+    "stopPointIds": [
+      "41238",
+      "471032",
+      "472346"
     ]
   },
   {
@@ -6807,6 +10028,17 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43082"
+    ],
+    "stopPointIds": [
+      "411357",
+      "470891",
+      "471638",
+      "472203",
+      "472389",
+      "472409"
     ]
   },
   {
@@ -6818,6 +10050,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "43373"
+    ],
+    "stopPointIds": [
+      "23297",
+      "23304"
     ]
   },
   {
@@ -6830,6 +10069,15 @@ export const stationsData = [
     "materiel": [
       "Translohr STE6",
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "47746"
+    ],
+    "stopPointIds": [
+      "2342",
+      "2344",
+      "486812",
+      "486839"
     ]
   },
   {
@@ -6837,9 +10085,16 @@ export const stationsData = [
     "lignes": [
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Le Kremlin-Bicêtre.",
     "materiel": [
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "490840"
+    ],
+    "stopPointIds": [
+      "490839",
+      "490849"
     ]
   },
   {
@@ -6851,6 +10106,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43978"
+    ],
+    "stopPointIds": [
+      "478656",
+      "478660"
     ]
   },
   {
@@ -6862,6 +10124,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "43375"
+    ],
+    "stopPointIds": [
+      "460549",
+      "460550"
     ]
   },
   {
@@ -6872,6 +10141,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45616"
+    ],
+    "stopPointIds": [
+      "24410",
+      "24418"
     ]
   },
   {
@@ -6880,10 +10156,19 @@ export const stationsData = [
       "1",
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MP 05",
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "470524"
+    ],
+    "stopPointIds": [
+      "21990",
+      "22091",
+      "463061",
+      "463080"
     ]
   },
   {
@@ -6895,10 +10180,17 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "43390"
+    ],
+    "stopPointIds": [
+      "24425",
+      "37466"
     ]
   },
   {
-    "nom": "Hôtel de ville de la Courneuve",
+    "nom": "Hôtel de Ville de la Courneuve",
     "lignes": [
       "T1"
     ],
@@ -6906,6 +10198,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46120"
+    ],
+    "stopPointIds": [
+      "23301",
+      "24428"
     ]
   },
   {
@@ -6913,9 +10212,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43395"
+    ],
+    "stopPointIds": [
+      "21927",
+      "463190"
     ]
   },
   {
@@ -6929,6 +10235,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43083"
+    ],
+    "stopPointIds": [
+      "41243",
+      "471020",
+      "472687"
     ]
   },
   {
@@ -6939,6 +10253,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "44285"
+    ],
+    "stopPointIds": [
+      "2327",
+      "2333"
     ]
   },
   {
@@ -6955,6 +10276,22 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43407",
+      "470540"
+    ],
+    "stopPointIds": [
+      "22185",
+      "22193",
+      "41208",
+      "463198",
+      "463199",
+      "472193",
+      "472358",
+      "472392",
+      "472511",
+      "495052"
     ]
   },
   {
@@ -6967,6 +10304,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47484"
+    ],
+    "stopPointIds": [
+      "41064",
+      "471458",
+      "472702"
     ]
   },
   {
@@ -6977,6 +10322,14 @@ export const stationsData = [
     "resume": "Station située à Issou.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46975"
+    ],
+    "stopPointIds": [
+      "41153",
+      "471290",
+      "473015"
     ]
   },
   {
@@ -6990,6 +10343,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43084"
+    ],
+    "stopPointIds": [
+      "41212",
+      "471718",
+      "472515"
     ]
   },
   {
@@ -6997,10 +10358,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Issy - Val de Seine",
@@ -7015,6 +10378,17 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "462357",
+      "473392"
+    ],
+    "stopPointIds": [
+      "25635",
+      "25638",
+      "41227",
+      "470792",
+      "471953"
     ]
   },
   {
@@ -7028,6 +10402,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46366"
+    ],
+    "stopPointIds": [
+      "41315",
+      "471391",
+      "471945"
     ]
   },
   {
@@ -7038,6 +10420,13 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47413"
+    ],
+    "stopPointIds": [
+      "23428",
+      "23430"
     ]
   },
   {
@@ -7045,9 +10434,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43417"
+    ],
+    "stopPointIds": [
+      "22011",
+      "463191"
     ]
   },
   {
@@ -7058,6 +10454,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "58639"
+    ],
+    "stopPointIds": [
+      "28855",
+      "28861"
     ]
   },
   {
@@ -7068,6 +10471,13 @@ export const stationsData = [
     "resume": "Station située à Issy-les-Moulineaux.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "43420"
+    ],
+    "stopPointIds": [
+      "23438",
+      "23439"
     ]
   },
   {
@@ -7078,6 +10488,13 @@ export const stationsData = [
     "resume": "Station située à Clamart.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486811"
+    ],
+    "stopPointIds": [
+      "486810",
+      "486840"
     ]
   },
   {
@@ -7085,9 +10502,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43423"
+    ],
+    "stopPointIds": [
+      "21928",
+      "463038"
     ]
   },
   {
@@ -7097,10 +10521,21 @@ export const stationsData = [
       "5",
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MF 01",
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "43425"
+    ],
+    "stopPointIds": [
+      "21952",
+      "22118",
+      "24680",
+      "462981",
+      "463074",
+      "463095"
     ]
   },
   {
@@ -7114,17 +10549,32 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45346"
+    ],
+    "stopPointIds": [
+      "41211",
+      "470744",
+      "472653"
     ]
   },
   {
-    "nom": "Javel–André Citroën",
+    "nom": "Javel - André Citroën",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "462371"
+    ],
+    "stopPointIds": [
+      "21972",
+      "462958"
     ]
   },
   {
@@ -7135,6 +10585,13 @@ export const stationsData = [
     "resume": "Station située à Paris 14e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "43462"
+    ],
+    "stopPointIds": [
+      "24109",
+      "24132"
     ]
   },
   {
@@ -7146,6 +10603,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "47334"
+    ],
+    "stopPointIds": [
+      "22259",
+      "22260"
     ]
   },
   {
@@ -7156,6 +10620,13 @@ export const stationsData = [
     "resume": "Station située à Villetaneuse.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "59327"
+    ],
+    "stopPointIds": [
+      "42128",
+      "42131"
     ]
   },
   {
@@ -7166,6 +10637,16 @@ export const stationsData = [
     "resume": "Station située à Joigny.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411467"
+    ],
+    "stopPointIds": [
+      "411466",
+      "471308",
+      "471677",
+      "471978",
+      "472742"
     ]
   },
   {
@@ -7177,6 +10658,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43135"
+    ],
+    "stopPointIds": [
+      "40932",
+      "473943",
+      "473944",
+      "473950",
+      "473951"
     ]
   },
   {
@@ -7187,6 +10678,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "58638"
+    ],
+    "stopPointIds": [
+      "28849",
+      "28858"
     ]
   },
   {
@@ -7194,9 +10692,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "43483"
+    ],
+    "stopPointIds": [
+      "21995",
+      "463192"
     ]
   },
   {
@@ -7207,6 +10712,14 @@ export const stationsData = [
     "resume": "Station située à Jouy.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411498"
+    ],
+    "stopPointIds": [
+      "411497",
+      "471066",
+      "471320"
     ]
   },
   {
@@ -7220,6 +10733,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43136"
+    ],
+    "stopPointIds": [
+      "41240",
+      "471791",
+      "472383"
     ]
   },
   {
@@ -7227,9 +10748,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "479055"
+    ],
+    "stopPointIds": [
+      "22054",
+      "463065"
     ]
   },
   {
@@ -7238,11 +10766,20 @@ export const stationsData = [
       "7",
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 77",
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "43493"
+    ],
+    "stopPointIds": [
+      "21968",
+      "22386",
+      "463077",
+      "463078"
     ]
   },
   {
@@ -7259,6 +10796,24 @@ export const stationsData = [
       "Z 5600",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45739"
+    ],
+    "stopPointIds": [
+      "41309",
+      "470750",
+      "471148",
+      "471164",
+      "471215",
+      "471494",
+      "471959",
+      "471960",
+      "472085",
+      "472094",
+      "472396",
+      "472482",
+      "472668"
     ]
   },
   {
@@ -7269,6 +10824,14 @@ export const stationsData = [
     "resume": "Station située à Juziers.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43137"
+    ],
+    "stopPointIds": [
+      "41151",
+      "471760",
+      "472000"
     ]
   },
   {
@@ -7276,10 +10839,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "43498"
+    ],
+    "stopPointIds": [
+      "22170",
+      "463102"
     ]
   },
   {
@@ -7291,6 +10861,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "47936"
+    ],
+    "stopPointIds": [
+      "472077",
+      "472657"
     ]
   },
   {
@@ -7301,6 +10878,13 @@ export const stationsData = [
     "resume": "Station située à L'Étang-la-Ville.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480931"
+    ],
+    "stopPointIds": [
+      "480930",
+      "481071"
     ]
   },
   {
@@ -7311,6 +10895,14 @@ export const stationsData = [
     "resume": "Station située à L'Étang-la-Ville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47937"
+    ],
+    "stopPointIds": [
+      "41186",
+      "471255",
+      "471846"
     ]
   },
   {
@@ -7318,9 +10910,16 @@ export const stationsData = [
     "lignes": [
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à L'Haÿ-les-Roses.",
     "materiel": [
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "490838"
+    ],
+    "stopPointIds": [
+      "490837",
+      "490850"
     ]
   },
   {
@@ -7331,6 +10930,14 @@ export const stationsData = [
     "resume": "Station située à Parmain.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47589"
+    ],
+    "stopPointIds": [
+      "41110",
+      "470809",
+      "471307"
     ]
   },
   {
@@ -7342,6 +10949,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46331"
+    ],
+    "stopPointIds": [
+      "23308",
+      "23309"
     ]
   },
   {
@@ -7352,6 +10966,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "43501"
+    ],
+    "stopPointIds": [
+      "2329",
+      "41852"
     ]
   },
   {
@@ -7362,6 +10983,14 @@ export const stationsData = [
     "resume": "Station située à Deuil-la-Barre.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46470"
+    ],
+    "stopPointIds": [
+      "41074",
+      "472161",
+      "472585"
     ]
   },
   {
@@ -7372,6 +11001,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47688"
+    ],
+    "stopPointIds": [
+      "35937",
+      "35941"
     ]
   },
   {
@@ -7384,6 +11020,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411418"
+    ],
+    "stopPointIds": [
+      "411417",
+      "471184",
+      "472140"
     ]
   },
   {
@@ -7394,6 +11038,13 @@ export const stationsData = [
     "resume": "Station située à Ivry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479014"
+    ],
+    "stopPointIds": [
+      "478991",
+      "478995"
     ]
   },
   {
@@ -7404,6 +11055,14 @@ export const stationsData = [
     "resume": "Station située à La Celle-Saint-Cloud.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47880"
+    ],
+    "stopPointIds": [
+      "41182",
+      "471635",
+      "471931"
     ]
   },
   {
@@ -7411,9 +11070,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43524"
+    ],
+    "stopPointIds": [
+      "22119",
+      "462982"
     ]
   },
   {
@@ -7427,6 +11093,16 @@ export const stationsData = [
       "MF 77",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "42151",
+      "470546"
+    ],
+    "stopPointIds": [
+      "22395",
+      "22629",
+      "24426",
+      "463200"
     ]
   },
   {
@@ -7438,6 +11114,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43140"
+    ],
+    "stopPointIds": [
+      "40990",
+      "471549",
+      "471805",
+      "472178",
+      "472855"
     ]
   },
   {
@@ -7452,6 +11138,13 @@ export const stationsData = [
       "MR3V",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46100"
+    ],
+    "stopPointIds": [
+      "22630",
+      "22631"
     ]
   },
   {
@@ -7465,6 +11158,17 @@ export const stationsData = [
       "MI 79",
       "MI 84",
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "46007",
+      "486835"
+    ],
+    "stopPointIds": [
+      "412830",
+      "473947",
+      "473949",
+      "486834",
+      "486841"
     ]
   },
   {
@@ -7489,6 +11193,27 @@ export const stationsData = [
       "Z 50000 Francilien",
       "Z 8800",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "462395",
+      "470548",
+      "470549"
+    ],
+    "stopPointIds": [
+      "22101",
+      "25641",
+      "25642",
+      "40951",
+      "463193",
+      "470974",
+      "472137",
+      "472283",
+      "473934",
+      "473935",
+      "473936",
+      "473937",
+      "484165",
+      "484166"
     ]
   },
   {
@@ -7496,9 +11221,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Rosny-sous-Bois.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "490769"
+    ],
+    "stopPointIds": [
+      "490768",
+      "490791"
     ]
   },
   {
@@ -7510,6 +11242,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "52382"
+    ],
+    "stopPointIds": [
+      "23298",
+      "23299"
     ]
   },
   {
@@ -7522,6 +11261,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43142"
+    ],
+    "stopPointIds": [
+      "41351",
+      "470938",
+      "472418",
+      "472588"
     ]
   },
   {
@@ -7534,6 +11282,12 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47938"
+    ],
+    "stopPointIds": [
+      "41058"
     ]
   },
   {
@@ -7546,6 +11300,15 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "411372"
+    ],
+    "stopPointIds": [
+      "411371",
+      "471295",
+      "472149",
+      "472990"
     ]
   },
   {
@@ -7558,6 +11321,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43246"
+    ],
+    "stopPointIds": [
+      "41062",
+      "472057",
+      "472386"
     ]
   },
   {
@@ -7565,9 +11336,17 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43548"
+    ],
+    "stopPointIds": [
+      "22227",
+      "462975",
+      "478395"
     ]
   },
   {
@@ -7578,6 +11357,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "473468"
+    ],
+    "stopPointIds": [
+      "29900",
+      "35942"
     ]
   },
   {
@@ -7588,6 +11374,14 @@ export const stationsData = [
     "resume": "Station située à La Frette-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43143"
+    ],
+    "stopPointIds": [
+      "41168",
+      "472880",
+      "473021"
     ]
   },
   {
@@ -7598,6 +11392,16 @@ export const stationsData = [
     "resume": "Station située à La Garenne-Colombes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47412"
+    ],
+    "stopPointIds": [
+      "41195",
+      "471865",
+      "471904",
+      "472301",
+      "472998"
     ]
   },
   {
@@ -7608,6 +11412,14 @@ export const stationsData = [
     "resume": "Station située à La Grande-Paroisse.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43144"
+    ],
+    "stopPointIds": [
+      "41384",
+      "470877",
+      "471700"
     ]
   },
   {
@@ -7619,22 +11431,41 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47046"
+    ],
+    "stopPointIds": [
+      "412850",
+      "473940",
+      "473942"
     ]
   },
   {
-    "nom": "La Motte-Picquet–Grenelle",
+    "nom": "La Motte-Picquet - Grenelle",
     "lignes": [
       "6",
       "8",
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC",
       "MF 77",
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "43566"
+    ],
+    "stopPointIds": [
+      "21969",
+      "22162",
+      "22183",
+      "463194",
+      "463201",
+      "463202"
     ]
   },
   {
@@ -7642,9 +11473,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "43567"
+    ],
+    "stopPointIds": [
+      "21929",
+      "463203"
     ]
   },
   {
@@ -7658,6 +11496,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47939"
+    ],
+    "stopPointIds": [
+      "41317",
+      "470828",
+      "472213"
     ]
   },
   {
@@ -7669,10 +11515,17 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "47355"
+    ],
+    "stopPointIds": [
+      "23294",
+      "460552"
     ]
   },
   {
-    "nom": "La Plaine - Stade de France",
+    "nom": "La Plaine Stade de France",
     "lignes": [
       "B"
     ],
@@ -7680,6 +11533,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43145"
+    ],
+    "stopPointIds": [
+      "411369",
+      "471426",
+      "471680",
+      "472548",
+      "472711"
     ]
   },
   {
@@ -7687,9 +11550,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43409"
+    ],
+    "stopPointIds": [
+      "22192",
+      "463204"
     ]
   },
   {
@@ -7701,6 +11571,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43146"
+    ],
+    "stopPointIds": [
+      "40946",
+      "473928",
+      "473929",
+      "473938",
+      "473939"
     ]
   },
   {
@@ -7713,6 +11593,16 @@ export const stationsData = [
     "materiel": [
       "Regio 2N",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "43147"
+    ],
+    "stopPointIds": [
+      "41223",
+      "470844",
+      "471266",
+      "471670",
+      "472749"
     ]
   },
   {
@@ -7723,6 +11613,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Prest.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411504"
+    ],
+    "stopPointIds": [
+      "411503",
+      "471097",
+      "471890"
     ]
   },
   {
@@ -7733,6 +11631,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50564"
+    ],
+    "stopPointIds": [
+      "42106",
+      "42115"
     ]
   },
   {
@@ -7745,16 +11650,33 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "427872"
+    ],
+    "stopPointIds": [
+      "41051",
+      "471091",
+      "471095",
+      "471127",
+      "471998"
     ]
   },
   {
-    "nom": "Lamarck–Caulaincourt",
+    "nom": "Lamarck - Caulaincourt",
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "43600"
+    ],
+    "stopPointIds": [
+      "22055",
+      "463205"
     ]
   },
   {
@@ -7765,6 +11687,13 @@ export const stationsData = [
     "resume": "Station située à Villejuif.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "53692"
+    ],
+    "stopPointIds": [
+      "35945",
+      "460559"
     ]
   },
   {
@@ -7776,6 +11705,15 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43607"
+    ],
+    "stopPointIds": [
+      "412837",
+      "473926",
+      "473927",
+      "473932"
     ]
   },
   {
@@ -7789,6 +11727,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43149"
+    ],
+    "stopPointIds": [
+      "41301",
+      "470868",
+      "471098"
     ]
   },
   {
@@ -7799,6 +11745,20 @@ export const stationsData = [
     "resume": "Station située à Migennes.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411479"
+    ],
+    "stopPointIds": [
+      "411478",
+      "470654",
+      "470912",
+      "471443",
+      "471471",
+      "471543",
+      "472181",
+      "472555",
+      "472924"
     ]
   },
   {
@@ -7806,9 +11766,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45581"
+    ],
+    "stopPointIds": [
+      "22012",
+      "462999"
     ]
   },
   {
@@ -7819,6 +11786,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486833"
+    ],
+    "stopPointIds": [
+      "486832",
+      "486842"
     ]
   },
   {
@@ -7829,6 +11803,14 @@ export const stationsData = [
     "resume": "Station située à Lavilletertre.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411348"
+    ],
+    "stopPointIds": [
+      "411347",
+      "471969",
+      "472921"
     ]
   },
   {
@@ -7842,6 +11824,16 @@ export const stationsData = [
       "MR3V",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "46163"
+    ],
+    "stopPointIds": [
+      "411401",
+      "470920",
+      "471942",
+      "472756",
+      "472904"
     ]
   },
   {
@@ -7855,6 +11847,20 @@ export const stationsData = [
       "MI 79",
       "MI 84",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "43231",
+      "462335"
+    ],
+    "stopPointIds": [
+      "411408",
+      "470688",
+      "470773",
+      "471112",
+      "471649",
+      "472166",
+      "472194",
+      "495668"
     ]
   },
   {
@@ -7862,10 +11868,12 @@ export const stationsData = [
     "lignes": [
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Le Bourget–RER",
@@ -7873,10 +11881,12 @@ export const stationsData = [
       "16",
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Le Bras de Fer",
@@ -7888,6 +11898,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45850"
+    ],
+    "stopPointIds": [
+      "41347",
+      "472200",
+      "472534"
     ]
   },
   {
@@ -7900,6 +11918,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43127"
+    ],
+    "stopPointIds": [
+      "41016",
+      "471024",
+      "472429",
+      "472631",
+      "472956"
     ]
   },
   {
@@ -7912,6 +11940,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45824"
+    ],
+    "stopPointIds": [
+      "41358",
+      "471694",
+      "472327"
     ]
   },
   {
@@ -7923,6 +11959,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43232"
+    ],
+    "stopPointIds": [
+      "412847",
+      "473898",
+      "473902"
     ]
   },
   {
@@ -7933,6 +11977,13 @@ export const stationsData = [
     "resume": "Station située à Le Plessis-Robinson.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486815"
+    ],
+    "stopPointIds": [
+      "486814",
+      "486838"
     ]
   },
   {
@@ -7940,9 +11991,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Le Kremlin-Bicêtre.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43643"
+    ],
+    "stopPointIds": [
+      "22398",
+      "463107"
     ]
   },
   {
@@ -7954,6 +12012,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46452"
+    ],
+    "stopPointIds": [
+      "23279",
+      "23285"
     ]
   },
   {
@@ -7961,10 +12026,12 @@ export const stationsData = [
     "lignes": [
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR3V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Le Mée",
@@ -7976,6 +12043,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45784"
+    ],
+    "stopPointIds": [
+      "41369",
+      "471577",
+      "471717",
+      "472333",
+      "472899"
     ]
   },
   {
@@ -7987,6 +12064,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43234"
+    ],
+    "stopPointIds": [
+      "412718",
+      "473900",
+      "473913"
     ]
   },
   {
@@ -7994,9 +12079,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43656"
+    ],
+    "stopPointIds": [
+      "22382",
+      "463206"
     ]
   },
   {
@@ -8007,6 +12099,15 @@ export const stationsData = [
     "resume": "Station située à Le Perray-en-Yvelines.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43235"
+    ],
+    "stopPointIds": [
+      "41226",
+      "471229",
+      "472553",
+      "472843"
     ]
   },
   {
@@ -8019,6 +12120,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45820"
+    ],
+    "stopPointIds": [
+      "41357",
+      "471642",
+      "472734"
     ]
   },
   {
@@ -8029,6 +12138,14 @@ export const stationsData = [
     "resume": "Station située à Le Plessis-Belleville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411405"
+    ],
+    "stopPointIds": [
+      "411404",
+      "470886",
+      "472518"
     ]
   },
   {
@@ -8041,6 +12158,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47901"
+    ],
+    "stopPointIds": [
+      "41014",
+      "471874",
+      "471977",
+      "472187",
+      "472799"
     ]
   },
   {
@@ -8051,6 +12178,16 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43236"
+    ],
+    "stopPointIds": [
+      "41136",
+      "470625",
+      "471754",
+      "472443",
+      "472955"
     ]
   },
   {
@@ -8061,6 +12198,15 @@ export const stationsData = [
     "resume": "Station située à Saint-Cloud.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "422065"
+    ],
+    "stopPointIds": [
+      "41179",
+      "470655",
+      "472573",
+      "472728"
     ]
   },
   {
@@ -8075,6 +12221,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "464040"
+    ],
+    "stopPointIds": [
+      "41338",
+      "470788",
+      "470883",
+      "470984",
+      "472241"
     ]
   },
   {
@@ -8086,6 +12242,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "53784"
+    ],
+    "stopPointIds": [
+      "412800",
+      "473911",
+      "473914"
     ]
   },
   {
@@ -8097,6 +12261,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43237"
+    ],
+    "stopPointIds": [
+      "412861",
+      "473909",
+      "473910",
+      "473912",
+      "479329"
     ]
   },
   {
@@ -8108,6 +12282,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "50664"
+    ],
+    "stopPointIds": [
+      "23280",
+      "23288"
     ]
   },
   {
@@ -8115,9 +12296,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43674"
+    ],
+    "stopPointIds": [
+      "22203",
+      "463195"
     ]
   },
   {
@@ -8126,10 +12314,17 @@ export const stationsData = [
       "13",
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Gennevilliers.",
     "materiel": [
       "MF 77",
       "MR6V"
+    ],
+    "stopAreaIds": [
+      "43693"
+    ],
+    "stopPointIds": [
+      "22232",
+      "463207"
     ]
   },
   {
@@ -8145,6 +12340,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43227"
+    ],
+    "stopPointIds": [
+      "41291",
+      "470975",
+      "471747"
     ]
   },
   {
@@ -8156,6 +12359,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43228"
+    ],
+    "stopPointIds": [
+      "412834",
+      "473905",
+      "473906"
     ]
   },
   {
@@ -8166,6 +12377,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50566"
+    ],
+    "stopPointIds": [
+      "42110",
+      "42114"
     ]
   },
   {
@@ -8178,6 +12396,14 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "58267"
+    ],
+    "stopPointIds": [
+      "41021",
+      "471827",
+      "472632"
     ]
   },
   {
@@ -8188,6 +12414,13 @@ export const stationsData = [
     "resume": "Station située à Sarcelles.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "59018"
+    ],
+    "stopPointIds": [
+      "28874",
+      "28876"
     ]
   },
   {
@@ -8198,6 +12431,14 @@ export const stationsData = [
     "resume": "Station située à Verneuil-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "54249"
+    ],
+    "stopPointIds": [
+      "41199",
+      "472100",
+      "472539"
     ]
   },
   {
@@ -8209,6 +12450,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "46516"
+    ],
+    "stopPointIds": [
+      "471005",
+      "471008"
     ]
   },
   {
@@ -8219,19 +12467,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Cloud.",
     "materiel": [
       "Citadis 302"
-    ]
-  },
-  {
-    "nom": "Les Courtilles",
-    "lignes": [
-      "13",
-      "T1"
     ],
-    "resume": "Station située à Asnières-sur-Seine.",
-    "materiel": [
-      "MF 77",
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "47370"
+    ],
+    "stopPointIds": [
+      "22300",
+      "22301"
     ]
   },
   {
@@ -8242,6 +12484,14 @@ export const stationsData = [
     "resume": "Station située à Les Essarts-le-Roi.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43229"
+    ],
+    "stopPointIds": [
+      "41225",
+      "471993",
+      "472011"
     ]
   },
   {
@@ -8252,6 +12502,13 @@ export const stationsData = [
     "resume": "Station située à La Garenne-Colombes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "43729"
+    ],
+    "stopPointIds": [
+      "23434",
+      "23435"
     ]
   },
   {
@@ -8262,6 +12519,13 @@ export const stationsData = [
     "resume": "Station située à Sarcelles.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "43013"
+    ],
+    "stopPointIds": [
+      "28868",
+      "28872"
     ]
   },
   {
@@ -8269,9 +12533,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43737"
+    ],
+    "stopPointIds": [
+      "22383",
+      "463216"
     ]
   },
   {
@@ -8287,6 +12558,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43230"
+    ],
+    "stopPointIds": [
+      "41082",
+      "470819",
+      "472813"
     ]
   },
   {
@@ -8294,11 +12573,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "417675"
+    ],
+    "stopPointIds": [
+      "22146",
+      "463208"
     ]
   },
   {
@@ -8309,6 +12595,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Cloud.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "51611"
+    ],
+    "stopPointIds": [
+      "23442",
+      "23443"
     ]
   },
   {
@@ -8319,6 +12612,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47362"
+    ],
+    "stopPointIds": [
+      "42103",
+      "42107"
     ]
   },
   {
@@ -8329,6 +12629,13 @@ export const stationsData = [
     "resume": "Station située à Issy-les-Moulineaux.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "43765"
+    ],
+    "stopPointIds": [
+      "22297",
+      "23440"
     ]
   },
   {
@@ -8339,6 +12646,16 @@ export const stationsData = [
     "resume": "Station située à Les Mureaux.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47881"
+    ],
+    "stopPointIds": [
+      "41200",
+      "470770",
+      "471027",
+      "471678",
+      "472868"
     ]
   },
   {
@@ -8351,6 +12668,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47968"
+    ],
+    "stopPointIds": [
+      "41098",
+      "471529",
+      "472215"
     ]
   },
   {
@@ -8362,6 +12687,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "46521"
+    ],
+    "stopPointIds": [
+      "471878",
+      "472503"
     ]
   },
   {
@@ -8372,6 +12704,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486827"
+    ],
+    "stopPointIds": [
+      "486826",
+      "486845"
     ]
   },
   {
@@ -8382,6 +12721,13 @@ export const stationsData = [
     "resume": "Station située à Versailles.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480937"
+    ],
+    "stopPointIds": [
+      "480936",
+      "481075"
     ]
   },
   {
@@ -8389,9 +12735,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Neuilly-sur-Seine.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "43785"
+    ],
+    "stopPointIds": [
+      "22100",
+      "463217"
     ]
   },
   {
@@ -8407,6 +12760,17 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "46298",
+      "478984"
+    ],
+    "stopPointIds": [
+      "41328",
+      "470850",
+      "472967",
+      "478983",
+      "478985"
     ]
   },
   {
@@ -8417,6 +12781,14 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47969"
+    ],
+    "stopPointIds": [
+      "41196",
+      "471911",
+      "472646"
     ]
   },
   {
@@ -8429,6 +12801,14 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "58288"
+    ],
+    "stopPointIds": [
+      "41023",
+      "471169",
+      "472408"
     ]
   },
   {
@@ -8440,6 +12820,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43430"
+    ],
+    "stopPointIds": [
+      "478653",
+      "478658"
     ]
   },
   {
@@ -8450,6 +12837,14 @@ export const stationsData = [
     "resume": "Station située à Liancourt-Saint-Pierre.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411342"
+    ],
+    "stopPointIds": [
+      "411341",
+      "470645",
+      "471023"
     ]
   },
   {
@@ -8457,9 +12852,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Charenton-le-Pont.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43811"
+    ],
+    "stopPointIds": [
+      "22209",
+      "463209"
     ]
   },
   {
@@ -8471,17 +12873,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
-    ]
-  },
-  {
-    "nom": "Libre Pensée",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Romainville.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "43805"
+    ],
+    "stopPointIds": [
+      "23296",
+      "23300"
     ]
   },
   {
@@ -8494,6 +12892,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47669"
+    ],
+    "stopPointIds": [
+      "41367",
+      "470676",
+      "471364",
+      "471569",
+      "471651"
     ]
   },
   {
@@ -8501,9 +12909,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43814"
+    ],
+    "stopPointIds": [
+      "22225",
+      "463066"
     ]
   },
   {
@@ -8514,6 +12929,14 @@ export const stationsData = [
     "resume": "Station située à Limay.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43151"
+    ],
+    "stopPointIds": [
+      "41154",
+      "471926",
+      "472175"
     ]
   },
   {
@@ -8524,6 +12947,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Germain-en-Laye.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480929"
+    ],
+    "stopPointIds": [
+      "480928",
+      "481069"
     ]
   },
   {
@@ -8534,6 +12964,14 @@ export const stationsData = [
     "resume": "Station située à Livry-sur-Seine.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45804"
+    ],
+    "stopPointIds": [
+      "41377",
+      "471480",
+      "472056"
     ]
   },
   {
@@ -8546,6 +12984,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47486"
+    ],
+    "stopPointIds": [
+      "41065",
+      "470646",
+      "471961"
     ]
   },
   {
@@ -8556,6 +13002,13 @@ export const stationsData = [
     "resume": "Station située à Sarcelles.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "43748"
+    ],
+    "stopPointIds": [
+      "28869",
+      "28870"
     ]
   },
   {
@@ -8567,6 +13020,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43152"
+    ],
+    "stopPointIds": [
+      "412827",
+      "473930",
+      "473933"
     ]
   },
   {
@@ -8577,6 +13038,13 @@ export const stationsData = [
     "resume": "Station située à Longjumeau.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486896"
+    ],
+    "stopPointIds": [
+      "486895",
+      "486897"
     ]
   },
   {
@@ -8589,6 +13057,16 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47914"
+    ],
+    "stopPointIds": [
+      "41040",
+      "471114",
+      "471623",
+      "471787",
+      "472765"
     ]
   },
   {
@@ -8597,10 +13075,19 @@ export const stationsData = [
       "7",
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 10e.",
     "materiel": [
       "MF 77",
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "43823"
+    ],
+    "stopPointIds": [
+      "22384",
+      "24681",
+      "463033",
+      "463034"
     ]
   },
   {
@@ -8608,9 +13095,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Levallois-Perret.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "51613"
+    ],
+    "stopPointIds": [
+      "22034",
+      "463210"
     ]
   },
   {
@@ -8618,9 +13112,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45363"
+    ],
+    "stopPointIds": [
+      "22187",
+      "463211"
     ]
   },
   {
@@ -8631,6 +13132,14 @@ export const stationsData = [
     "resume": "Station située à Louveciennes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "473506"
+    ],
+    "stopPointIds": [
+      "41184",
+      "471270",
+      "472446"
     ]
   },
   {
@@ -8641,6 +13150,30 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "43830"
+    ],
+    "stopPointIds": [
+      "2330",
+      "2334"
+    ]
+  },
+  {
+    "nom": "Louvre - Rivoli",
+    "lignes": [
+      "1"
+    ],
+    "resume": "Station située à Paris 1er.",
+    "materiel": [
+      "MP 05"
+    ],
+    "stopAreaIds": [
+      "44645"
+    ],
+    "stopPointIds": [
+      "22081",
+      "463218"
     ]
   },
   {
@@ -8653,16 +13186,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Louvre–Rivoli",
-    "lignes": [
-      "1"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MP 05"
+    "stopAreaIds": [
+      "44628"
+    ],
+    "stopPointIds": [
+      "41100",
+      "472467",
+      "472641"
     ]
   },
   {
@@ -8674,6 +13205,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "474069"
+    ],
+    "stopPointIds": [
+      "412846",
+      "473931",
+      "474063"
     ]
   },
   {
@@ -8685,6 +13224,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43833"
+    ],
+    "stopPointIds": [
+      "412817",
+      "473907",
+      "473908"
     ]
   },
   {
@@ -8695,6 +13242,14 @@ export const stationsData = [
     "resume": "Station située à Luzarches.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47528"
+    ],
+    "stopPointIds": [
+      "41115",
+      "471314",
+      "472616"
     ]
   },
   {
@@ -8706,6 +13261,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "411280"
+    ],
+    "stopPointIds": [
+      "470693",
+      "472642"
     ]
   },
   {
@@ -8713,10 +13275,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "59379"
+    ],
+    "stopPointIds": [
+      "21973",
+      "462994"
     ]
   },
   {
@@ -8726,39 +13295,44 @@ export const stationsData = [
       "12",
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77",
       "MF 67",
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "43898"
+    ],
+    "stopPointIds": [
+      "21961",
+      "21965",
+      "22194",
+      "463063",
+      "463064",
+      "463081"
     ]
   },
   {
     "nom": "Magenta",
     "lignes": [
-      "4",
-      "5",
-      "7",
-      "B",
-      "D",
-      "E",
-      "H",
-      "K"
+      "E"
     ],
     "resume": "Station située à Paris 10e.",
     "materiel": [
-      "MP 14 CA",
-      "MP 05 IDFM",
-      "MP 89 CA",
-      "MF 01",
-      "MF 77",
-      "MI 79",
-      "MI 84",
-      "Z 20500",
       "RER NG",
-      "Regio 2N",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "58572"
+    ],
+    "stopPointIds": [
+      "41126",
+      "471721",
+      "471917",
+      "472036",
+      "472124"
     ]
   },
   {
@@ -8769,6 +13343,13 @@ export const stationsData = [
     "resume": "Station située à Clamart.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "42642"
+    ],
+    "stopPointIds": [
+      "2340",
+      "2341"
     ]
   },
   {
@@ -8779,6 +13360,16 @@ export const stationsData = [
     "resume": "Station située à Maintenon.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "59302"
+    ],
+    "stopPointIds": [
+      "411509",
+      "471383",
+      "471660",
+      "472158",
+      "472538"
     ]
   },
   {
@@ -8786,9 +13377,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Aubervilliers.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "483899"
+    ],
+    "stopPointIds": [
+      "483898",
+      "483904"
     ]
   },
   {
@@ -8796,9 +13394,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Issy-les-Moulineaux.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44050"
+    ],
+    "stopPointIds": [
+      "22062",
+      "463219"
     ]
   },
   {
@@ -8806,9 +13411,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Ivry-sur-Seine.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44051"
+    ],
+    "stopPointIds": [
+      "22396",
+      "463220"
     ]
   },
   {
@@ -8816,9 +13428,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Clichy.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44012"
+    ],
+    "stopPointIds": [
+      "22238",
+      "463086"
     ]
   },
   {
@@ -8826,9 +13445,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Montreuil.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44052"
+    ],
+    "stopPointIds": [
+      "21941",
+      "463221"
     ]
   },
   {
@@ -8836,11 +13462,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Montrouge.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "45904"
+    ],
+    "stopPointIds": [
+      "26602",
+      "463222"
     ]
   },
   {
@@ -8851,6 +13484,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "50687"
+    ],
+    "stopPointIds": [
+      "28852",
+      "28854"
     ]
   },
   {
@@ -8859,10 +13499,19 @@ export const stationsData = [
       "13",
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Saint-Ouen.",
     "materiel": [
       "MF 77",
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "43969"
+    ],
+    "stopPointIds": [
+      "22243",
+      "463212",
+      "480290",
+      "480330"
     ]
   },
   {
@@ -8873,6 +13522,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "42430"
+    ],
+    "stopPointIds": [
+      "2331",
+      "2332"
     ]
   },
   {
@@ -8884,6 +13540,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46332"
+    ],
+    "stopPointIds": [
+      "23290",
+      "23291"
     ]
   },
   {
@@ -8896,6 +13559,13 @@ export const stationsData = [
     "materiel": [
       "MR6V",
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479022"
+    ],
+    "stopPointIds": [
+      "478977",
+      "478997"
     ]
   },
   {
@@ -8903,9 +13573,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Les Lilas.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "44055"
+    ],
+    "stopPointIds": [
+      "21999",
+      "463223"
     ]
   },
   {
@@ -8914,10 +13591,19 @@ export const stationsData = [
       "7",
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 77",
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "44057"
+    ],
+    "stopPointIds": [
+      "22385",
+      "463224",
+      "490841",
+      "490848"
     ]
   },
   {
@@ -8930,26 +13616,51 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43154"
+    ],
+    "stopPointIds": [
+      "41337",
+      "471716",
+      "471726",
+      "471973",
+      "472105",
+      "472663"
     ]
   },
   {
-    "nom": "Maisons-Alfort–Les Juilliottes",
+    "nom": "Maisons-Alfort - Les Juilliottes",
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Maisons-Alfort.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44067"
+    ],
+    "stopPointIds": [
+      "22216",
+      "463015"
     ]
   },
   {
-    "nom": "Maisons-Alfort–Stade",
+    "nom": "Maisons-Alfort - Stade",
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Maisons-Alfort.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44066"
+    ],
+    "stopPointIds": [
+      "22215",
+      "463225"
     ]
   },
   {
@@ -8964,6 +13675,16 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "473109"
+    ],
+    "stopPointIds": [
+      "41527",
+      "470784",
+      "471617",
+      "471907",
+      "472928"
     ]
   },
   {
@@ -8976,6 +13697,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43156"
+    ],
+    "stopPointIds": [
+      "41353",
+      "470790",
+      "472083"
     ]
   },
   {
@@ -8986,26 +13715,47 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486821"
+    ],
+    "stopPointIds": [
+      "486820",
+      "486848"
     ]
   },
   {
-    "nom": "Malakoff–Plateau de Vanves",
+    "nom": "Malakoff - Plateau de Vanves",
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Malakoff.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "413433"
+    ],
+    "stopPointIds": [
+      "22235",
+      "463213"
     ]
   },
   {
-    "nom": "Malakoff–Rue Étienne-Dolet",
+    "nom": "Malakoff - Rue Étienne Dolet",
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Malakoff.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44069"
+    ],
+    "stopPointIds": [
+      "22236",
+      "463214"
     ]
   },
   {
@@ -9020,6 +13770,18 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411485",
+      "59370"
+    ],
+    "stopPointIds": [
+      "22031",
+      "411484",
+      "463068",
+      "471420",
+      "471598",
+      "472076"
     ]
   },
   {
@@ -9030,6 +13792,16 @@ export const stationsData = [
     "resume": "Station située à Mantes-la-Ville.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46965"
+    ],
+    "stopPointIds": [
+      "41155",
+      "470711",
+      "470779",
+      "470892",
+      "472300"
     ]
   },
   {
@@ -9042,6 +13814,20 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43157"
+    ],
+    "stopPointIds": [
+      "41150",
+      "470761",
+      "470860",
+      "471185",
+      "471925",
+      "471958",
+      "472217",
+      "472625",
+      "472803"
     ]
   },
   {
@@ -9049,23 +13835,39 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44072"
+    ],
+    "stopPointIds": [
+      "21936",
+      "463215"
     ]
   },
   {
-    "nom": "Marcadet–Poissonniers",
+    "nom": "Marcadet - Poissonniers",
     "lignes": [
       "4",
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44075"
+    ],
+    "stopPointIds": [
+      "22052",
+      "22132",
+      "462973",
+      "462974"
     ]
   },
   {
@@ -9073,9 +13875,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Boulogne-Billancourt.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "47021"
+    ],
+    "stopPointIds": [
+      "21940",
+      "462914"
     ]
   },
   {
@@ -9086,6 +13895,14 @@ export const stationsData = [
     "resume": "Station située à Broué.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411495"
+    ],
+    "stopPointIds": [
+      "411494",
+      "471896",
+      "472176"
     ]
   },
   {
@@ -9099,6 +13916,15 @@ export const stationsData = [
       "Citadis 305",
       "TFS",
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "44095"
+    ],
+    "stopPointIds": [
+      "22267",
+      "22268",
+      "28846",
+      "490553"
     ]
   },
   {
@@ -9109,6 +13935,13 @@ export const stationsData = [
     "resume": "Station située à Mareil-Marly.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480943"
+    ],
+    "stopPointIds": [
+      "480942",
+      "481038"
     ]
   },
   {
@@ -9119,6 +13952,14 @@ export const stationsData = [
     "resume": "Station située à Mareil-sur-Mauldre.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46884"
+    ],
+    "stopPointIds": [
+      "41158",
+      "470748",
+      "471061"
     ]
   },
   {
@@ -9131,6 +13972,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "411375"
+    ],
+    "stopPointIds": [
+      "411374",
+      "471919",
+      "471939"
     ]
   },
   {
@@ -9141,16 +13990,30 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45496"
+    ],
+    "stopPointIds": [
+      "462430",
+      "462440"
     ]
   },
   {
-    "nom": "Marie de Miribel",
+    "nom": "Marie De Miribel",
     "lignes": [
       "T3b"
     ],
     "resume": "Station située à Paris 20e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58503"
+    ],
+    "stopPointIds": [
+      "24394",
+      "24405"
     ]
   },
   {
@@ -9163,6 +14026,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43247"
+    ],
+    "stopPointIds": [
+      "41044",
+      "472018",
+      "472469"
     ]
   },
   {
@@ -9173,6 +14044,15 @@ export const stationsData = [
     "resume": "Station située à Marly-le-Roi.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43248"
+    ],
+    "stopPointIds": [
+      "41185",
+      "470789",
+      "472098",
+      "472725"
     ]
   },
   {
@@ -9184,6 +14064,17 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43239"
+    ],
+    "stopPointIds": [
+      "412814",
+      "470780",
+      "472550",
+      "472552",
+      "474059",
+      "474064"
     ]
   },
   {
@@ -9197,6 +14088,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43159"
+    ],
+    "stopPointIds": [
+      "41303",
+      "472365",
+      "472903"
     ]
   },
   {
@@ -9204,9 +14103,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44113"
+    ],
+    "stopPointIds": [
+      "22053",
+      "463236"
     ]
   },
   {
@@ -9217,6 +14123,13 @@ export const stationsData = [
     "resume": "Station située à Paris 13e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "58493"
+    ],
+    "stopPointIds": [
+      "24124",
+      "24141"
     ]
   },
   {
@@ -9238,6 +14151,26 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486884",
+      "58774"
+    ],
+    "stopPointIds": [
+      "412833",
+      "470825",
+      "471587",
+      "471608",
+      "472207",
+      "472474",
+      "472788",
+      "474056",
+      "474058",
+      "474060",
+      "474061",
+      "486883",
+      "494313",
+      "496039"
     ]
   },
   {
@@ -9254,6 +14187,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47940"
+    ],
+    "stopPointIds": [
+      "41193",
+      "471007",
+      "471106",
+      "474055",
+      "491414"
     ]
   },
   {
@@ -9264,6 +14207,13 @@ export const stationsData = [
     "resume": "Station située à Massy.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486961"
+    ],
+    "stopPointIds": [
+      "486960",
+      "486962"
     ]
   },
   {
@@ -9271,20 +14221,29 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
-    "nom": "Maubert–Mutualité",
+    "nom": "Maubert - Mutualité",
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "44119"
+    ],
+    "stopPointIds": [
+      "21975",
+      "463237"
     ]
   },
   {
@@ -9295,6 +14254,14 @@ export const stationsData = [
     "resume": "Station située à Maule.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46886"
+    ],
+    "stopPointIds": [
+      "41159",
+      "472054",
+      "472419"
     ]
   },
   {
@@ -9305,6 +14272,14 @@ export const stationsData = [
     "resume": "Station située à Andrésy.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43160"
+    ],
+    "stopPointIds": [
+      "41148",
+      "471595",
+      "472476"
     ]
   },
   {
@@ -9316,6 +14291,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "479052"
+    ],
+    "stopPointIds": [
+      "478654",
+      "478657"
     ]
   },
   {
@@ -9327,6 +14309,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44125"
+    ],
+    "stopPointIds": [
+      "23295",
+      "23305"
     ]
   },
   {
@@ -9339,6 +14328,16 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43161"
+    ],
+    "stopPointIds": [
+      "41038",
+      "471695",
+      "472297",
+      "472472",
+      "472926"
     ]
   },
   {
@@ -9352,6 +14351,19 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47909"
+    ],
+    "stopPointIds": [
+      "41361",
+      "471039",
+      "471708",
+      "471852",
+      "471941",
+      "472568",
+      "472572",
+      "472714"
     ]
   },
   {
@@ -9364,6 +14376,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47899"
+    ],
+    "stopPointIds": [
+      "41349",
+      "471590",
+      "471735"
     ]
   },
   {
@@ -9374,6 +14394,16 @@ export const stationsData = [
     "resume": "Station située à Meudon.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43162"
+    ],
+    "stopPointIds": [
+      "41214",
+      "470767",
+      "471180",
+      "472479",
+      "472879"
     ]
   },
   {
@@ -9387,6 +14417,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43163"
+    ],
+    "stopPointIds": [
+      "41213",
+      "471011",
+      "471645"
     ]
   },
   {
@@ -9397,6 +14435,13 @@ export const stationsData = [
     "resume": "Station située à Meudon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "42830"
+    ],
+    "stopPointIds": [
+      "2347",
+      "2348"
     ]
   },
   {
@@ -9407,6 +14452,13 @@ export const stationsData = [
     "resume": "Station située à Meudon.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44137"
+    ],
+    "stopPointIds": [
+      "25639",
+      "25640"
     ]
   },
   {
@@ -9417,6 +14469,14 @@ export const stationsData = [
     "resume": "Station située à Hardricourt.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46897"
+    ],
+    "stopPointIds": [
+      "41165",
+      "471626",
+      "472350"
     ]
   },
   {
@@ -9424,9 +14484,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44133"
+    ],
+    "stopPointIds": [
+      "22116",
+      "463243"
     ]
   },
   {
@@ -9437,6 +14504,14 @@ export const stationsData = [
     "resume": "Station située à Mériel.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47585"
+    ],
+    "stopPointIds": [
+      "41124",
+      "470733",
+      "470900"
     ]
   },
   {
@@ -9447,6 +14522,14 @@ export const stationsData = [
     "resume": "Station située à Méry-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47582"
+    ],
+    "stopPointIds": [
+      "41123",
+      "470660",
+      "472612"
     ]
   },
   {
@@ -9454,35 +14537,58 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44140"
+    ],
+    "stopPointIds": [
+      "22206",
+      "463226"
     ]
   },
   {
-    "nom": "Michel-Ange–Auteuil",
+    "nom": "Michel-Ange - Auteuil",
     "lignes": [
       "9",
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01",
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "44138"
+    ],
+    "stopPointIds": [
+      "21907",
+      "21922",
+      "463238"
     ]
   },
   {
-    "nom": "Michel-Ange–Molitor",
+    "nom": "Michel-Ange - Molitor",
     "lignes": [
       "9",
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01",
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "44139"
+    ],
+    "stopPointIds": [
+      "21904",
+      "21923",
+      "463239"
     ]
   },
   {
@@ -9490,10 +14596,16 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "45430"
+    ],
+    "stopPointIds": [
+      "21982"
     ]
   },
   {
@@ -9502,10 +14614,19 @@ export const stationsData = [
       "9",
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MF 01",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43511"
+    ],
+    "stopPointIds": [
+      "21924",
+      "22224",
+      "462957",
+      "474397"
     ]
   },
   {
@@ -9519,6 +14640,16 @@ export const stationsData = [
       "MI 79",
       "MI 84",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43164"
+    ],
+    "stopPointIds": [
+      "411402",
+      "470619",
+      "470649",
+      "471674",
+      "472831"
     ]
   },
   {
@@ -9526,9 +14657,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44146"
+    ],
+    "stopPointIds": [
+      "22117",
+      "463240"
     ]
   },
   {
@@ -9542,6 +14680,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43165"
+    ],
+    "stopPointIds": [
+      "41296",
+      "471205",
+      "472184"
     ]
   },
   {
@@ -9552,6 +14698,18 @@ export const stationsData = [
     "resume": "Station située à Montargis.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411482"
+    ],
+    "stopPointIds": [
+      "411481",
+      "470954",
+      "471028",
+      "471142",
+      "471986",
+      "472295",
+      "472375"
     ]
   },
   {
@@ -9562,6 +14720,13 @@ export const stationsData = [
     "resume": "Station située à Paris 12e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45214"
+    ],
+    "stopPointIds": [
+      "24125",
+      "40067"
     ]
   },
   {
@@ -9572,6 +14737,18 @@ export const stationsData = [
     "resume": "Station située à Montereau-Fault-Yonne.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47910"
+    ],
+    "stopPointIds": [
+      "41376",
+      "471220",
+      "471462",
+      "471469",
+      "472212",
+      "472370",
+      "472979"
     ]
   },
   {
@@ -9582,6 +14759,14 @@ export const stationsData = [
     "resume": "Station située à Méré.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46850"
+    ],
+    "stopPointIds": [
+      "41254",
+      "471222",
+      "472848"
     ]
   },
   {
@@ -9589,9 +14774,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44160"
+    ],
+    "stopPointIds": [
+      "22205",
+      "463241"
     ]
   },
   {
@@ -9604,6 +14796,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47684"
+    ],
+    "stopPointIds": [
+      "41362",
+      "470685",
+      "470739",
+      "471656",
+      "472500"
     ]
   },
   {
@@ -9614,6 +14816,14 @@ export const stationsData = [
     "resume": "Station située à Montgeroult.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "44161"
+    ],
+    "stopPointIds": [
+      "41141",
+      "470614",
+      "471475"
     ]
   },
   {
@@ -9629,6 +14839,15 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43166"
+    ],
+    "stopPointIds": [
+      "41088",
+      "471006",
+      "471725",
+      "472001"
     ]
   },
   {
@@ -9639,27 +14858,14 @@ export const stationsData = [
     "resume": "Station située à Montigny-sur-Loing.",
     "materiel": [
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Montparnasse–Bienvenüe",
-    "lignes": [
-      "4",
-      "6",
-      "12",
-      "13",
-      "N"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MP 14 CA",
-      "MP 05 IDFM",
-      "MP 89 CA",
-      "MP 73",
-      "MP 89 CC",
-      "MF 67",
-      "MF 77",
-      "Regio 2N"
+    "stopAreaIds": [
+      "47125"
+    ],
+    "stopPointIds": [
+      "41389",
+      "471189",
+      "472167"
     ]
   },
   {
@@ -9670,6 +14876,14 @@ export const stationsData = [
     "resume": "Station située à Versailles.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43167"
+    ],
+    "stopPointIds": [
+      "41191",
+      "471396",
+      "472155"
     ]
   },
   {
@@ -9677,9 +14891,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Noisy-le-Sec.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "490767"
+    ],
+    "stopPointIds": [
+      "490766",
+      "490789"
     ]
   },
   {
@@ -9690,6 +14911,12 @@ export const stationsData = [
     "resume": "Station située à Montry.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "492419"
+    ],
+    "stopPointIds": [
+      "492418"
     ]
   },
   {
@@ -9700,6 +14927,15 @@ export const stationsData = [
     "resume": "Station située à Montsoult.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43168"
+    ],
+    "stopPointIds": [
+      "41107",
+      "471410",
+      "471877",
+      "472023"
     ]
   },
   {
@@ -9710,6 +14946,13 @@ export const stationsData = [
     "resume": "Station située à Paris 14e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45329"
+    ],
+    "stopPointIds": [
+      "24119",
+      "24122"
     ]
   },
   {
@@ -9720,6 +14963,18 @@ export const stationsData = [
     "resume": "Station située à Moret-Loing-et-Orvanne.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47130"
+    ],
+    "stopPointIds": [
+      "41374",
+      "470606",
+      "471196",
+      "472062",
+      "472576",
+      "472684",
+      "472980"
     ]
   },
   {
@@ -9732,6 +14987,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47184"
+    ],
+    "stopPointIds": [
+      "41036",
+      "471839",
+      "472706"
     ]
   },
   {
@@ -9744,6 +15007,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47942"
+    ],
+    "stopPointIds": [
+      "41045",
+      "471374",
+      "472927"
     ]
   },
   {
@@ -9756,6 +15027,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45761"
+    ],
+    "stopPointIds": [
+      "41348",
+      "471178",
+      "472072"
     ]
   },
   {
@@ -9766,6 +15045,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "47693"
+    ],
+    "stopPointIds": [
+      "29904",
+      "29905"
     ]
   },
   {
@@ -9778,6 +15064,13 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47943"
+    ],
+    "stopPointIds": [
+      "41048",
+      "471979"
     ]
   },
   {
@@ -9785,11 +15078,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44183"
+    ],
+    "stopPointIds": [
+      "22144",
+      "463242"
     ]
   },
   {
@@ -9803,6 +15103,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "45705"
+    ],
+    "stopPointIds": [
+      "41334",
+      "471732",
+      "471775",
+      "471946",
+      "472024"
     ]
   },
   {
@@ -9813,6 +15123,13 @@ export const stationsData = [
     "resume": "Station située à Sèvres.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44189"
+    ],
+    "stopPointIds": [
+      "22302",
+      "23444"
     ]
   },
   {
@@ -9823,6 +15140,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479030"
+    ],
+    "stopPointIds": [
+      "478975",
+      "478976"
     ]
   },
   {
@@ -9835,6 +15159,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47158"
+    ],
+    "stopPointIds": [
+      "41037",
+      "471269",
+      "472477"
     ]
   },
   {
@@ -9846,19 +15178,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
-    ]
-  },
-  {
-    "nom": "Nanterre - Université",
-    "lignes": [
-      "A",
-      "L"
     ],
-    "resume": "Station située à Nanterre.",
-    "materiel": [
-      "MI 09",
-      "MI 2N Altéo",
-      "Z 50000 Francilien"
+    "stopAreaIds": [
+      "43169"
+    ],
+    "stopPointIds": [
+      "40916",
+      "474051",
+      "474052",
+      "474054",
+      "474057"
     ]
   },
   {
@@ -9870,6 +15199,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43171"
+    ],
+    "stopPointIds": [
+      "412798",
+      "474048",
+      "474049"
     ]
   },
   {
@@ -9877,9 +15214,35 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
+  },
+  {
+    "nom": "Nanterre Université",
+    "lignes": [
+      "A",
+      "L"
+    ],
+    "resume": "Station située à Nanterre.",
+    "materiel": [
+      "MI 09",
+      "MI 2N Altéo",
+      "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43170"
+    ],
+    "stopPointIds": [
+      "411356",
+      "470899",
+      "470961",
+      "472807",
+      "474047",
+      "474053"
     ]
   },
   {
@@ -9894,6 +15257,17 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "487011"
+    ],
+    "stopPointIds": [
+      "487010",
+      "487012",
+      "487013",
+      "487014",
+      "487015",
+      "487016"
     ]
   },
   {
@@ -9906,6 +15280,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47482"
+    ],
+    "stopPointIds": [
+      "41063",
+      "471612",
+      "471715"
     ]
   },
   {
@@ -9916,6 +15298,14 @@ export const stationsData = [
     "resume": "Station située à Nanteuil-le-Haudouin.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411390"
+    ],
+    "stopPointIds": [
+      "411389",
+      "472496",
+      "472571"
     ]
   },
   {
@@ -9935,6 +15325,23 @@ export const stationsData = [
       "MP 89 CC",
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "462358",
+      "473875"
+    ],
+    "stopPointIds": [
+      "21919",
+      "22072",
+      "22073",
+      "22080",
+      "412808",
+      "462942",
+      "462943",
+      "463028",
+      "463067",
+      "473919",
+      "473920"
     ]
   },
   {
@@ -9942,10 +15349,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "44192"
+    ],
+    "stopPointIds": [
+      "22169",
+      "463004"
     ]
   },
   {
@@ -9956,27 +15370,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Pierre-lès-Nemours.",
     "materiel": [
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Neuilly - Porte Maillot",
-    "lignes": [
-      "1",
-      "C",
-      "E",
-      "T3b"
     ],
-    "resume": "Station située à Paris 17e.",
-    "materiel": [
-      "MP 05",
-      "Z 20900",
-      "Z 20500",
-      "Z 8800",
-      "Z 5600",
-      "RER NG",
-      "MI 2N Eole",
-      "Z 50000 Francilien",
-      "Citadis 402"
+    "stopAreaIds": [
+      "43245"
+    ],
+    "stopPointIds": [
+      "41391",
+      "471550",
+      "471867"
     ]
   },
   {
@@ -9988,6 +15389,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43172"
+    ],
+    "stopPointIds": [
+      "40929",
+      "474042",
+      "474050"
     ]
   },
   {
@@ -10001,6 +15410,14 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47879"
+    ],
+    "stopPointIds": [
+      "411321",
+      "471126",
+      "472481"
     ]
   },
   {
@@ -10011,6 +15428,14 @@ export const stationsData = [
     "resume": "Station située à Nézel.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47944"
+    ],
+    "stopPointIds": [
+      "41160",
+      "471611",
+      "472371"
     ]
   },
   {
@@ -10025,6 +15450,18 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46552"
+    ],
+    "stopPointIds": [
+      "41020",
+      "471074",
+      "471195",
+      "471686",
+      "471997",
+      "472434",
+      "472537"
     ]
   },
   {
@@ -10037,6 +15474,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "411384"
+    ],
+    "stopPointIds": [
+      "411383",
+      "471144",
+      "471871"
     ]
   },
   {
@@ -10048,6 +15493,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "47886"
+    ],
+    "stopPointIds": [
+      "412716",
+      "474043",
+      "474045"
     ]
   },
   {
@@ -10058,6 +15511,14 @@ export const stationsData = [
     "resume": "Station située à Nointel.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47530"
+    ],
+    "stopPointIds": [
+      "41125",
+      "470762",
+      "472584"
     ]
   },
   {
@@ -10069,6 +15530,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "44199"
+    ],
+    "stopPointIds": [
+      "412826",
+      "474038",
+      "474046"
     ]
   },
   {
@@ -10084,6 +15553,14 @@ export const stationsData = [
       "MR3V",
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "58937"
+    ],
+    "stopPointIds": [
+      "412825",
+      "474039",
+      "474040"
     ]
   },
   {
@@ -10095,6 +15572,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "474082"
+    ],
+    "stopPointIds": [
+      "412823",
+      "474032",
+      "474033",
+      "474041",
+      "479183"
     ]
   },
   {
@@ -10105,6 +15592,13 @@ export const stationsData = [
     "resume": "Station située à Noisy-le-Roi.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "480939"
+    ],
+    "stopPointIds": [
+      "480938",
+      "481065"
     ]
   },
   {
@@ -10120,6 +15614,23 @@ export const stationsData = [
       "Z 50000 Francilien",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44201",
+      "473310"
+    ],
+    "stopPointIds": [
+      "22262",
+      "23310",
+      "41012",
+      "471015",
+      "471749",
+      "472317",
+      "472591",
+      "472656",
+      "472744",
+      "472746",
+      "472805"
     ]
   },
   {
@@ -10127,9 +15638,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44210"
+    ],
+    "stopPointIds": [
+      "22050",
+      "463062"
     ]
   },
   {
@@ -10141,6 +15659,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "479060"
+    ],
+    "stopPointIds": [
+      "478649",
+      "478652"
     ]
   },
   {
@@ -10148,9 +15673,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44211"
+    ],
+    "stopPointIds": [
+      "22051",
+      "462965"
     ]
   },
   {
@@ -10161,6 +15693,13 @@ export const stationsData = [
     "resume": "Station située à Le Plessis-Robinson.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486819"
+    ],
+    "stopPointIds": [
+      "486818",
+      "486836"
     ]
   },
   {
@@ -10169,9 +15708,18 @@ export const stationsData = [
       "5",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45193"
+    ],
+    "stopPointIds": [
+      "21905",
+      "21925",
+      "463054",
+      "463059"
     ]
   },
   {
@@ -10180,13 +15728,22 @@ export const stationsData = [
       "4",
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "58716"
+    ],
+    "stopPointIds": [
+      "21978",
+      "22145",
+      "462995",
+      "462998"
     ]
   },
   {
@@ -10194,9 +15751,16 @@ export const stationsData = [
     "lignes": [
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "479056"
+    ],
+    "stopPointIds": [
+      "21954",
+      "463045"
     ]
   },
   {
@@ -10206,10 +15770,21 @@ export const stationsData = [
       "7",
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "42237"
+    ],
+    "stopPointIds": [
+      "22030",
+      "22195",
+      "22381",
+      "463244",
+      "463245",
+      "463246"
     ]
   },
   {
@@ -10222,6 +15797,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "48489"
+    ],
+    "stopPointIds": [
+      "41342",
+      "470913",
+      "472278"
     ]
   },
   {
@@ -10232,6 +15815,14 @@ export const stationsData = [
     "resume": "Station située à Orgerus.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47921"
+    ],
+    "stopPointIds": [
+      "41236",
+      "471444",
+      "472406"
     ]
   },
   {
@@ -10242,34 +15833,13 @@ export const stationsData = [
     "resume": "Station située à Orly.",
     "materiel": [
       "Citadis 405"
-    ]
-  },
-  {
-    "nom": "Orly 1-2-3",
-    "lignes": [
-      "14",
-      "18",
-      "T7"
     ],
-    "resume": "Station située à Paray-Vieille-Poste.",
-    "materiel": [
-      "MP 14 CA",
-      "MRV",
-      "Citadis 302"
-    ]
-  },
-  {
-    "nom": "Orly 4",
-    "lignes": [
-      "14",
-      "18",
-      "T7"
+    "stopAreaIds": [
+      "479023"
     ],
-    "resume": "Station située à Paray-Vieille-Poste.",
-    "materiel": [
-      "MP 14 CA",
-      "MRV",
-      "Citadis 302"
+    "stopPointIds": [
+      "478974",
+      "478981"
     ]
   },
   {
@@ -10283,6 +15853,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46299"
+    ],
+    "stopPointIds": [
+      "41327",
+      "470752",
+      "471372",
+      "472530",
+      "472984"
     ]
   },
   {
@@ -10293,6 +15873,15 @@ export const stationsData = [
     "resume": "Station située à Ormoy-Villers.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411387"
+    ],
+    "stopPointIds": [
+      "411386",
+      "470604",
+      "470774",
+      "471055"
     ]
   },
   {
@@ -10305,6 +15894,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411421"
+    ],
+    "stopPointIds": [
+      "411420",
+      "471280",
+      "471490",
+      "472008",
+      "472016"
     ]
   },
   {
@@ -10316,6 +15915,15 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43086"
+    ],
+    "stopPointIds": [
+      "412794",
+      "473901",
+      "473903",
+      "473904"
     ]
   },
   {
@@ -10323,10 +15931,12 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Osny",
@@ -10336,6 +15946,14 @@ export const stationsData = [
     "resume": "Station située à Osny.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "51494"
+    ],
+    "stopPointIds": [
+      "41139",
+      "472074",
+      "472942"
     ]
   },
   {
@@ -10343,9 +15961,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44227"
+    ],
+    "stopPointIds": [
+      "22005",
+      "463027"
     ]
   },
   {
@@ -10358,6 +15983,14 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "462901"
+    ],
+    "stopPointIds": [
+      "41032",
+      "471508",
+      "472442"
     ]
   },
   {
@@ -10368,18 +16001,34 @@ export const stationsData = [
     "resume": "Station située à Villetaneuse.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "59329"
+    ],
+    "stopPointIds": [
+      "42130",
+      "42134"
     ]
   },
   {
-    "nom": "Palais Royal–Musée du Louvre",
+    "nom": "Palais Royal - Musée du Louvre",
     "lignes": [
       "1",
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MP 05",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44236"
+    ],
+    "stopPointIds": [
+      "22079",
+      "22376",
+      "463227",
+      "463249"
     ]
   },
   {
@@ -10393,6 +16042,14 @@ export const stationsData = [
       "MRV",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47009"
+    ],
+    "stopPointIds": [
+      "412848",
+      "474034",
+      "474037"
     ]
   },
   {
@@ -10404,6 +16061,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43175"
+    ],
+    "stopPointIds": [
+      "412849",
+      "474030",
+      "474031"
     ]
   },
   {
@@ -10416,6 +16081,18 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43176"
+    ],
+    "stopPointIds": [
+      "41011",
+      "470857",
+      "471103",
+      "471454",
+      "471540",
+      "472870",
+      "472972"
     ]
   },
   {
@@ -10426,6 +16103,13 @@ export const stationsData = [
     "resume": "Station située à Châtillon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "59179"
+    ],
+    "stopPointIds": [
+      "2338",
+      "41670"
     ]
   },
   {
@@ -10436,6 +16120,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Cloud.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44249"
+    ],
+    "stopPointIds": [
+      "25643",
+      "25644"
     ]
   },
   {
@@ -10447,6 +16138,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43177"
+    ],
+    "stopPointIds": [
+      "412831",
+      "474027",
+      "474029"
     ]
   },
   {
@@ -10458,6 +16157,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44252"
+    ],
+    "stopPointIds": [
+      "23286",
+      "460554"
     ]
   },
   {
@@ -10471,6 +16177,15 @@ export const stationsData = [
       "MR3V",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47878"
+    ],
+    "stopPointIds": [
+      "411400",
+      "471705",
+      "472126",
+      "472521"
     ]
   },
   {
@@ -10481,6 +16196,13 @@ export const stationsData = [
     "resume": "Station située à Le Plessis-Robinson.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486817"
+    ],
+    "stopPointIds": [
+      "486816",
+      "486837"
     ]
   },
   {
@@ -10491,6 +16213,13 @@ export const stationsData = [
     "resume": "Station située à Morsang-sur-Orge.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486979"
+    ],
+    "stopPointIds": [
+      "486978",
+      "486980"
     ]
   },
   {
@@ -10501,6 +16230,13 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44678"
+    ],
+    "stopPointIds": [
+      "23427",
+      "23429"
     ]
   },
   {
@@ -10508,9 +16244,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "58725"
+    ],
+    "stopPointIds": [
+      "22019",
+      "463250"
     ]
   },
   {
@@ -10518,10 +16261,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45417"
+    ],
+    "stopPointIds": [
+      "22165",
+      "463101"
     ]
   },
   {
@@ -10530,11 +16280,20 @@ export const stationsData = [
       "6",
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC",
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44273"
+    ],
+    "stopPointIds": [
+      "22039",
+      "22166",
+      "462947",
+      "462948"
     ]
   },
   {
@@ -10545,6 +16304,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "46334"
+    ],
+    "stopPointIds": [
+      "42119",
+      "42124"
     ]
   },
   {
@@ -10555,6 +16321,13 @@ export const stationsData = [
     "resume": "Station située à Sarcelles.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "44298"
+    ],
+    "stopPointIds": [
+      "28873",
+      "28875"
     ]
   },
   {
@@ -10565,6 +16338,13 @@ export const stationsData = [
     "resume": "Station située à Clamart.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "44300"
+    ],
+    "stopPointIds": [
+      "2339",
+      "2345"
     ]
   },
   {
@@ -10572,9 +16352,16 @@ export const stationsData = [
     "lignes": [
       "3bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45630"
+    ],
+    "stopPointIds": [
+      "21948",
+      "462990"
     ]
   },
   {
@@ -10582,9 +16369,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "462376"
+    ],
+    "stopPointIds": [
+      "22021",
+      "463228"
     ]
   },
   {
@@ -10592,9 +16386,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44316"
+    ],
+    "stopPointIds": [
+      "22222",
+      "463229"
     ]
   },
   {
@@ -10605,6 +16406,21 @@ export const stationsData = [
     "resume": "Station située à Persan.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43178"
+    ],
+    "stopPointIds": [
+      "41105",
+      "470800",
+      "471446",
+      "471699",
+      "471761",
+      "472359",
+      "472394",
+      "472463",
+      "472536",
+      "472873"
     ]
   },
   {
@@ -10618,6 +16434,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "57674"
+    ],
+    "stopPointIds": [
+      "41239",
+      "471898",
+      "472794"
     ]
   },
   {
@@ -10629,6 +16453,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44325"
+    ],
+    "stopPointIds": [
+      "22263",
+      "23311"
     ]
   },
   {
@@ -10639,6 +16470,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "46338"
+    ],
+    "stopPointIds": [
+      "28851",
+      "28860"
     ]
   },
   {
@@ -10649,6 +16487,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Orge.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486887"
+    ],
+    "stopPointIds": [
+      "486886",
+      "486888"
     ]
   },
   {
@@ -10659,6 +16504,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486831"
+    ],
+    "stopPointIds": [
+      "486830",
+      "486843"
     ]
   },
   {
@@ -10667,10 +16519,19 @@ export const stationsData = [
       "2",
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01",
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44310"
+    ],
+    "stopPointIds": [
+      "22020",
+      "22112",
+      "463285",
+      "463286"
     ]
   },
   {
@@ -10684,6 +16545,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "44314"
+    ],
+    "stopPointIds": [
+      "411230",
+      "470905",
+      "471778",
+      "480010"
     ]
   },
   {
@@ -10691,9 +16561,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44332"
+    ],
+    "stopPointIds": [
+      "22113",
+      "463230"
     ]
   },
   {
@@ -10701,10 +16578,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "44334"
+    ],
+    "stopPointIds": [
+      "22167",
+      "463098"
     ]
   },
   {
@@ -10715,6 +16599,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50567"
+    ],
+    "stopPointIds": [
+      "42118",
+      "42121"
     ]
   },
   {
@@ -10722,9 +16613,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Ivry-sur-Seine.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44343"
+    ],
+    "stopPointIds": [
+      "22397",
+      "463251"
     ]
   },
   {
@@ -10739,6 +16637,19 @@ export const stationsData = [
       "RER NG",
       "Regio 2N",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "426089",
+      "43179"
+    ],
+    "stopPointIds": [
+      "411416",
+      "471236",
+      "471605",
+      "471675",
+      "471933",
+      "472696",
+      "472708"
     ]
   },
   {
@@ -10754,6 +16665,14 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43180"
+    ],
+    "stopPointIds": [
+      "41089",
+      "472340",
+      "472526"
     ]
   },
   {
@@ -10762,23 +16681,19 @@ export const stationsData = [
       "2",
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 01",
       "MF 67"
-    ]
-  },
-  {
-    "nom": "Place Carnot",
-    "lignes": [
-      "11",
-      "T1"
     ],
-    "resume": "Station située à Romainville.",
-    "materiel": [
-      "MP 14 CC",
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "44345"
+    ],
+    "stopPointIds": [
+      "22040",
+      "22114",
+      "463088",
+      "463089"
     ]
   },
   {
@@ -10788,12 +16703,23 @@ export const stationsData = [
       "6",
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 01",
       "MP 73",
       "MP 89 CC",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44371"
+    ],
+    "stopPointIds": [
+      "22006",
+      "22168",
+      "22365",
+      "463003",
+      "463025",
+      "463026"
     ]
   },
   {
@@ -10802,10 +16728,19 @@ export const stationsData = [
       "2",
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 01",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44372"
+    ],
+    "stopPointIds": [
+      "22115",
+      "22129",
+      "463252",
+      "463253"
     ]
   },
   {
@@ -10816,6 +16751,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "57491"
+    ],
+    "stopPointIds": [
+      "35936",
+      "35940"
     ]
   },
   {
@@ -10824,21 +16766,18 @@ export const stationsData = [
       "7bis",
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88",
       "MP 14 CC"
-    ]
-  },
-  {
-    "nom": "Place Jeanne d'Arc",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Noisy-le-Sec.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "44396"
+    ],
+    "stopPointIds": [
+      "21951",
+      "24682",
+      "463254"
     ]
   },
   {
@@ -10846,9 +16785,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 5e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44435"
+    ],
+    "stopPointIds": [
+      "22366",
+      "463106"
     ]
   },
   {
@@ -10856,9 +16802,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45322"
+    ],
+    "stopPointIds": [
+      "22223",
+      "463085"
     ]
   },
   {
@@ -10869,6 +16822,15 @@ export const stationsData = [
     "resume": "Station située à Plaisir.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47885"
+    ],
+    "stopPointIds": [
+      "41234",
+      "470807",
+      "472484",
+      "472978"
     ]
   },
   {
@@ -10879,6 +16841,14 @@ export const stationsData = [
     "resume": "Station située à Plaisir.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43181"
+    ],
+    "stopPointIds": [
+      "41246",
+      "471108",
+      "471834"
     ]
   },
   {
@@ -10886,9 +16856,16 @@ export const stationsData = [
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Créteil.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44453"
+    ],
+    "stopPointIds": [
+      "21784",
+      "463057"
     ]
   },
   {
@@ -10896,9 +16873,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45165"
+    ],
+    "stopPointIds": [
+      "22377",
+      "463255"
     ]
   },
   {
@@ -10912,6 +16896,17 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47874"
+    ],
+    "stopPointIds": [
+      "411359",
+      "471154",
+      "471599",
+      "471609",
+      "471620",
+      "471624"
     ]
   },
   {
@@ -10924,6 +16919,21 @@ export const stationsData = [
     "materiel": [
       "MP 14 CA",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "45493",
+      "480287"
+    ],
+    "stopPointIds": [
+      "411351",
+      "470793",
+      "470841",
+      "471310",
+      "471459",
+      "472138",
+      "472320",
+      "480286",
+      "480340"
     ]
   },
   {
@@ -10934,6 +16944,13 @@ export const stationsData = [
     "resume": "Station située à Bezons.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "50622"
+    ],
+    "stopPointIds": [
+      "23445",
+      "25647"
     ]
   },
   {
@@ -10947,6 +16964,13 @@ export const stationsData = [
       "MR6V",
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44471"
+    ],
+    "stopPointIds": [
+      "22264",
+      "24430"
     ]
   },
   {
@@ -10960,16 +16984,31 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "415091"
+    ],
+    "stopPointIds": [
+      "41209",
+      "471002",
+      "473007"
     ]
   },
   {
-    "nom": "Pont de Levallois–Bécon",
+    "nom": "Pont de Levallois - Bécon",
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Levallois-Perret.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "473676"
+    ],
+    "stopPointIds": [
+      "22035",
+      "462985"
     ]
   },
   {
@@ -10977,9 +17016,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Neuilly-sur-Seine.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "44479"
+    ],
+    "stopPointIds": [
+      "22099",
+      "463044"
     ]
   },
   {
@@ -10993,6 +17039,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47907"
+    ],
+    "stopPointIds": [
+      "41326",
+      "472171",
+      "472299",
+      "472867"
     ]
   },
   {
@@ -11001,10 +17056,17 @@ export const stationsData = [
       "9",
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Boulogne-Billancourt.",
     "materiel": [
       "MF 01",
       "MR6V"
+    ],
+    "stopAreaIds": [
+      "44481"
+    ],
+    "stopPointIds": [
+      "21938",
+      "463233"
     ]
   },
   {
@@ -11020,31 +17082,28 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis 402"
-    ]
-  },
-  {
-    "nom": "Pont du Garigliano - Hôpital Européen G. Pompidou",
-    "lignes": [
-      "C",
-      "T3a"
     ],
-    "resume": "Station située à Paris 15e.",
-    "materiel": [
-      "Z 20900",
-      "Z 20500",
-      "Z 8800",
-      "Z 5600",
-      "Citadis 402"
-    ]
+    "stopAreaIds": [
+      "462396",
+      "58734"
+    ],
+    "stopPointIds": []
   },
   {
     "nom": "Pont Marie",
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44487"
+    ],
+    "stopPointIds": [
+      "22378",
+      "463231"
     ]
   },
   {
@@ -11052,9 +17111,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44491"
+    ],
+    "stopPointIds": [
+      "22379",
+      "463232"
     ]
   },
   {
@@ -11065,6 +17131,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Ouen-l'Aumône.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47595"
+    ],
+    "stopPointIds": [
+      "41093",
+      "472075",
+      "472892"
     ]
   },
   {
@@ -11075,6 +17149,16 @@ export const stationsData = [
     "resume": "Station située à Pont-sur-Yonne.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411458"
+    ],
+    "stopPointIds": [
+      "411457",
+      "471275",
+      "471344",
+      "472179",
+      "472499"
     ]
   },
   {
@@ -11087,6 +17171,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45812"
+    ],
+    "stopPointIds": [
+      "41387",
+      "471431",
+      "472433"
     ]
   },
   {
@@ -11103,6 +17195,22 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "44411"
+    ],
+    "stopPointIds": [
+      "41091",
+      "470651",
+      "470796",
+      "471025",
+      "471139",
+      "471411",
+      "471427",
+      "472390",
+      "472473",
+      "472509",
+      "473003"
     ]
   },
   {
@@ -11116,6 +17224,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43183"
+    ],
+    "stopPointIds": [
+      "41218",
+      "470858",
+      "472670"
     ]
   },
   {
@@ -11127,18 +17243,31 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "44500"
+    ],
+    "stopPointIds": [
+      "412818",
+      "473917",
+      "473918"
     ]
   },
   {
     "nom": "Porte d'Aubervilliers",
     "lignes": [
-      "12",
       "T3b"
     ],
     "resume": "Station située à Paris 18e.",
     "materiel": [
-      "MF 67",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44503"
+    ],
+    "stopPointIds": [
+      "24407",
+      "24413"
     ]
   },
   {
@@ -11146,10 +17275,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "44504"
+    ],
+    "stopPointIds": [
+      "21974",
+      "463234"
     ]
   },
   {
@@ -11160,6 +17296,13 @@ export const stationsData = [
     "resume": "Station située à Issy-les-Moulineaux.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "45356"
+    ],
+    "stopPointIds": [
+      "25636",
+      "25637"
     ]
   },
   {
@@ -11172,6 +17315,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44506",
+      "473456"
+    ],
+    "stopPointIds": [
+      "22380",
+      "24106",
+      "24117",
+      "463235"
     ]
   },
   {
@@ -11184,6 +17337,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44507",
+      "473717"
+    ],
+    "stopPointIds": [
+      "22372",
+      "24110",
+      "24133",
+      "463029"
     ]
   },
   {
@@ -11198,6 +17361,16 @@ export const stationsData = [
       "MP 05 IDFM",
       "MP 89 CA",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44508",
+      "473694"
+    ],
+    "stopPointIds": [
+      "22140",
+      "24118",
+      "460547",
+      "463092"
     ]
   },
   {
@@ -11205,9 +17378,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44509"
+    ],
+    "stopPointIds": [
+      "22111",
+      "463256"
     ]
   },
   {
@@ -11218,6 +17398,13 @@ export const stationsData = [
     "resume": "Station située à Paris 16e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "490877"
+    ],
+    "stopPointIds": [
+      "490876",
+      "490878"
     ]
   },
   {
@@ -11230,6 +17417,16 @@ export const stationsData = [
     "materiel": [
       "MF 67",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44510",
+      "473453"
+    ],
+    "stopPointIds": [
+      "22022",
+      "24414",
+      "24419",
+      "463276"
     ]
   },
   {
@@ -11242,6 +17439,16 @@ export const stationsData = [
     "materiel": [
       "MF 67",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44511",
+      "490891"
+    ],
+    "stopPointIds": [
+      "22023",
+      "463258",
+      "490890",
+      "490895"
     ]
   },
   {
@@ -11254,6 +17461,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44512",
+      "473680"
+    ],
+    "stopPointIds": [
+      "22208",
+      "24138",
+      "24142",
+      "463277"
     ]
   },
   {
@@ -11268,6 +17485,18 @@ export const stationsData = [
       "MF 77",
       "Citadis 402",
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "44513",
+      "473684"
+    ],
+    "stopPointIds": [
+      "22373",
+      "24120",
+      "24126",
+      "463030",
+      "478979",
+      "478980"
     ]
   },
   {
@@ -11287,16 +17516,22 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Citadis 402"
-    ]
-  },
-  {
-    "nom": "Porte de Clichy - Tribunal de Paris",
-    "lignes": [
-      "T3b"
     ],
-    "resume": "Station située à Paris 17e.",
-    "materiel": [
-      "Citadis 402"
+    "stopAreaIds": [
+      "44514",
+      "473476",
+      "473477"
+    ],
+    "stopPointIds": [
+      "22219",
+      "41009",
+      "462429",
+      "462441",
+      "463278",
+      "470826",
+      "471557",
+      "480531",
+      "480541"
     ]
   },
   {
@@ -11311,16 +17546,16 @@ export const stationsData = [
       "MP 05 IDFM",
       "MP 89 CA",
       "Citadis 402"
-    ]
-  },
-  {
-    "nom": "Porte de Gentilly",
-    "lignes": [
-      "14"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MP 14 CA"
+    "stopAreaIds": [
+      "44515",
+      "473685"
+    ],
+    "stopPointIds": [
+      "22141",
+      "462414",
+      "462431",
+      "463073"
     ]
   },
   {
@@ -11331,6 +17566,13 @@ export const stationsData = [
     "resume": "Station située à Athis-Mons.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58786"
+    ],
+    "stopPointIds": [
+      "35926",
+      "462937"
     ]
   },
   {
@@ -11343,6 +17585,16 @@ export const stationsData = [
     "materiel": [
       "MF 67",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44517",
+      "473459"
+    ],
+    "stopPointIds": [
+      "22041",
+      "412987",
+      "412988",
+      "463281"
     ]
   },
   {
@@ -11350,9 +17602,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "473461"
+    ],
+    "stopPointIds": [
+      "22374",
+      "463007"
     ]
   },
   {
@@ -11363,6 +17622,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44518"
+    ],
+    "stopPointIds": [
+      "24399",
+      "29379"
     ]
   },
   {
@@ -11375,6 +17641,16 @@ export const stationsData = [
     "materiel": [
       "MF 01",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44520",
+      "473697"
+    ],
+    "stopPointIds": [
+      "21913",
+      "24406",
+      "24408",
+      "463279"
     ]
   },
   {
@@ -11382,9 +17658,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44521"
+    ],
+    "stopPointIds": [
+      "22003",
+      "463280"
     ]
   },
   {
@@ -11395,6 +17678,13 @@ export const stationsData = [
     "resume": "Station située à Paris 19e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "473687"
+    ],
+    "stopPointIds": [
+      "24403",
+      "24423"
     ]
   },
   {
@@ -11405,6 +17695,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58785"
+    ],
+    "stopPointIds": [
+      "29901",
+      "35934"
     ]
   },
   {
@@ -11412,9 +17709,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44524"
+    ],
+    "stopPointIds": [
+      "21914",
+      "463259"
     ]
   },
   {
@@ -11423,10 +17727,20 @@ export const stationsData = [
       "13",
       "T3b"
     ],
-    "resume": "Station située à Paris 18e.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44525",
+      "473689"
+    ],
+    "stopPointIds": [
+      "22220",
+      "462436",
+      "462446",
+      "462951"
     ]
   },
   {
@@ -11439,6 +17753,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44526",
+      "473702"
+    ],
+    "stopPointIds": [
+      "22221",
+      "24128",
+      "24129",
+      "463260"
     ]
   },
   {
@@ -11453,6 +17777,18 @@ export const stationsData = [
       "MF 67",
       "Citadis 302",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "473705",
+      "49515"
+    ],
+    "stopPointIds": [
+      "22042",
+      "24111",
+      "24114",
+      "25631",
+      "25633",
+      "463261"
     ]
   },
   {
@@ -11462,10 +17798,22 @@ export const stationsData = [
       "T3a",
       "T3b"
     ],
-    "resume": "Station située à Paris 12e.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MP 05",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44528",
+      "473707"
+    ],
+    "stopPointIds": [
+      "22077",
+      "24396",
+      "26534",
+      "460560",
+      "460563",
+      "463012"
     ]
   },
   {
@@ -11475,11 +17823,23 @@ export const stationsData = [
       "11",
       "T3b"
     ],
-    "resume": "Station située à Paris 20e.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 67",
       "MP 14 CC",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44529",
+      "473736"
+    ],
+    "stopPointIds": [
+      "21947",
+      "21949",
+      "24409",
+      "24415",
+      "463262",
+      "463263"
     ]
   },
   {
@@ -11492,6 +17852,16 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44532",
+      "473692"
+    ],
+    "stopPointIds": [
+      "22207",
+      "24134",
+      "24135",
+      "463050"
     ]
   },
   {
@@ -11502,7 +17872,7 @@ export const stationsData = [
       "E",
       "T3b"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MP 05",
       "Z 20900",
@@ -11513,16 +17883,22 @@ export const stationsData = [
       "MI 2N Eole",
       "Z 50000 Francilien",
       "Citadis 402"
-    ]
-  },
-  {
-    "nom": "Porte Maillot - Palais des Congrès",
-    "lignes": [
-      "T3b"
     ],
-    "resume": "Station située à Paris 17e.",
-    "materiel": [
-      "Citadis 402"
+    "stopAreaIds": [
+      "415093",
+      "44533",
+      "490883"
+    ],
+    "stopPointIds": [
+      "22078",
+      "41131",
+      "463257",
+      "471859",
+      "472182",
+      "484167",
+      "484169",
+      "490882",
+      "490892"
     ]
   },
   {
@@ -11533,6 +17909,13 @@ export const stationsData = [
     "resume": "Station située à Paris 13e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44550"
+    ],
+    "stopPointIds": [
+      "24127",
+      "24136"
     ]
   },
   {
@@ -11543,6 +17926,14 @@ export const stationsData = [
     "resume": "Station située à Presles.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47946"
+    ],
+    "stopPointIds": [
+      "41108",
+      "470895",
+      "471277"
     ]
   },
   {
@@ -11550,9 +17941,16 @@ export const stationsData = [
     "lignes": [
       "7bis"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 88"
+    ],
+    "stopAreaIds": [
+      "45617"
+    ],
+    "stopPointIds": [
+      "24684",
+      "463282"
     ]
   },
   {
@@ -11563,6 +17961,14 @@ export const stationsData = [
     "resume": "Station située à Précy-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411326"
+    ],
+    "stopPointIds": [
+      "411325",
+      "472762",
+      "472775"
     ]
   },
   {
@@ -11575,6 +17981,14 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47181"
+    ],
+    "stopPointIds": [
+      "41041",
+      "471395",
+      "472279"
     ]
   },
   {
@@ -11589,6 +18003,17 @@ export const stationsData = [
       "Z 50000 Francilien",
       "Z 8800",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "43184",
+      "462353"
+    ],
+    "stopPointIds": [
+      "22298",
+      "22299",
+      "41181",
+      "470869",
+      "471324"
     ]
   },
   {
@@ -11597,10 +18022,19 @@ export const stationsData = [
       "7",
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MF 77",
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "44579"
+    ],
+    "stopPointIds": [
+      "21960",
+      "22375",
+      "463283",
+      "463284"
     ]
   },
   {
@@ -11608,9 +18042,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "44580"
+    ],
+    "stopPointIds": [
+      "21991",
+      "463287"
     ]
   },
   {
@@ -11618,10 +18059,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "44582"
+    ],
+    "stopPointIds": [
+      "22161",
+      "463288"
     ]
   },
   {
@@ -11629,19 +18077,33 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44583"
+    ],
+    "stopPointIds": [
+      "22004",
+      "463289"
     ]
   },
   {
-    "nom": "Quatre-Septembre",
+    "nom": "Quatre Septembre",
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44587"
+    ],
+    "stopPointIds": [
+      "22024",
+      "462989"
     ]
   },
   {
@@ -11652,6 +18114,16 @@ export const stationsData = [
     "resume": "Station située à Rambouillet.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "427870"
+    ],
+    "stopPointIds": [
+      "41228",
+      "471377",
+      "471399",
+      "472483",
+      "472543"
     ]
   },
   {
@@ -11659,9 +18131,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "44593"
+    ],
+    "stopPointIds": [
+      "21992",
+      "462945"
     ]
   },
   {
@@ -11669,9 +18148,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44594"
+    ],
+    "stopPointIds": [
+      "21915",
+      "463290"
     ]
   },
   {
@@ -11680,13 +18166,22 @@ export const stationsData = [
       "4",
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "45314"
+    ],
+    "stopPointIds": [
+      "22131",
+      "22155",
+      "463291",
+      "463292"
     ]
   },
   {
@@ -11698,6 +18193,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "44603"
+    ],
+    "stopPointIds": [
+      "471837",
+      "472376"
     ]
   },
   {
@@ -11705,35 +18207,60 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44609"
+    ],
+    "stopPointIds": [
+      "22049",
+      "462968"
     ]
   },
   {
-    "nom": "Reuilly–Diderot",
+    "nom": "Reuilly - Diderot",
     "lignes": [
       "1",
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 12e.",
     "materiel": [
       "MP 05",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44637"
+    ],
+    "stopPointIds": [
+      "22076",
+      "22098",
+      "463293",
+      "463294"
     ]
   },
   {
-    "nom": "Réaumur–Sébastopol",
+    "nom": "Réaumur - Sébastopol",
     "lignes": [
       "3",
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 67",
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44600"
+    ],
+    "stopPointIds": [
+      "22018",
+      "22142",
+      "463072",
+      "463091"
     ]
   },
   {
@@ -11745,12 +18272,27 @@ export const stationsData = [
       "9",
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 67",
       "MF 01",
       "MF 77",
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "44617"
+    ],
+    "stopPointIds": [
+      "21902",
+      "21903",
+      "21918",
+      "21937",
+      "22199",
+      "462946",
+      "462960",
+      "462961",
+      "462962",
+      "462963"
     ]
   },
   {
@@ -11762,6 +18304,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "44626"
+    ],
+    "stopPointIds": [
+      "478650",
+      "478662"
     ]
   },
   {
@@ -11769,21 +18318,37 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44641"
+    ],
+    "stopPointIds": [
+      "22002",
+      "463096"
     ]
   },
   {
-    "nom": "Richelieu–Drouot",
+    "nom": "Richelieu - Drouot",
     "lignes": [
       "8",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 77",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44642"
+    ],
+    "stopPointIds": [
+      "21921",
+      "22196",
+      "463036",
+      "463037"
     ]
   },
   {
@@ -11791,9 +18356,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44643"
+    ],
+    "stopPointIds": [
+      "22371",
+      "463295"
     ]
   },
   {
@@ -11806,6 +18378,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47948"
+    ],
+    "stopPointIds": [
+      "41341",
+      "471235",
+      "471999"
     ]
   },
   {
@@ -11816,6 +18396,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44994"
+    ],
+    "stopPointIds": [
+      "35938",
+      "35943"
     ]
   },
   {
@@ -11826,6 +18413,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "44649"
+    ],
+    "stopPointIds": [
+      "41850",
+      "41853"
     ]
   },
   {
@@ -11833,9 +18427,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Montreuil.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44650"
+    ],
+    "stopPointIds": [
+      "21942",
+      "463053"
     ]
   },
   {
@@ -11847,6 +18448,15 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43186"
+    ],
+    "stopPointIds": [
+      "412832",
+      "474024",
+      "474025",
+      "474026"
     ]
   },
   {
@@ -11857,6 +18467,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "50681"
+    ],
+    "stopPointIds": [
+      "28862",
+      "28863"
     ]
   },
   {
@@ -11869,6 +18486,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46568"
+    ],
+    "stopPointIds": [
+      "41033",
+      "470946",
+      "470987",
+      "471570",
+      "472127"
     ]
   },
   {
@@ -11880,6 +18507,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "43043"
+    ],
+    "stopPointIds": [
+      "478655",
+      "478659"
     ]
   },
   {
@@ -11887,9 +18521,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Romainville.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "490765"
+    ],
+    "stopPointIds": [
+      "490764",
+      "490788"
     ]
   },
   {
@@ -11897,9 +18538,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44662"
+    ],
+    "stopPointIds": [
+      "22110",
+      "463296"
     ]
   },
   {
@@ -11914,6 +18562,17 @@ export const stationsData = [
       "MI 2N Eole",
       "Z 50000 Francilien",
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "473484",
+      "58498"
+    ],
+    "stopPointIds": [
+      "24530",
+      "24531",
+      "420316",
+      "471119",
+      "472747"
     ]
   },
   {
@@ -11924,6 +18583,13 @@ export const stationsData = [
     "resume": "Station située à Épinay-sur-Seine.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "415806"
+    ],
+    "stopPointIds": [
+      "42104",
+      "42108"
     ]
   },
   {
@@ -11940,6 +18606,19 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "42356",
+      "490773"
+    ],
+    "stopPointIds": [
+      "41017",
+      "470763",
+      "471124",
+      "472307",
+      "472712",
+      "490772",
+      "490793"
     ]
   },
   {
@@ -11952,6 +18631,16 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47877"
+    ],
+    "stopPointIds": [
+      "41018",
+      "471618",
+      "472202",
+      "472717",
+      "472882"
     ]
   },
   {
@@ -11962,6 +18651,14 @@ export const stationsData = [
     "resume": "Station située à Rosny-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "479059"
+    ],
+    "stopPointIds": [
+      "41289",
+      "471422",
+      "472945"
     ]
   },
   {
@@ -11973,6 +18670,13 @@ export const stationsData = [
     "materiel": [
       "Citadis Dualis",
       "Avanto"
+    ],
+    "stopAreaIds": [
+      "411283"
+    ],
+    "stopPointIds": [
+      "471289",
+      "472618"
     ]
   },
   {
@@ -11983,17 +18687,13 @@ export const stationsData = [
     "resume": "Station située à Choisy-le-Roi.",
     "materiel": [
       "Citadis 405"
-    ]
-  },
-  {
-    "nom": "Route de Romainville",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Montreuil.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "479025"
+    ],
+    "stopPointIds": [
+      "478978",
+      "478986"
     ]
   },
   {
@@ -12001,20 +18701,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
-    ]
-  },
-  {
-    "nom": "Rue de Rosny",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Montreuil.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "44461"
+    ],
+    "stopPointIds": [
+      "21908",
+      "463055"
     ]
   },
   {
@@ -12022,9 +18718,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "425987"
+    ],
+    "stopPointIds": [
+      "22442",
+      "463298"
     ]
   },
   {
@@ -12032,20 +18735,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 67"
-    ]
-  },
-  {
-    "nom": "Rue Hélène",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Noisy-le-Sec.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "58717"
+    ],
+    "stopPointIds": [
+      "22043",
+      "462950"
     ]
   },
   {
@@ -12053,9 +18752,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45194"
+    ],
+    "stopPointIds": [
+      "22025",
+      "463297"
     ]
   },
   {
@@ -12067,6 +18773,16 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "58875"
+    ],
+    "stopPointIds": [
+      "412796",
+      "474020",
+      "474021",
+      "474022",
+      "474023"
     ]
   },
   {
@@ -12074,10 +18790,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Rungis la Fraternelle",
@@ -12090,6 +18808,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "44787"
+    ],
+    "stopPointIds": [
+      "41329",
+      "471045",
+      "471741"
     ]
   },
   {
@@ -12100,6 +18826,13 @@ export const stationsData = [
     "resume": "Station située à Rungis.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "52184"
+    ],
+    "stopPointIds": [
+      "35935",
+      "35939"
     ]
   },
   {
@@ -12107,9 +18840,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45205"
+    ],
+    "stopPointIds": [
+      "21910",
+      "463299"
     ]
   },
   {
@@ -12117,9 +18857,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44857"
+    ],
+    "stopPointIds": [
+      "21911",
+      "463300"
     ]
   },
   {
@@ -12133,6 +18880,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47952"
+    ],
+    "stopPointIds": [
+      "41322",
+      "471463",
+      "472475"
     ]
   },
   {
@@ -12147,6 +18902,16 @@ export const stationsData = [
       "MR6V",
       "Z 50000 Francilien",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "43196"
+    ],
+    "stopPointIds": [
+      "41178",
+      "470852",
+      "471421",
+      "471432",
+      "471906"
     ]
   },
   {
@@ -12165,6 +18930,22 @@ export const stationsData = [
       "Z 5600",
       "Regio 2N",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "46990",
+      "480909"
+    ],
+    "stopPointIds": [
+      "41222",
+      "470890",
+      "471036",
+      "471247",
+      "471899",
+      "472732",
+      "472908",
+      "480908",
+      "481066",
+      "494486"
     ]
   },
   {
@@ -12184,6 +18965,24 @@ export const stationsData = [
       "Citadis 305",
       "TFS",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "412743",
+      "462392"
+    ],
+    "stopPointIds": [
+      "22635",
+      "24431",
+      "411414",
+      "42122",
+      "42126",
+      "470626",
+      "470700",
+      "471298",
+      "471568",
+      "472089",
+      "472399",
+      "472918"
     ]
   },
   {
@@ -12196,6 +18995,33 @@ export const stationsData = [
     "materiel": [
       "MF 77",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44861",
+      "473458"
+    ],
+    "stopPointIds": [
+      "22241",
+      "42120",
+      "42123",
+      "463301"
+    ]
+  },
+  {
+    "nom": "Saint-Denis - Université",
+    "lignes": [
+      "13"
+    ],
+    "resume": "Station située à Saint-Denis.",
+    "materiel": [
+      "MF 77"
+    ],
+    "stopAreaIds": [
+      "44860"
+    ],
+    "stopPointIds": [
+      "22242",
+      "463302"
     ]
   },
   {
@@ -12206,21 +19032,18 @@ export const stationsData = [
       "16",
       "17"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Saint-Denis.",
     "materiel": [
       "MP 14 CA",
       "MR6V",
       "MR3V"
-    ]
-  },
-  {
-    "nom": "Saint-Denis–Université",
-    "lignes": [
-      "13"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
+    "stopAreaIds": [
+      "490775"
+    ],
+    "stopPointIds": [
+      "490774",
+      "490794"
     ]
   },
   {
@@ -12229,12 +19052,23 @@ export const stationsData = [
       "3bis",
       "D"
     ],
-    "resume": "Station située à Saint-Fargeau-Ponthierry.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MF 67",
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "44864",
+      "45814"
+    ],
+    "stopPointIds": [
+      "21946",
+      "41388",
+      "463071",
+      "471461",
+      "472872"
     ]
   },
   {
@@ -12242,9 +19076,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45139"
+    ],
+    "stopPointIds": [
+      "22217",
+      "463303"
     ]
   },
   {
@@ -12252,9 +19093,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44867"
+    ],
+    "stopPointIds": [
+      "22044",
+      "463304"
     ]
   },
   {
@@ -12262,11 +19110,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44799"
+    ],
+    "stopPointIds": [
+      "22136",
+      "462993"
     ]
   },
   {
@@ -12280,6 +19135,18 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "43198",
+      "480905"
+    ],
+    "stopPointIds": [
+      "40927",
+      "474015",
+      "474016",
+      "474017",
+      "480904",
+      "481067"
     ]
   },
   {
@@ -12293,6 +19160,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43201"
+    ],
+    "stopPointIds": [
+      "41095",
+      "472677",
+      "472836"
     ]
   },
   {
@@ -12300,21 +19175,17 @@ export const stationsData = [
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 14e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
-    ]
-  },
-  {
-    "nom": "Saint-Jean",
-    "lignes": [
-      "T1"
     ],
-    "resume": "Station située à Noisy-le-Sec.",
-    "materiel": [
-      "Citadis 305",
-      "TFS"
+    "stopAreaIds": [
+      "45315"
+    ],
+    "stopPointIds": [
+      "22160",
+      "463305"
     ]
   },
   {
@@ -12325,27 +19196,16 @@ export const stationsData = [
     "resume": "Station située à Saint-Julien-du-Sault.",
     "materiel": [
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Saint-Lazare",
-    "lignes": [
-      "3",
-      "12",
-      "13",
-      "14",
-      "E",
-      "J",
-      "L"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 67",
-      "MF 77",
-      "MP 14 CA",
-      "RER NG",
-      "MI 2N Eole",
-      "Z 50000 Francilien"
+    "stopAreaIds": [
+      "411473"
+    ],
+    "stopPointIds": [
+      "411472",
+      "471902",
+      "472264",
+      "472313",
+      "472772"
     ]
   },
   {
@@ -12356,6 +19216,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Leu-d'Esserent.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411329"
+    ],
+    "stopPointIds": [
+      "411328",
+      "471736",
+      "472485"
     ]
   },
   {
@@ -12366,6 +19234,15 @@ export const stationsData = [
     "resume": "Station située à Saint-Leu-la-Forêt.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "48964"
+    ],
+    "stopPointIds": [
+      "41118",
+      "470668",
+      "471051",
+      "471080"
     ]
   },
   {
@@ -12376,6 +19253,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Mammès.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47953"
+    ],
+    "stopPointIds": [
+      "41375",
+      "472231",
+      "472385"
     ]
   },
   {
@@ -12383,9 +19268,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Vincennes.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "47247"
+    ],
+    "stopPointIds": [
+      "22103",
+      "463040"
     ]
   },
   {
@@ -12393,9 +19285,16 @@ export const stationsData = [
     "lignes": [
       "5"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44875"
+    ],
+    "stopPointIds": [
+      "22000",
+      "463097"
     ]
   },
   {
@@ -12409,6 +19308,13 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47115"
+    ],
+    "stopPointIds": [
+      "41316",
+      "472800"
     ]
   },
   {
@@ -12422,6 +19328,14 @@ export const stationsData = [
       "MR6V",
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "44801"
+    ],
+    "stopPointIds": [
+      "412719",
+      "474013",
+      "474014"
     ]
   },
   {
@@ -12429,34 +19343,44 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "462369"
+    ],
+    "stopPointIds": [
+      "22137",
+      "463306"
     ]
   },
   {
     "nom": "Saint-Michel Notre-Dame",
     "lignes": [
-      "4",
-      "10",
       "B",
       "C"
     ],
     "resume": "Station située à Paris 5e.",
     "materiel": [
-      "MP 14 CA",
-      "MP 05 IDFM",
-      "MP 89 CA",
-      "MF 67",
-      "MF 19 CC",
       "MI 79",
       "MI 84",
       "Z 20900",
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "44877"
+    ],
+    "stopPointIds": [
+      "412816",
+      "470634",
+      "472262",
+      "473915",
+      "473916"
     ]
   },
   {
@@ -12470,6 +19394,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43202"
+    ],
+    "stopPointIds": [
+      "41305",
+      "470965",
+      "472833"
     ]
   },
   {
@@ -12482,6 +19414,17 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "47954",
+      "480907"
+    ],
+    "stopPointIds": [
+      "41187",
+      "471811",
+      "472894",
+      "480906",
+      "481072"
     ]
   },
   {
@@ -12497,6 +19440,17 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43203",
+      "480289"
+    ],
+    "stopPointIds": [
+      "41076",
+      "471049",
+      "471345",
+      "480288",
+      "480341"
     ]
   },
   {
@@ -12512,6 +19466,15 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47599"
+    ],
+    "stopPointIds": [
+      "41090",
+      "471117",
+      "471653",
+      "472654"
     ]
   },
   {
@@ -12527,6 +19490,14 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43150"
+    ],
+    "stopPointIds": [
+      "41129",
+      "471301",
+      "473006"
     ]
   },
   {
@@ -12537,6 +19508,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Ouen-l'Aumône.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47955"
+    ],
+    "stopPointIds": [
+      "41146",
+      "470962",
+      "471776"
     ]
   },
   {
@@ -12544,19 +19523,33 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "44881"
+    ],
+    "stopPointIds": [
+      "22074",
+      "463307"
     ]
   },
   {
-    "nom": "Saint-Philippe du Roule",
+    "nom": "Saint-Philippe-du-Roule",
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 8e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44884"
+    ],
+    "stopPointIds": [
+      "21912",
+      "462915"
     ]
   },
   {
@@ -12567,6 +19560,14 @@ export const stationsData = [
     "resume": "Station située à Saint-Piat.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411501"
+    ],
+    "stopPointIds": [
+      "411500",
+      "471949",
+      "472678"
     ]
   },
   {
@@ -12574,11 +19575,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44885"
+    ],
+    "stopPointIds": [
+      "22138",
+      "463308"
     ]
   },
   {
@@ -12595,6 +19603,18 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "461504"
+    ],
+    "stopPointIds": [
+      "41251",
+      "470830",
+      "471329",
+      "471781",
+      "472414",
+      "472731",
+      "472780"
     ]
   },
   {
@@ -12602,10 +19622,12 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Saint-Rémy-la-Vanne",
@@ -12617,6 +19639,12 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47956"
+    ],
+    "stopPointIds": [
+      "41056"
     ]
   },
   {
@@ -12628,16 +19656,32 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "47889"
+    ],
+    "stopPointIds": [
+      "412844",
+      "474009",
+      "474011",
+      "474012"
     ]
   },
   {
-    "nom": "Saint-Sébastien–Froissart",
+    "nom": "Saint-Sébastien - Froissart",
     "lignes": [
       "8"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 3e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45208"
+    ],
+    "stopPointIds": [
+      "22201",
+      "463309"
     ]
   },
   {
@@ -12650,6 +19694,12 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47957"
+    ],
+    "stopPointIds": [
+      "41055"
     ]
   },
   {
@@ -12657,11 +19707,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "45120"
+    ],
+    "stopPointIds": [
+      "22139",
+      "462992"
     ]
   },
   {
@@ -12674,6 +19731,13 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47171"
+    ],
+    "stopPointIds": [
+      "41042",
+      "472837"
     ]
   },
   {
@@ -12687,6 +19751,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43188"
+    ],
+    "stopPointIds": [
+      "41306",
+      "471366",
+      "472285"
     ]
   },
   {
@@ -12697,6 +19769,14 @@ export const stationsData = [
     "resume": "Station située à Sannois.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43189"
+    ],
+    "stopPointIds": [
+      "41096",
+      "470876",
+      "472328"
     ]
   },
   {
@@ -12707,6 +19787,14 @@ export const stationsData = [
     "resume": "Station située à Santeuil.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47949"
+    ],
+    "stopPointIds": [
+      "41143",
+      "471631",
+      "472637"
     ]
   },
   {
@@ -12717,6 +19805,15 @@ export const stationsData = [
     "resume": "Station située à Saint-Brice-sous-Forêt.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43190"
+    ],
+    "stopPointIds": [
+      "411423",
+      "471312",
+      "472223",
+      "472533"
     ]
   },
   {
@@ -12731,6 +19828,17 @@ export const stationsData = [
       "MI 09",
       "MI 2N Altéo",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43191"
+    ],
+    "stopPointIds": [
+      "411360",
+      "470846",
+      "471244",
+      "471763",
+      "472009",
+      "472440"
     ]
   },
   {
@@ -12738,10 +19846,12 @@ export const stationsData = [
     "lignes": [
       "18"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MRV"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Savigny-le-Temple - Nandy",
@@ -12753,6 +19863,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47665"
+    ],
+    "stopPointIds": [
+      "41370",
+      "470678",
+      "471687",
+      "472545",
+      "472583"
     ]
   },
   {
@@ -12766,6 +19886,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43192"
+    ],
+    "stopPointIds": [
+      "41308",
+      "471613",
+      "472330"
     ]
   },
   {
@@ -12777,6 +19905,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "59206"
+    ],
+    "stopPointIds": [
+      "412841",
+      "474018",
+      "474019"
     ]
   },
   {
@@ -12787,6 +19923,17 @@ export const stationsData = [
     "resume": "Station située à Sens.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411452"
+    ],
+    "stopPointIds": [
+      "411451",
+      "471044",
+      "471048",
+      "471655",
+      "472247",
+      "472658"
     ]
   },
   {
@@ -12794,9 +19941,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44825"
+    ],
+    "stopPointIds": [
+      "22029",
+      "462986"
     ]
   },
   {
@@ -12804,9 +19958,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Les Lilas.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "490763"
+    ],
+    "stopPointIds": [
+      "490762",
+      "490787"
     ]
   },
   {
@@ -12820,6 +19981,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "47950"
+    ],
+    "stopPointIds": [
+      "41323",
+      "471838",
+      "472049"
     ]
   },
   {
@@ -12830,6 +19999,13 @@ export const stationsData = [
     "resume": "Station située à Seugy.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47951"
+    ],
+    "stopPointIds": [
+      "41079",
+      "470786"
     ]
   },
   {
@@ -12843,6 +20019,14 @@ export const stationsData = [
       "MR3V",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43193"
+    ],
+    "stopPointIds": [
+      "411413",
+      "470731",
+      "472186"
     ]
   },
   {
@@ -12856,6 +20040,37 @@ export const stationsData = [
       "MR3V",
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "43194"
+    ],
+    "stopPointIds": [
+      "411411",
+      "471467",
+      "471476",
+      "472535",
+      "472962"
+    ]
+  },
+  {
+    "nom": "Sèvres - Babylone",
+    "lignes": [
+      "10",
+      "12"
+    ],
+    "resume": "Station située à Paris 6e.",
+    "materiel": [
+      "MF 67",
+      "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "44828"
+    ],
+    "stopPointIds": [
+      "21976",
+      "21980",
+      "462966",
+      "462967"
     ]
   },
   {
@@ -12868,6 +20083,14 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "47767"
+    ],
+    "stopPointIds": [
+      "41177",
+      "471746",
+      "472701"
     ]
   },
   {
@@ -12878,29 +20101,34 @@ export const stationsData = [
     "resume": "Station située à Sèvres.",
     "materiel": [
       "Regio 2N"
-    ]
-  },
-  {
-    "nom": "Sèvres–Babylone",
-    "lignes": [
-      "10",
-      "12"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 67",
-      "MF 19 CC"
+    "stopAreaIds": [
+      "43195"
+    ],
+    "stopPointIds": [
+      "41216",
+      "470898",
+      "471152",
+      "471302",
+      "472662"
     ]
   },
   {
-    "nom": "Sèvres–Lecourbe",
+    "nom": "Sèvres-Lecourbe",
     "lignes": [
       "6"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MP 73",
       "MP 89 CC"
+    ],
+    "stopAreaIds": [
+      "44829"
+    ],
+    "stopPointIds": [
+      "22163",
+      "463314"
     ]
   },
   {
@@ -12908,10 +20136,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "51612"
+    ],
+    "stopPointIds": [
+      "21979",
+      "463315"
     ]
   },
   {
@@ -12922,6 +20157,13 @@ export const stationsData = [
     "resume": "Station située à Paris 20e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "45629"
+    ],
+    "stopPointIds": [
+      "24397",
+      "24400"
     ]
   },
   {
@@ -12929,11 +20171,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 18e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44833"
+    ],
+    "stopPointIds": [
+      "22133",
+      "463310"
     ]
   },
   {
@@ -12944,6 +20193,13 @@ export const stationsData = [
     "resume": "Station située à Clamart.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "44838"
+    ],
+    "stopPointIds": [
+      "41857",
+      "41858"
     ]
   },
   {
@@ -12951,9 +20207,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44840"
+    ],
+    "stopPointIds": [
+      "22045",
+      "463311"
     ]
   },
   {
@@ -12964,6 +20227,14 @@ export const stationsData = [
     "resume": "Station située à Souppes-sur-Loing.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47118"
+    ],
+    "stopPointIds": [
+      "41393",
+      "470712",
+      "472010"
     ]
   },
   {
@@ -12974,6 +20245,13 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "490894"
+    ],
+    "stopPointIds": [
+      "490893",
+      "490896"
     ]
   },
   {
@@ -12984,6 +20262,13 @@ export const stationsData = [
     "resume": "Station située à Paris 13e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "44892"
+    ],
+    "stopPointIds": [
+      "24112",
+      "28847"
     ]
   },
   {
@@ -12991,10 +20276,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Stade de France Saint-Denis",
@@ -13006,6 +20293,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43204"
+    ],
+    "stopPointIds": [
+      "411370",
+      "470637",
+      "470904",
+      "472411"
     ]
   },
   {
@@ -13017,16 +20313,31 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46119"
+    ],
+    "stopPointIds": [
+      "23303",
+      "24429"
     ]
   },
   {
-    "nom": "Stains - La Cerisaie",
+    "nom": "Stains la Cerisaie",
     "lignes": [
       "T11"
     ],
     "resume": "Station située à Stains.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "462931"
+    ],
+    "stopPointIds": [
+      "471887",
+      "472968",
+      "495662"
     ]
   },
   {
@@ -13036,26 +20347,48 @@ export const stationsData = [
       "5",
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 19e.",
     "materiel": [
       "MF 01",
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44901"
+    ],
+    "stopPointIds": [
+      "22001",
+      "22107",
+      "22368",
+      "463008",
+      "463009",
+      "463032"
     ]
   },
   {
-    "nom": "Strasbourg–Saint-Denis",
+    "nom": "Strasbourg - Saint-Denis",
     "lignes": [
       "4",
       "8",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 2e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA",
       "MF 77",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44909"
+    ],
+    "stopPointIds": [
+      "21920",
+      "22134",
+      "22159",
+      "463264",
+      "463312",
+      "463313"
     ]
   },
   {
@@ -13067,16 +20400,31 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "58792"
+    ],
+    "stopPointIds": [
+      "412803",
+      "474007",
+      "474010"
     ]
   },
   {
-    "nom": "Sully–Morland",
+    "nom": "Sully - Morland",
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 4e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "44911"
+    ],
+    "stopPointIds": [
+      "22369",
+      "463265"
     ]
   },
   {
@@ -13087,6 +20435,13 @@ export const stationsData = [
     "resume": "Station située à Suresnes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44914"
+    ],
+    "stopPointIds": [
+      "25645",
+      "25646"
     ]
   },
   {
@@ -13099,6 +20454,15 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "43205"
+    ],
+    "stopPointIds": [
+      "41180",
+      "471065",
+      "471181",
+      "472349"
     ]
   },
   {
@@ -13111,6 +20475,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47958"
+    ],
+    "stopPointIds": [
+      "41101",
+      "470986",
+      "472877"
     ]
   },
   {
@@ -13121,6 +20493,13 @@ export const stationsData = [
     "resume": "Station située à Paris 15e.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "44917"
+    ],
+    "stopPointIds": [
+      "22295",
+      "22296"
     ]
   },
   {
@@ -13131,6 +20510,13 @@ export const stationsData = [
     "resume": "Station située à Saint-Denis.",
     "materiel": [
       "Translohr STE3"
+    ],
+    "stopAreaIds": [
+      "50686"
+    ],
+    "stopPointIds": [
+      "28848",
+      "28857"
     ]
   },
   {
@@ -13141,6 +20527,14 @@ export const stationsData = [
     "resume": "Station située à Tacoignières.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47959"
+    ],
+    "stopPointIds": [
+      "41237",
+      "471731",
+      "472649"
     ]
   },
   {
@@ -13151,6 +20545,14 @@ export const stationsData = [
     "resume": "Station située à Taverny.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43206"
+    ],
+    "stopPointIds": [
+      "41120",
+      "471641",
+      "471883"
     ]
   },
   {
@@ -13158,9 +20560,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 3e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44924"
+    ],
+    "stopPointIds": [
+      "22026",
+      "463316"
     ]
   },
   {
@@ -13168,9 +20577,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44931"
+    ],
+    "stopPointIds": [
+      "22108",
+      "463266"
     ]
   },
   {
@@ -13178,9 +20594,16 @@ export const stationsData = [
     "lignes": [
       "11"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 20e.",
     "materiel": [
       "MP 14 CC"
+    ],
+    "stopAreaIds": [
+      "44923"
+    ],
+    "stopPointIds": [
+      "21993",
+      "463319"
     ]
   },
   {
@@ -13192,6 +20615,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "44937"
+    ],
+    "stopPointIds": [
+      "22269",
+      "23313"
     ]
   },
   {
@@ -13202,6 +20632,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486829"
+    ],
+    "stopPointIds": [
+      "486828",
+      "486844"
     ]
   },
   {
@@ -13212,6 +20649,13 @@ export const stationsData = [
     "resume": "Station située à Paris 17e.",
     "materiel": [
       "Citadis 402"
+    ],
+    "stopAreaIds": [
+      "490888"
+    ],
+    "stopPointIds": [
+      "490887",
+      "490889"
     ]
   },
   {
@@ -13219,9 +20663,16 @@ export const stationsData = [
     "lignes": [
       "14"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Thiais.",
     "materiel": [
       "MP 14 CA"
+    ],
+    "stopAreaIds": [
+      "490834"
+    ],
+    "stopPointIds": [
+      "490833",
+      "490852"
     ]
   },
   {
@@ -13232,6 +20683,14 @@ export const stationsData = [
     "resume": "Station située à Nantouillet.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47960"
+    ],
+    "stopPointIds": [
+      "41081",
+      "472265",
+      "472790"
     ]
   },
   {
@@ -13242,6 +20701,14 @@ export const stationsData = [
     "resume": "Station située à Fontainebleau.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47961"
+    ],
+    "stopPointIds": [
+      "41373",
+      "471739",
+      "472239"
     ]
   },
   {
@@ -13252,6 +20719,14 @@ export const stationsData = [
     "resume": "Station située à Meulan-en-Yvelines.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46902"
+    ],
+    "stopPointIds": [
+      "41164",
+      "470612",
+      "471382"
     ]
   },
   {
@@ -13263,6 +20738,13 @@ export const stationsData = [
     "materiel": [
       "Citadis 305",
       "TFS"
+    ],
+    "stopAreaIds": [
+      "46450"
+    ],
+    "stopPointIds": [
+      "23283",
+      "23284"
     ]
   },
   {
@@ -13270,9 +20752,16 @@ export const stationsData = [
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 13e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "43411"
+    ],
+    "stopPointIds": [
+      "22370",
+      "463267"
     ]
   },
   {
@@ -13284,6 +20773,15 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43207"
+    ],
+    "stopPointIds": [
+      "40944",
+      "474005",
+      "474006",
+      "474008"
     ]
   },
   {
@@ -13299,6 +20797,15 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43208"
+    ],
+    "stopPointIds": [
+      "41043",
+      "471445",
+      "471983",
+      "472817"
     ]
   },
   {
@@ -13309,6 +20816,13 @@ export const stationsData = [
     "resume": "Station située à Evry-Courcouronnes.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "486966"
+    ],
+    "stopPointIds": [
+      "486965",
+      "486994"
     ]
   },
   {
@@ -13321,6 +20835,16 @@ export const stationsData = [
     "materiel": [
       "Regio 2N",
       "Z 8800"
+    ],
+    "stopAreaIds": [
+      "43209"
+    ],
+    "stopPointIds": [
+      "41250",
+      "472042",
+      "472310",
+      "472547",
+      "472676"
     ]
   },
   {
@@ -13331,6 +20855,14 @@ export const stationsData = [
     "resume": "Station située à Trie-Château.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "411338"
+    ],
+    "stopPointIds": [
+      "411337",
+      "470665",
+      "472020"
     ]
   },
   {
@@ -13341,6 +20873,14 @@ export const stationsData = [
     "resume": "Station située à Triel-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "46926"
+    ],
+    "stopPointIds": [
+      "41162",
+      "470997",
+      "472640"
     ]
   },
   {
@@ -13353,16 +20893,31 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47962"
+    ],
+    "stopPointIds": [
+      "41060",
+      "472185",
+      "472274"
     ]
   },
   {
-    "nom": "Trinité–d'Estienne d'Orves",
+    "nom": "Trinité - d'Estienne d'Orves",
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 9e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45170"
+    ],
+    "stopPointIds": [
+      "22046",
+      "463317"
     ]
   },
   {
@@ -13371,11 +20926,20 @@ export const stationsData = [
       "6",
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MP 73",
       "MP 89 CC",
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "44962"
+    ],
+    "stopPointIds": [
+      "21917",
+      "22164",
+      "463268",
+      "463318"
     ]
   },
   {
@@ -13386,6 +20950,13 @@ export const stationsData = [
     "resume": "Station située à Thiais.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479026"
+    ],
+    "stopPointIds": [
+      "478982",
+      "478990"
     ]
   },
   {
@@ -13393,9 +20964,16 @@ export const stationsData = [
     "lignes": [
       "1"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 1er.",
     "materiel": [
       "MP 05"
+    ],
+    "stopAreaIds": [
+      "45664"
+    ],
+    "stopPointIds": [
+      "22075",
+      "463041"
     ]
   },
   {
@@ -13406,6 +20984,14 @@ export const stationsData = [
     "resume": "Station située à Us.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47922"
+    ],
+    "stopPointIds": [
+      "41142",
+      "470764",
+      "471090"
     ]
   },
   {
@@ -13421,6 +21007,16 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "43211"
+    ],
+    "stopPointIds": [
+      "41049",
+      "471245",
+      "471870",
+      "472069",
+      "472738"
     ]
   },
   {
@@ -13431,6 +21027,14 @@ export const stationsData = [
     "resume": "Station située à Argenteuil.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43212"
+    ],
+    "stopPointIds": [
+      "41161",
+      "470667",
+      "471415"
     ]
   },
   {
@@ -13442,6 +21046,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43213"
+    ],
+    "stopPointIds": [
+      "40953",
+      "474003",
+      "474004"
     ]
   },
   {
@@ -13457,6 +21069,18 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47900"
+    ],
+    "stopPointIds": [
+      "41019",
+      "470867",
+      "471194",
+      "471654",
+      "471698",
+      "474001",
+      "474002"
     ]
   },
   {
@@ -13467,6 +21091,13 @@ export const stationsData = [
     "resume": "Station située à Châtenay-Malabry.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "486823"
+    ],
+    "stopPointIds": [
+      "486822",
+      "486847"
     ]
   },
   {
@@ -13477,6 +21108,17 @@ export const stationsData = [
     "resume": "Station située à Butry-sur-Oise.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47588"
+    ],
+    "stopPointIds": [
+      "41111",
+      "472090",
+      "472121",
+      "472165",
+      "472456",
+      "472795"
     ]
   },
   {
@@ -13484,10 +21126,17 @@ export const stationsData = [
     "lignes": [
       "10"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MF 67",
       "MF 19 CC"
+    ],
+    "stopAreaIds": [
+      "45116"
+    ],
+    "stopPointIds": [
+      "21977",
+      "462959"
     ]
   },
   {
@@ -13498,6 +21147,16 @@ export const stationsData = [
     "resume": "Station située à Vanves.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43214"
+    ],
+    "stopPointIds": [
+      "41205",
+      "470871",
+      "471812",
+      "472007",
+      "472047"
     ]
   },
   {
@@ -13505,9 +21164,16 @@ export const stationsData = [
     "lignes": [
       "13"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 7e.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "45131"
+    ],
+    "stopPointIds": [
+      "22226",
+      "463320"
     ]
   },
   {
@@ -13518,6 +21184,13 @@ export const stationsData = [
     "resume": "Station située à Châtillon.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "59202"
+    ],
+    "stopPointIds": [
+      "41671",
+      "41672"
     ]
   },
   {
@@ -13531,6 +21204,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43215"
+    ],
+    "stopPointIds": [
+      "41241",
+      "471996",
+      "472889"
     ]
   },
   {
@@ -13541,6 +21222,14 @@ export const stationsData = [
     "resume": "Station située à Taverny.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47963"
+    ],
+    "stopPointIds": [
+      "41119",
+      "471672",
+      "472910"
     ]
   },
   {
@@ -13551,6 +21240,14 @@ export const stationsData = [
     "resume": "Station située à Vaucresson.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43216"
+    ],
+    "stopPointIds": [
+      "41175",
+      "471026",
+      "471037"
     ]
   },
   {
@@ -13558,9 +21255,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "44995"
+    ],
+    "stopPointIds": [
+      "22047",
+      "463321"
     ]
   },
   {
@@ -13571,6 +21275,14 @@ export const stationsData = [
     "resume": "Station située à Vaux-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43217"
+    ],
+    "stopPointIds": [
+      "41163",
+      "470629",
+      "472999"
     ]
   },
   {
@@ -13578,11 +21290,18 @@ export const stationsData = [
     "lignes": [
       "4"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 6e.",
     "materiel": [
       "MP 14 CA",
       "MP 05 IDFM",
       "MP 89 CA"
+    ],
+    "stopAreaIds": [
+      "44997"
+    ],
+    "stopPointIds": [
+      "22135",
+      "463016"
     ]
   },
   {
@@ -13593,18 +21312,13 @@ export const stationsData = [
     "resume": "Station située à Thiais.",
     "materiel": [
       "Citadis 405"
-    ]
-  },
-  {
-    "nom": "Verdun-Sud",
-    "lignes": [
-      "4"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MP 14 CA",
-      "MP 05 IDFM",
-      "MP 89 CA"
+    "stopAreaIds": [
+      "479027"
+    ],
+    "stopPointIds": [
+      "478988",
+      "478989"
     ]
   },
   {
@@ -13617,6 +21331,15 @@ export const stationsData = [
       "Z 50000 Francilien",
       "AGC BiBi",
       "Z 20500"
+    ],
+    "stopAreaIds": [
+      "47187"
+    ],
+    "stopPointIds": [
+      "41035",
+      "470682",
+      "471267",
+      "472675"
     ]
   },
   {
@@ -13627,6 +21350,14 @@ export const stationsData = [
     "resume": "Station située à Vernon.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "59038"
+    ],
+    "stopPointIds": [
+      "41287",
+      "471217",
+      "471970"
     ]
   },
   {
@@ -13637,6 +21368,14 @@ export const stationsData = [
     "resume": "Station située à Vernou-la-Celle-sur-Seine.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43218"
+    ],
+    "stopPointIds": [
+      "41383",
+      "472351",
+      "472841"
     ]
   },
   {
@@ -13647,6 +21386,16 @@ export const stationsData = [
     "resume": "Station située à Verneuil-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47964"
+    ],
+    "stopPointIds": [
+      "41198",
+      "470650",
+      "470930",
+      "471622",
+      "472710"
     ]
   },
   {
@@ -13666,6 +21415,20 @@ export const stationsData = [
       "Z 8800",
       "Z 5600",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43219"
+    ],
+    "stopPointIds": [
+      "41207",
+      "470737",
+      "470766",
+      "471389",
+      "471738",
+      "471928",
+      "472104",
+      "472407",
+      "472737"
     ]
   },
   {
@@ -13679,6 +21442,16 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "43220"
+    ],
+    "stopPointIds": [
+      "41217",
+      "470707",
+      "470893",
+      "471963",
+      "472314"
     ]
   },
   {
@@ -13689,6 +21462,14 @@ export const stationsData = [
     "resume": "Station située à Versailles.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "44602"
+    ],
+    "stopPointIds": [
+      "41190",
+      "470933",
+      "470999"
     ]
   },
   {
@@ -13700,6 +21481,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "46222"
+    ],
+    "stopPointIds": [
+      "411412",
+      "470873",
+      "472517",
+      "472643",
+      "472700"
     ]
   },
   {
@@ -13710,6 +21501,13 @@ export const stationsData = [
     "resume": "Station située à Vélizy-Villacoublay.",
     "materiel": [
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "59053"
+    ],
+    "stopPointIds": [
+      "41851",
+      "41854"
     ]
   },
   {
@@ -13720,6 +21518,13 @@ export const stationsData = [
     "resume": "Station située à Viarmes.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47525"
+    ],
+    "stopPointIds": [
+      "41114",
+      "471497"
     ]
   },
   {
@@ -13730,6 +21535,13 @@ export const stationsData = [
     "resume": "Station située à Colombes.",
     "materiel": [
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "58494"
+    ],
+    "stopPointIds": [
+      "23431",
+      "23432"
     ]
   },
   {
@@ -13737,9 +21549,16 @@ export const stationsData = [
     "lignes": [
       "2"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 16e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45020"
+    ],
+    "stopPointIds": [
+      "22109",
+      "463322"
     ]
   },
   {
@@ -13752,6 +21571,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45735"
+    ],
+    "stopPointIds": [
+      "41339",
+      "470627",
+      "471136",
+      "472304",
+      "472907"
     ]
   },
   {
@@ -13764,6 +21593,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47904"
+    ],
+    "stopPointIds": [
+      "41356",
+      "470623",
+      "471346"
     ]
   },
   {
@@ -13774,6 +21611,13 @@ export const stationsData = [
     "resume": "Station située à Villaines-sous-Bois.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47522"
+    ],
+    "stopPointIds": [
+      "41078",
+      "470710"
     ]
   },
   {
@@ -13782,20 +21626,17 @@ export const stationsData = [
       "14",
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Villejuif.",
     "materiel": [
       "MP 14 CA",
       "MR6V"
-    ]
-  },
-  {
-    "nom": "Villejuif - Léo Lagrange",
-    "lignes": [
-      "7"
     ],
-    "resume": "Station située à Paris.",
-    "materiel": [
-      "MF 77"
+    "stopAreaIds": [
+      "490907"
+    ],
+    "stopPointIds": [
+      "490906",
+      "490916"
     ]
   },
   {
@@ -13810,16 +21651,50 @@ export const stationsData = [
       "MF 77",
       "MR6V",
       "Citadis 302"
+    ],
+    "stopAreaIds": [
+      "45049",
+      "473766"
+    ],
+    "stopPointIds": [
+      "22400",
+      "29903",
+      "35946",
+      "463269"
     ]
   },
   {
-    "nom": "Villejuif–Paul Vaillant-Couturier",
+    "nom": "Villejuif Léo Lagrange",
     "lignes": [
       "7"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Villejuif.",
     "materiel": [
       "MF 77"
+    ],
+    "stopAreaIds": [
+      "47826"
+    ],
+    "stopPointIds": [
+      "22399",
+      "463323"
+    ]
+  },
+  {
+    "nom": "Villejuif Paul Vaillant-Couturier",
+    "lignes": [
+      "7"
+    ],
+    "resume": "Station située à Villejuif.",
+    "materiel": [
+      "MF 77"
+    ],
+    "stopAreaIds": [
+      "58471"
+    ],
+    "stopPointIds": [
+      "22401",
+      "463324"
     ]
   },
   {
@@ -13832,6 +21707,15 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46304"
+    ],
+    "stopPointIds": [
+      "41359",
+      "470795",
+      "472347",
+      "472544"
     ]
   },
   {
@@ -13842,6 +21726,16 @@ export const stationsData = [
     "resume": "Station située à Villeneuve-la-Guyard.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411464"
+    ],
+    "stopPointIds": [
+      "411463",
+      "471688",
+      "471900",
+      "472715",
+      "472987"
     ]
   },
   {
@@ -13855,6 +21749,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46307"
+    ],
+    "stopPointIds": [
+      "41312",
+      "470951",
+      "472125"
     ]
   },
   {
@@ -13867,6 +21769,19 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "45067"
+    ],
+    "stopPointIds": [
+      "41360",
+      "470943",
+      "470949",
+      "471784",
+      "472195",
+      "472465",
+      "472886",
+      "473001"
     ]
   },
   {
@@ -13877,6 +21792,16 @@ export const stationsData = [
     "resume": "Station située à Villeneuve-sur-Yonne.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "411476"
+    ],
+    "stopPointIds": [
+      "411475",
+      "470746",
+      "471088",
+      "471390",
+      "471496"
     ]
   },
   {
@@ -13887,6 +21812,14 @@ export const stationsData = [
     "resume": "Station située à Villennes-sur-Seine.",
     "materiel": [
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "47966"
+    ],
+    "stopPointIds": [
+      "41197",
+      "471690",
+      "472816"
     ]
   },
   {
@@ -13898,6 +21831,16 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "46725"
+    ],
+    "stopPointIds": [
+      "411403",
+      "470683",
+      "471813",
+      "472374",
+      "472470"
     ]
   },
   {
@@ -13909,6 +21852,14 @@ export const stationsData = [
     "materiel": [
       "MI 79",
       "MI 84"
+    ],
+    "stopAreaIds": [
+      "58793"
+    ],
+    "stopPointIds": [
+      "40962",
+      "471271",
+      "472174"
     ]
   },
   {
@@ -13919,6 +21870,14 @@ export const stationsData = [
     "resume": "Station située à Les Clayes-sous-Bois.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43221"
+    ],
+    "stopPointIds": [
+      "41233",
+      "471442",
+      "471493"
     ]
   },
   {
@@ -13931,6 +21890,17 @@ export const stationsData = [
     "materiel": [
       "Citadis 302",
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "462926"
+    ],
+    "stopPointIds": [
+      "42127",
+      "42129",
+      "470851",
+      "472820",
+      "495664",
+      "495665"
     ]
   },
   {
@@ -13939,10 +21909,19 @@ export const stationsData = [
       "2",
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 01",
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45056"
+    ],
+    "stopPointIds": [
+      "22027",
+      "22106",
+      "462987",
+      "462988"
     ]
   },
   {
@@ -13953,6 +21932,14 @@ export const stationsData = [
     "resume": "Station située à Villiers-Saint-Frédéric.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "46847"
+    ],
+    "stopPointIds": [
+      "41253",
+      "470968",
+      "472428"
     ]
   },
   {
@@ -13963,6 +21950,12 @@ export const stationsData = [
     "resume": "Station située à Crécy-la-Chapelle.",
     "materiel": [
       "Citadis Dualis"
+    ],
+    "stopAreaIds": [
+      "492423"
+    ],
+    "stopPointIds": [
+      "492422"
     ]
   },
   {
@@ -13975,6 +21968,18 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43222"
+    ],
+    "stopPointIds": [
+      "41097",
+      "470843",
+      "471491",
+      "471601",
+      "471989",
+      "472106",
+      "472108"
     ]
   },
   {
@@ -13987,6 +21992,15 @@ export const stationsData = [
       "RER NG",
       "MI 2N Eole",
       "Z 50000 Francilien"
+    ],
+    "stopAreaIds": [
+      "43223"
+    ],
+    "stopPointIds": [
+      "41022",
+      "471450",
+      "472393",
+      "472958"
     ]
   },
   {
@@ -13994,10 +22008,12 @@ export const stationsData = [
     "lignes": [
       "15"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Île-de-France.",
     "materiel": [
       "MR6V"
-    ]
+    ],
+    "stopAreaIds": [],
+    "stopPointIds": []
   },
   {
     "nom": "Vincennes",
@@ -14008,6 +22024,14 @@ export const stationsData = [
     "materiel": [
       "MI 09",
       "MI 2N Altéo"
+    ],
+    "stopAreaIds": [
+      "43224"
+    ],
+    "stopPointIds": [
+      "412811",
+      "473998",
+      "474000"
     ]
   },
   {
@@ -14020,6 +22044,17 @@ export const stationsData = [
     "materiel": [
       "Z 50000 Francilien",
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "46689",
+      "473567"
+    ],
+    "stopPointIds": [
+      "41192",
+      "422039",
+      "422040",
+      "472236",
+      "473014"
     ]
   },
   {
@@ -14037,6 +22072,21 @@ export const stationsData = [
       "Z 5600",
       "Regio 2N",
       "Translohr STE6"
+    ],
+    "stopAreaIds": [
+      "462388",
+      "473569"
+    ],
+    "stopPointIds": [
+      "41221",
+      "422037",
+      "422038",
+      "471175",
+      "471343",
+      "471362",
+      "471767",
+      "472387",
+      "472845"
     ]
   },
   {
@@ -14049,6 +22099,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43225"
+    ],
+    "stopPointIds": [
+      "41340",
+      "471361",
+      "471862"
     ]
   },
   {
@@ -14062,6 +22120,14 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "46375"
+    ],
+    "stopPointIds": [
+      "41314",
+      "470880",
+      "471123"
     ]
   },
   {
@@ -14069,9 +22135,16 @@ export const stationsData = [
     "lignes": [
       "12"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 15e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45060"
+    ],
+    "stopPointIds": [
+      "22048",
+      "462964"
     ]
   },
   {
@@ -14079,9 +22152,16 @@ export const stationsData = [
     "lignes": [
       "9"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 11e.",
     "materiel": [
       "MF 01"
+    ],
+    "stopAreaIds": [
+      "45065"
+    ],
+    "stopPointIds": [
+      "21916",
+      "463325"
     ]
   },
   {
@@ -14094,6 +22174,14 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47967"
+    ],
+    "stopPointIds": [
+      "41385",
+      "472809",
+      "472911"
     ]
   },
   {
@@ -14107,6 +22195,15 @@ export const stationsData = [
       "Z 20500",
       "Z 8800",
       "Z 5600"
+    ],
+    "stopAreaIds": [
+      "411449"
+    ],
+    "stopPointIds": [
+      "411448",
+      "471381",
+      "472561",
+      "472948"
     ]
   },
   {
@@ -14117,6 +22214,14 @@ export const stationsData = [
     "resume": "Station située à Vulaines-sur-Seine.",
     "materiel": [
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "47136"
+    ],
+    "stopPointIds": [
+      "41381",
+      "472078",
+      "472123"
     ]
   },
   {
@@ -14124,9 +22229,16 @@ export const stationsData = [
     "lignes": [
       "3"
     ],
-    "resume": "Station située à Paris.",
+    "resume": "Station située à Paris 17e.",
     "materiel": [
       "MF 67"
+    ],
+    "stopAreaIds": [
+      "45508"
+    ],
+    "stopPointIds": [
+      "22028",
+      "463070"
     ]
   },
   {
@@ -14137,6 +22249,13 @@ export const stationsData = [
     "resume": "Station située à Vitry-sur-Seine.",
     "materiel": [
       "Citadis 405"
+    ],
+    "stopAreaIds": [
+      "479028"
+    ],
+    "stopPointIds": [
+      "478973",
+      "478987"
     ]
   },
   {
@@ -14149,6 +22268,16 @@ export const stationsData = [
       "Z 20500",
       "RER NG",
       "Regio 2N"
+    ],
+    "stopAreaIds": [
+      "43226"
+    ],
+    "stopPointIds": [
+      "41363",
+      "470799",
+      "471373",
+      "472460",
+      "472806"
     ]
   }
 ];

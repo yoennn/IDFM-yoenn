@@ -7,6 +7,7 @@ et de traitement / enrichissement de idfm_data.json avec le jeu de données Open
 
 import os
 import re
+import sys
 import json
 import time
 import shutil
@@ -21,6 +22,7 @@ ASSETS_DIR = APP_DIR / "public" / "assets"
 SRC_DIR = APP_DIR / "src"
 IDFM_JSON_PATH = BASE_DIR / "idfm_data.json"
 DATA_JS_PATH = SRC_DIR / "data.js"
+IDFM_MAPPING_JS_PATH = SRC_DIR / "data" / "idfmMapping.js"
 ORIG_METRO_STATIONS_BACKUP = BASE_DIR / "metro_stations_backup.json"
 
 HEADERS = {
@@ -49,16 +51,6 @@ PARIS_GARES = {
 }
 
 BOUNDARY_STOP_LINES = {
-    "497216": ["T1"],
-    "497226": ["T1"],
-    "497222": ["T1"],
-    "497220": ["T1"],
-    "497224": ["T1", "11"],
-    "497230": ["T1"],
-    "497218": ["T1"],
-    "497228": ["T1"],
-    "497214": ["T1"],
-    "497233": ["T1"],
     "492818": ["T8"],
     "47926": ["P"],
     "47931": ["P"],
@@ -83,7 +75,7 @@ BOUNDARY_STOP_LINES = {
     "411362": ["J"],
     "411365": ["J"],
     "411317": ["H"],
-    "479035": ["6", "14", "R"],
+    "479035": ["R"],
     "411458": ["R"],
     "411461": ["R"],
     "411464": ["R"],
@@ -93,8 +85,35 @@ BOUNDARY_STOP_LINES = {
     "411473": ["R"],
     "411467": ["R"],
     "411479": ["R"],
-    "42164": ["14", "18", "T7"],
-    "473873": ["14", "18", "T7"],
+}
+
+CANONICAL_STOP_NAMES = {
+    "saint-paul (le marais)": "Saint-Paul",
+    "pont marie (cite des arts)": "Pont Marie",
+    "pont marie (cité des arts)": "Pont Marie",
+    "chateau landon": "Château-Landon",
+    "château landon": "Château-Landon",
+    "chateau de landon": "Château-Landon",
+    "château de landon": "Château-Landon",
+    "chevilly-larue (marche international)": "Chevilly-Larue",
+    "chevilly-larue (marché international)": "Chevilly-Larue",
+    "thiais - orly (pont de rungis)": "Thiais - Orly",
+    "saint-lazare": "Gare Saint-Lazare",
+    "paris saint-lazare": "Gare Saint-Lazare",
+    "gare saint-lazare": "Gare Saint-Lazare",
+    "montparnasse bienvenue": "Gare Montparnasse",
+    "montparnasse-bienvenue": "Gare Montparnasse",
+    "montparnasse–bienvenüe": "Gare Montparnasse",
+    "paris montparnasse": "Gare Montparnasse",
+    "gare montparnasse": "Gare Montparnasse",
+    "neuilly - porte maillot": "Porte Maillot",
+    "porte maillot (palais des congres)": "Porte Maillot",
+    "porte maillot (palais des congrès)": "Porte Maillot",
+    "porte de clichy - tribunal de paris": "Porte de Clichy",
+    "pont du garigliano - hopital europeen g. pompidou": "Pont du Garigliano",
+    "pont du garigliano - hôpital européen g. pompidou": "Pont du Garigliano",
+    "les courtilles": "Asnières - Gennevilliers - Les Courtilles",
+    "saint-denis - pleyel": "Saint-Denis Pleyel",
 }
 
 
@@ -285,6 +304,8 @@ def norm_key(s):
 def clean_stop_name(raw_name):
     n = raw_name.strip()
     low = n.lower()
+    if low in CANONICAL_STOP_NAMES:
+        return CANONICAL_STOP_NAMES[low]
     if low == "paris gare de lyon":
         return "Gare de Lyon"
     if low in ("paris gare du nord", "paris nord"):
@@ -305,8 +326,9 @@ def clean_stop_name(raw_name):
     m = re.match(r"^Gare\s+(?:de\s+la\s+|de\s+l'|du\s+|des\s+|de\s+|d')(.+)$", n, flags=re.IGNORECASE)
     if m:
         rest = m.group(1).strip()
-        return rest[0].upper() + rest[1:]
-    return n
+        cand = rest[0].upper() + rest[1:]
+        return CANONICAL_STOP_NAMES.get(cand.lower(), cand)
+    return CANONICAL_STOP_NAMES.get(n.lower(), n)
 
 
 def get_all_data_definitions():
@@ -1156,10 +1178,232 @@ def get_all_data_definitions():
     return data_rames, lignes_metro
 
 
-def build_and_write_data_js():
-    print("=== 2. Traitement de idfm_data.json + Open Data IDFM arrets-lignes ===")
+def fetch_idfm_json(dataset, where=None):
+    params = {}
+    if where:
+        params["where"] = where
+    qs = ("?" + urllib.parse.urlencode(params)) if params else ""
+    url = f"https://data.iledefrance-mobilites.fr/api/explore/v2.1/catalog/datasets/{dataset}/exports/json{qs}"
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def pick_best_area_name(raw_names):
+    cleaned_raw = [str(rn).strip() for rn in raw_names if str(rn).strip()]
+    if not cleaned_raw:
+        return ""
+    for rn in cleaned_raw:
+        if rn.lower() in PARIS_GARES:
+            return rn
+    candidates = [
+        clean_stop_name(rn)
+        for rn in cleaned_raw
+        if not rn.lower().startswith("gare ")
+        and not rn.lower().startswith("paris ")
+        and not rn.lower().endswith(" - gare")
+    ]
+    if candidates:
+        return sorted(candidates, key=lambda x: (len(x), x))[0]
+    return clean_stop_name(cleaned_raw[0])
+
+
+def enrich_idfm_data():
+    print("=== 2A. Audit, enrichissement et dédoublonnage de idfm_data.json ===")
     with open(IDFM_JSON_PATH, encoding="utf-8") as f:
         idfm_data = json.load(f)
+
+    # 1. Référentiel des lignes IDFM (ajout de toutes les lignes Métro 1..14, 3bis, 7bis, 15, 18)
+    ref_lines = fetch_idfm_json(
+        "referentiel-des-lignes",
+        where="transportmode in ('metro', 'rail', 'tram')",
+    )
+    lines_by_id = {l["id"]: dict(l) for l in idfm_data.get("lines", [])}
+    valid_codes = set(LINE_ORDER)
+
+    for l in ref_lines:
+        lid = str(l.get("id_line") or "").strip()
+        if not lid:
+            continue
+        tmode = l.get("transportmode")
+        tsub = l.get("transportsubmode") or ""
+        sc = str(l.get("shortname_line") or "").strip()
+        if sc == "3B":
+            sc = "3bis"
+        elif sc == "7B":
+            sc = "7bis"
+        if sc not in valid_codes:
+            continue
+        if lid not in lines_by_id:
+            col = str(l.get("colourweb_hexa") or "aaaaaa").lstrip("#").lower()
+            tcol = str(l.get("textcolourweb_hexa") or "000000").lstrip("#").lower()
+            lines_by_id[lid] = {
+                "id": lid,
+                "name": sc,
+                "code": sc,
+                "mode": tmode if tmode in ("metro", "rail", "tram") else "rail",
+                "submode": tsub,
+                "color": f"#{col}",
+                "textColor": f"#{tcol}",
+            }
+
+    enriched_lines = sorted(
+        lines_by_id.values(),
+        key=lambda x: (LINE_RANK.get(x["code"], 999), x["id"]),
+    )
+    line_id_to_code = {l["id"]: l["code"] for l in enriched_lines}
+
+    # 2. Référentiels officiels IDFM : arrets, zones-d-arrets, arrets-lignes
+    arrets = fetch_idfm_json("arrets", where="arrtype in ('metro', 'rail', 'tram')")
+    zdas = fetch_idfm_json(
+        "zones-d-arrets",
+        where="zdatype in ('metroStation', 'railStation', 'tramStation', 'onstreetTram')",
+    )
+    arrets_lignes = fetch_idfm_json(
+        "arrets-lignes",
+        where="mode in ('Metro', 'RapidTransit', 'LocalTrain', 'Tramway', 'Rail')",
+    )
+
+    arr_to_zda = {}
+    zda_from_arrets = {}
+    for a in arrets:
+        zid = str(a.get("zdaid") or "").strip()
+        aid = str(a.get("arrid") or "").strip()
+        if not zid:
+            continue
+        if aid:
+            arr_to_zda[aid] = zid
+        rec = zda_from_arrets.setdefault(
+            zid,
+            {
+                "stopAreaId": zid,
+                "rawNames": [],
+                "type": a.get("arrtype") or "rail",
+                "town": a.get("arrtown") or "",
+                "stopPointIds": set(),
+                "lines": set(),
+                "zdcid": None,
+            },
+        )
+        aname = str(a.get("arrname") or "").strip()
+        if aname and aname not in rec["rawNames"]:
+            rec["rawNames"].append(aname)
+        if aid:
+            rec["stopPointIds"].add(aid)
+        if a.get("arrtype") == "metro":
+            rec["type"] = "metro"
+
+    for z in zdas:
+        zid = str(z.get("zdaid") or "").strip()
+        if zid in zda_from_arrets:
+            zdc = str(z.get("zdcid") or "").strip()
+            if zdc:
+                zda_from_arrets[zid]["zdcid"] = zdc
+            zname = str(z.get("zdaname") or "").strip()
+            if zname and zname not in zda_from_arrets[zid]["rawNames"]:
+                zda_from_arrets[zid]["rawNames"].append(zname)
+
+    for rec in arrets_lignes:
+        lid = str(rec.get("id") or "").replace("IDFM:", "").strip()
+        mode = rec.get("mode")
+        sname = str(rec.get("shortname") or "").strip()
+        line_code = line_id_to_code.get(lid)
+        if not line_code and mode == "Metro" and sname:
+            line_code = "3bis" if sname == "3B" else ("7bis" if sname == "7B" else sname)
+        if not line_code:
+            continue
+        sid = str(rec.get("stop_id") or "").split(":")[-1].strip()
+        if sid in zda_from_arrets:
+            zda_from_arrets[sid]["lines"].add(line_code)
+        elif sid in arr_to_zda and arr_to_zda[sid] in zda_from_arrets:
+            zda_from_arrets[arr_to_zda[sid]]["lines"].add(line_code)
+
+    # 3. Fusionner et dédoublonner par stopAreaId (ex: "Athis-Mons" + "Gare d'Athis Mons")
+    stops_by_area = {}
+    for s in idfm_data.get("stops", []):
+        aid = str(s.get("stopAreaId") or "").strip()
+        if not aid:
+            continue
+        rec = stops_by_area.setdefault(
+            aid,
+            {
+                "stopAreaId": aid,
+                "rawNames": [],
+                "type": s.get("type") or "rail",
+                "town": s.get("town") or "",
+                "stopPointIds": set(),
+                "lines": set(),
+                "zdcid": s.get("zdcid") or None,
+            },
+        )
+        sname = str(s.get("name") or "").strip()
+        if sname and sname not in rec["rawNames"]:
+            rec["rawNames"].append(sname)
+        for pid in s.get("stopPointIds", []):
+            if str(pid).strip():
+                rec["stopPointIds"].add(str(pid).strip())
+        if not rec["town"] and s.get("town"):
+            rec["town"] = s.get("town")
+
+    # Intégrer tous les arrêts de Metro (et compléter les rail/tram) depuis arrets/arrets-lignes
+    for aid, zrec in zda_from_arrets.items():
+        if aid not in stops_by_area:
+            stops_by_area[aid] = zrec
+        else:
+            existing = stops_by_area[aid]
+            for rn in zrec["rawNames"]:
+                if rn not in existing["rawNames"]:
+                    existing["rawNames"].append(rn)
+            existing["stopPointIds"] |= zrec["stopPointIds"]
+            existing["lines"] |= zrec["lines"]
+            if not existing["zdcid"] and zrec["zdcid"]:
+                existing["zdcid"] = zrec["zdcid"]
+            if not existing["town"] and zrec["town"]:
+                existing["town"] = zrec["town"]
+
+    for aid, b_lines in BOUNDARY_STOP_LINES.items():
+        if aid in stops_by_area:
+            stops_by_area[aid]["lines"] |= set(b_lines)
+
+    deduped_stops = []
+    for aid, rec in stops_by_area.items():
+        if not rec["lines"]:
+            continue
+        best_name = clean_stop_name(pick_best_area_name(rec["rawNames"]))
+        sorted_lines = sorted(rec["lines"], key=lambda x: LINE_RANK.get(x, 999))
+        entry = {
+            "name": best_name,
+            "type": rec["type"],
+            "town": rec["town"],
+            "stopAreaId": aid,
+            "stopPointIds": sorted(rec["stopPointIds"]),
+            "lines": sorted_lines,
+        }
+        if rec.get("zdcid"):
+            entry["zdcid"] = rec["zdcid"]
+        deduped_stops.append(entry)
+
+    deduped_stops.sort(key=lambda s: (unicodedata.normalize("NFD", s["name"].lower()), s["stopAreaId"]))
+
+    enriched_payload = {
+        "lines": enriched_lines,
+        "stops": deduped_stops,
+    }
+    IDFM_JSON_PATH.write_text(
+        json.dumps(enriched_payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(
+        f"  [OK] idfm_data.json enrichi : {len(enriched_lines)} lignes "
+        f"(dont {sum(1 for l in enriched_lines if l['mode'] == 'metro')} Métro) "
+        f"et {len(deduped_stops)} arrêts uniques par stopAreaId."
+    )
+    return enriched_payload, arrets_lignes
+
+
+def build_and_write_data_js():
+    idfm_data, records = enrich_idfm_data()
+    print("=== 2B. Traitement de idfm_data.json & génération de data.js / idfmMapping.js ===")
 
     # Sauvegarder une copie des stations Métro d'origine si elle n'existe pas encore
     if not ORIG_METRO_STATIONS_BACKUP.exists():
@@ -1201,20 +1445,17 @@ def build_and_write_data_js():
     for l in idfm_data["lines"]:
         ligne_colors[l["code"]] = l["color"]
 
-    # Map ligne -> matériel roulant
+    # Map ligne -> matériel roulant et ligne -> idfmLineId
     line_to_rames = {
         l["id"]: [m["nom"] for m in l.get("materiel", [])]
         for l in lignes_metro
     }
 
     line_id_to_code = {l["id"]: l["code"] for l in idfm_data["lines"]}
-
-    # Télécharger arrets-lignes depuis Open Data IDFM
-    where_clause = "mode in ('Metro', 'RapidTransit', 'LocalTrain', 'Tramway', 'Rail')"
-    url = "https://data.iledefrance-mobilites.fr/api/explore/v2.1/catalog/datasets/arrets-lignes/exports/json?" + urllib.parse.urlencode({"where": where_clause})
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=60) as r:
-        records = json.loads(r.read().decode("utf-8"))
+    line_code_to_id = {}
+    for l in idfm_data["lines"]:
+        # Priorité au premier identifiant officiel s'il existe
+        line_code_to_id.setdefault(l["code"], l["id"])
 
     numeric_id_to_lines = {}
     norm_name_to_lines = {}
@@ -1235,102 +1476,145 @@ def build_and_write_data_js():
         if nk:
             norm_name_to_lines.setdefault(nk, set()).add(line_code)
 
-    # Dédoublonnage des arrêts de idfm_data.json par stopAreaId
-    by_area = {}
-    for s in idfm_data["stops"]:
-        by_area.setdefault(s["stopAreaId"], []).append(s)
-
+    # Index des zones de correspondance (zdcid) et arrêts enrichis par stopAreaId
     area_records = {}
-    for aid, stops in by_area.items():
-        raw_names = [s["name"].strip() for s in stops]
-        best_name = None
-        for rn in raw_names:
-            if rn.lower() in PARIS_GARES:
-                best_name = rn
-                break
-        if not best_name:
-            candidates = [
-                clean_stop_name(rn)
-                for rn in raw_names
-                if not rn.lower().startswith("gare ")
-                and not rn.lower().startswith("paris ")
-                and not rn.lower().endswith(" - gare")
-            ]
-            if candidates:
-                best_name = sorted(candidates, key=lambda x: (len(x), x))[0]
-            else:
-                best_name = clean_stop_name(raw_names[0])
-
-        lines_found = set()
+    zdc_to_areas = {}
+    for s in idfm_data["stops"]:
+        aid = str(s["stopAreaId"])
+        lines_found = set(s.get("lines", []))
         if aid in numeric_id_to_lines:
             lines_found |= numeric_id_to_lines[aid]
-        for s in stops:
-            for pid in s.get("stopPointIds", []):
-                if pid in numeric_id_to_lines:
-                    lines_found |= numeric_id_to_lines[pid]
+        for pid in s.get("stopPointIds", []):
+            if pid in numeric_id_to_lines:
+                lines_found |= numeric_id_to_lines[pid]
         if not lines_found and aid in BOUNDARY_STOP_LINES:
             lines_found |= set(BOUNDARY_STOP_LINES[aid])
         if not lines_found:
-            for rn in raw_names:
-                nk = norm_key(rn)
-                if nk in norm_name_to_lines:
-                    lines_found |= norm_name_to_lines[nk]
+            nk = norm_key(s["name"])
+            if nk in norm_name_to_lines:
+                lines_found |= norm_name_to_lines[nk]
+
+        zdcid = s.get("zdcid")
+        if zdcid:
+            zdc_to_areas.setdefault(zdcid, set()).add(aid)
 
         area_records[aid] = {
             "stopAreaId": aid,
-            "nom": best_name,
+            "stopPointIds": set(str(p) for p in s.get("stopPointIds", []) if str(p)),
+            "zdcid": zdcid,
+            "nom": s["name"],
             "lignes": lines_found,
-            "town": stops[0].get("town", ""),
+            "town": s.get("town", ""),
         }
 
-    # Fusion multimodale par clé normalisée
+    # Fusion multimodale par clé normalisée (avec conservation de tous les stopAreaId / stopPointIds)
     unified = {}
     for aid, rec in area_records.items():
+        if not rec["lignes"]:
+            continue
         nk = norm_key(rec["nom"])
         if nk not in unified:
             unified[nk] = {
                 "nom": rec["nom"],
                 "lignes": set(rec["lignes"]),
                 "town": rec["town"],
+                "stopAreaIds": {aid},
+                "stopPointIds": set(rec["stopPointIds"]),
             }
         else:
             unified[nk]["lignes"] |= set(rec["lignes"])
+            unified[nk]["stopAreaIds"].add(aid)
+            unified[nk]["stopPointIds"] |= set(rec["stopPointIds"])
 
+    # Aliases exacts pour les stations Métro historiques sans perte d'IDFM
+    METRO_STOP_AREA_ALIASES = {
+        norm_key("Château-Landon"): ["479053"],
+        norm_key("Pont Marie"): ["44487"],
+        norm_key("Saint-Paul"): ["44881"],
+        norm_key("Thiais - Orly"): ["490834"],
+        norm_key("Chevilly-Larue"): ["490836"],
+        norm_key("Aéroport d'Orly"): ["490909", "462747"],
+    }
+
+    # Uniquement injecter les futures gares du Grand Paris Express (15, 16, 17, 18) depuis backup
+    gpe_lines_set = {"15", "16", "17", "18"}
     for m_name, m_lines in metro_stations_orig.items():
-        nk = norm_key(m_name)
+        gpe_only = [lid for lid in m_lines if lid in gpe_lines_set]
+        if not gpe_only:
+            continue
+        nk = norm_key(clean_stop_name(m_name))
         if nk in unified:
-            unified[nk]["lignes"] |= set(m_lines)
+            unified[nk]["lignes"] |= set(gpe_only)
         else:
             unified[nk] = {
-                "nom": m_name,
-                "lignes": set(m_lines),
-                "town": "Paris",
+                "nom": clean_stop_name(m_name),
+                "lignes": set(gpe_only),
+                "town": "Île-de-France",
+                "stopAreaIds": set(),
+                "stopPointIds": set(),
             }
+        for alias_aid in METRO_STOP_AREA_ALIASES.get(nk, []):
+            if alias_aid in area_records:
+                unified[nk]["stopAreaIds"].add(alias_aid)
+                unified[nk]["stopPointIds"] |= area_records[alias_aid]["stopPointIds"]
 
-    hub_merges = [
-        ("Châtelet - Les Halles", ["1", "4", "7", "11", "14", "A", "B", "D"]),
-        ("Châtelet", ["1", "4", "7", "11", "14", "A", "B", "D"]),
-        ("Gare Montparnasse", ["4", "6", "12", "13", "N"]),
-        ("Montparnasse–Bienvenüe", ["4", "6", "12", "13", "N"]),
-        ("Saint-Lazare", ["3", "12", "13", "14", "E", "J", "L"]),
-        ("Gare Saint-Lazare", ["3", "12", "13", "14", "E", "J", "L"]),
-        ("Haussmann Saint-Lazare", ["3", "9", "12", "13", "14", "A", "E", "J", "L"]),
-        ("Gare du Nord", ["4", "5", "B", "D", "E", "H", "K"]),
-        ("Magenta", ["4", "5", "7", "B", "D", "E", "H", "K"]),
-        ("Gare de l'Est", ["4", "5", "7", "E", "P"]),
-        ("Gare de Lyon", ["1", "14", "A", "D", "R"]),
-        ("Gare d'Austerlitz", ["5", "10", "C"]),
-        ("Saint-Michel Notre-Dame", ["4", "10", "B", "C"]),
-        ("Porte Maillot", ["1", "C", "E", "T3b"]),
-        ("Neuilly - Porte Maillot", ["1", "C", "E", "T3b"]),
-        ("Porte de Clichy", ["13", "14", "C", "T3b"]),
-        ("Pont du Garigliano", ["C", "T3a"]),
-        ("Pont du Garigliano - Hôpital Européen G. Pompidou", ["C", "T3a"]),
-    ]
-    for h_name, h_lines in hub_merges:
-        nk = norm_key(h_name)
-        if nk in unified:
-            unified[nk]["lignes"] |= set(h_lines)
+    # Séparation stricte des pôles reliés par couloirs (zéro mélange de lignes entre gares distinctes)
+    STRICT_STATION_OVERRIDES = {
+        "Gare Saint-Lazare": (["3", "12", "13", "14", "J", "L"], ["462374", "58566"]),
+        "Haussmann Saint-Lazare": (["E"], ["58718"]),
+        "Auber": (["A"], ["43068"]),
+        "Châtelet": (["1", "4", "7", "11", "14"], ["42587"]),
+        "Châtelet - Les Halles": (["A", "B", "D"], ["45102"]),
+        "Les Halles": (["4"], ["417675"]),
+        "Gare du Nord": (["4", "5", "B", "D", "H", "K"], ["462941", "462394"]),
+        "Magenta": (["E"], ["58572"]),
+        "Gare de l'Est": (["4", "5", "7", "P"], ["43138", "470519"]),
+        "Gare de Lyon": (["1", "14", "A", "D", "R"], ["43153", "470195"]),
+        "Bercy": (["6", "14", "R"], ["58728", "479035"]),
+        "Gare d'Austerlitz": (["5", "10", "C"], ["462352", "43072"]),
+        "Gare Montparnasse": (["4", "6", "12", "13", "N"], ["58578", "43238"]),
+        "Saint-Michel": (["4"], ["462369"]),
+        "Saint-Michel Notre-Dame": (["B", "C"], ["44877"]),
+        "La Défense": (["1", "15", "A", "E", "L", "U", "T2"], ["462395", "470548", "470549"]),
+        "Nation": (["1", "2", "6", "9", "A"], ["462358", "473875"]),
+        "Charles de Gaulle - Étoile": (["1", "2", "6", "A"], ["477682", "58759"]),
+        "Porte Maillot": (["1", "C", "E", "T3b"], ["44533", "415093", "490883"]),
+        "Porte de Clichy": (["13", "14", "C", "T3b"], ["473477", "44514", "473476"]),
+        "Pont du Garigliano": (["C", "T3a"], ["58734", "462396"]),
+    }
+    strict_keys = set()
+    for s_name, (s_lines, s_areas) in STRICT_STATION_OVERRIDES.items():
+        nk = norm_key(s_name)
+        strict_keys.add(nk)
+        pts = set()
+        for aid in s_areas:
+            if aid in area_records:
+                pts |= area_records[aid]["stopPointIds"]
+        unified[nk] = {
+            "nom": s_name,
+            "lignes": set(s_lines),
+            "town": unified.get(nk, {}).get("town", "Paris") or "Paris",
+            "stopAreaIds": set(s_areas),
+            "stopPointIds": pts,
+        }
+
+    # Compléter via zone de correspondance (zdcid) uniquement hors pôles stricts et pour correspondances réelles
+    for nk, u in unified.items():
+        if nk in strict_keys:
+            continue
+        extra_areas = set()
+        for aid in list(u["stopAreaIds"]):
+            zdc = area_records.get(aid, {}).get("zdcid")
+            if not zdc:
+                continue
+            for sibling_aid in zdc_to_areas.get(zdc, set()):
+                if sibling_aid not in u["stopAreaIds"]:
+                    sib = area_records.get(sibling_aid)
+                    if sib and (sib["lignes"] & u["lignes"]):
+                        extra_areas.add(sibling_aid)
+        for aid in extra_areas:
+            u["stopAreaIds"].add(aid)
+            u["stopPointIds"] |= area_records[aid]["stopPointIds"]
 
     # Construire stationsData triée par ordre alphabétique
     stations_data = []
@@ -1345,12 +1629,14 @@ def build_and_write_data_js():
             "nom": u["nom"],
             "lignes": sorted_lines,
             "resume": f"Station située à {u['town']}." if u.get("town") else "",
-            "materiel": rames
+            "materiel": rames,
+            "stopAreaIds": sorted(u["stopAreaIds"]),
+            "stopPointIds": sorted(u["stopPointIds"]),
         })
 
     stations_data.sort(key=lambda s: unicodedata.normalize("NFD", s["nom"].lower()))
 
-    # Calculer les correspondances exactes de chaque ligne
+    # Calculer les correspondances exactes et l'identifiant IDFM de chaque ligne
     for ligne in lignes_metro:
         lid = ligne["id"]
         corr = set()
@@ -1361,6 +1647,68 @@ def build_and_write_data_js():
                         corr.add(other_lid)
         ligne["correspondances"] = sorted(corr, key=lambda x: LINE_RANK.get(x, 999))
         ligne["color"] = ligne_colors.get(lid, "#6c757d")
+        if lid in line_code_to_id:
+            ligne["idfmLineId"] = line_code_to_id[lid]
+
+    # Construire src/data/idfmMapping.js pour les résolutions rapides C01xxx <-> Code ligne
+    idfm_lines_mapping = {
+        l["code"]: {
+            "id": l["id"],
+            "code": l["code"],
+            "mode": l["mode"],
+            "stifRef": f"STIF:Line::{l['id']}:",
+            "color": l["color"],
+        }
+        for l in idfm_data["lines"]
+    }
+    idfm_id_to_code_map = {l["id"]: l["code"] for l in idfm_data["lines"]}
+    IDFM_MAPPING_JS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    mapping_js = f"""// src/data/idfmMapping.js — Généré automatiquement depuis idfm_data.json
+// Correspondances exactes des identifiants IDFM (Lignes, StopAreas SP, StopPoints Q)
+
+export const IDFM_LINES_BY_CODE = {json.dumps(idfm_lines_mapping, ensure_ascii=False, indent=2)};
+
+export const IDFM_LINE_ID_TO_CODE = {json.dumps(idfm_id_to_code_map, ensure_ascii=False, indent=2)};
+
+export function extractIdfmLineId(lineRef) {{
+  if (!lineRef) return null;
+  const str = String(lineRef).trim();
+  const match = str.match(/C\\d{{5}}/);
+  return match ? match[0] : str.replace(/^STIF:Line::|:$/g, '') || null;
+}}
+
+export function getLineCodeFromRef(lineRef) {{
+  const lid = extractIdfmLineId(lineRef);
+  if (!lid) return null;
+  return IDFM_LINE_ID_TO_CODE[lid] || null;
+}}
+
+export function getIdfmLineId(lineCode) {{
+  const entry = IDFM_LINES_BY_CODE[String(lineCode)];
+  return entry ? entry.id : null;
+}}
+
+export function getIdfmLineRef(lineCode) {{
+  const entry = IDFM_LINES_BY_CODE[String(lineCode)];
+  return entry ? entry.stifRef : null;
+}}
+
+export function formatStopAreaRef(stopAreaId) {{
+  const raw = String(stopAreaId || '').trim();
+  if (!raw) return null;
+  if (raw.startsWith('STIF:StopArea:SP:')) return raw.endsWith(':') ? raw : `${{raw}}:`;
+  return `STIF:StopArea:SP:${{raw}}:`;
+}}
+
+export function formatStopPointRef(stopPointId) {{
+  const raw = String(stopPointId || '').trim();
+  if (!raw) return null;
+  if (raw.startsWith('STIF:StopPoint:Q:')) return raw.endsWith(':') ? raw : `${{raw}}:`;
+  return `STIF:StopPoint:Q:${{raw}}:`;
+}}
+"""
+    IDFM_MAPPING_JS_PATH.write_text(mapping_js, encoding="utf-8")
+    print(f"  [OK] {IDFM_MAPPING_JS_PATH} généré.")
 
     # Écriture de src/data.js
     js_content = f"""// src/data.js — Généré automatiquement par prepare_data_and_assets.py
@@ -1405,9 +1753,15 @@ export function getModeLogo(mode, white = false) {{
 }}
 """
     DATA_JS_PATH.write_text(js_content, encoding="utf-8")
-    print(f"  [OK] {DATA_JS_PATH} généré avec {len(lignes_metro)} lignes, {len(data_rames)} matériels roulants et {len(stations_data)} stations/gares !")
+    with_areas = sum(1 for st in stations_data if st["stopAreaIds"])
+    print(
+        f"  [OK] {DATA_JS_PATH} généré avec {len(lignes_metro)} lignes, "
+        f"{len(data_rames)} matériels roulants et {len(stations_data)} stations/gares "
+        f"({with_areas} reliées à des stopAreaIds IDFM) !"
+    )
 
 
 if __name__ == "__main__":
-    download_all_wikimedia_assets()
+    if "--data-only" not in sys.argv:
+        download_all_wikimedia_assets()
     build_and_write_data_js()

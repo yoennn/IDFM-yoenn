@@ -2,3 +2,14 @@
 dist/
 mon-app-metro-main/node_modules/
 mon-app-metro-main/dist/
+.env.local
+mon-app-metro-main/.env.local
+*.env.local
+mon-app-metro-main/android/.gradle/
+mon-app-metro-main/android/app/build/
+mon-app-metro-main/android/build/
+mon-app-metro-main/android/capacitor-cordova-android-plugins/build/
+*.jks
+*.keystore
+.jdk21/
+.android-sdk/

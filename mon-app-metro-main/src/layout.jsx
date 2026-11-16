@@ -68,17 +68,6 @@ export default function Layout() {
     }
 
     return stationsToShow
-      .map(station => {
-        const lignes = station.lignes;
-        const materielNoms = (station.materiel && station.materiel.length > 0)
-          ? station.materiel
-          : lignes.flatMap(ligneId => {
-              const ligneInfo = lignesMetro.find(l => l.id === ligneId);
-              return (ligneInfo && ligneInfo.materiel) ? ligneInfo.materiel.map(m => m.nom) : [];
-            });
-        const uniqueRames = [...new Set(materielNoms)];
-        return { ...station, rames: uniqueRames };
-      })
       .sort((a, b) => {
         const aStarts = normalizeString(a.nom).startsWith(query) ? 0 : 1;
         const bStarts = normalizeString(b.nom).startsWith(query) ? 0 : 1;
@@ -212,7 +201,7 @@ export default function Layout() {
                 onClick={handleLinkClick}
                 className="result-item-titre-link"
               >
-                <h4 className="result-item-titre">{station.nom}</h4>
+                <span className="result-item-titre">{station.nom}</span>
               </Link>
               <div className="result-item-lignes">
                 {station.lignes.map(id => (
@@ -228,14 +217,6 @@ export default function Layout() {
                       alt={`Ligne ${id}`} 
                       className="result-item-logo"
                     />
-                  </Link>
-                ))}
-              </div>
-              <p className="result-item-rames-label">Rames possibles :</p>
-              <div className="result-item-rames">
-                {station.rames.map(nomRame => (
-                  <Link key={nomRame} to={`/rame/${encodeURIComponent(nomRame)}`} className="result-item-rame-tag" onClick={handleLinkClick}>
-                    {nomRame}
                   </Link>
                 ))}
               </div>

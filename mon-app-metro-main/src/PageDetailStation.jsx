@@ -1,12 +1,15 @@
 // src/PageDetailStation.jsx
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useSearchParams, Link } from 'react-router-dom';
 import { stationsData, lignesMetro, dataRames, ligneColors, getLineLogo } from './data.js';
+import ProchainsPassages from './ProchainsPassages.jsx';
 import './PageDetailStation.css';
 
 export default function PageDetailStation() {
   const { nom } = useParams();
+  const [searchParams] = useSearchParams();
   const decodedNom = decodeURIComponent(nom || '');
+  const initialLineFilter = searchParams.get('ligne') || null;
   
   const station = stationsData.find(s => s.nom === decodedNom || s.nom === nom);
 
@@ -72,6 +75,11 @@ export default function PageDetailStation() {
 
         {/* --- COLONNE PRINCIPALE (droite) --- */}
         <main className="station-detail-main">
+          <ProchainsPassages
+            station={station}
+            initialLineFilter={initialLineFilter}
+          />
+
           <h2>Matériel roulant à cette station</h2>
           <div className="station-rames-grille">
             {ramesData.map(item => (

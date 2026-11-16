@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IDFM Transports</string>
+    <string name="title_activity_main">IDFM Transports</string>
+    <string name="package_name">fr.idfm.transports</string>
+    <string name="custom_url_scheme">fr.idfm.transports</string>
+</resources>

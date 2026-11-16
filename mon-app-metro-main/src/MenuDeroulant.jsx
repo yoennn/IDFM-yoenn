@@ -1,6 +1,7 @@
 // src/MenuDeroulant.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Smartphone, Download } from 'lucide-react';
 import { lignesMetro, getLineLogo, getModeLogo } from './data.js';
 import './MenuDeroulant.css';
 
@@ -14,6 +15,12 @@ const SIDEBAR_MODES = [
 export default function MenuDeroulant({ estOuvert, onClose, filtreMode = 'metro', onSelectMode }) {
   const [ongletLocal, setOngletLocal] = useState('metro');
   const modeActif = (filtreMode && filtreMode !== 'tous') ? filtreMode : ongletLocal;
+  const isNativeApp = Boolean(
+    typeof window !== 'undefined' &&
+    window.Capacitor &&
+    typeof window.Capacitor.isNativePlatform === 'function' &&
+    window.Capacitor.isNativePlatform()
+  );
 
   const lignesActuelles = lignesMetro.filter(l => l.type === 'actuel');
   const lignesGPE = lignesMetro.filter(l => l.type === 'gpe');
@@ -100,6 +107,21 @@ export default function MenuDeroulant({ estOuvert, onClose, filtreMode = 'metro'
         {modeActif === 'rer' && renderSection("Réseau RER (A à E)", lignesRER)}
         {modeActif === 'transilien' && renderSection("Réseau Transilien (H à V)", lignesTransilien)}
         {modeActif === 'tram' && renderSection("Réseau Tramway (T1 à T14)", lignesTram)}
+
+        {!isNativeApp && (
+          <div className="menu-apk-download-wrap">
+            <a
+              href="/idfm-transports.apk"
+              download="idfm-transports.apk"
+              className="menu-apk-download-btn"
+              onClick={handleClose}
+            >
+              <Smartphone size={17} aria-hidden="true" />
+              <span>Télécharger l&apos;application Android (.apk)</span>
+              <Download size={15} className="menu-apk-dl-icon" aria-hidden="true" />
+            </a>
+          </div>
+        )}
         
       </div>
     </aside>
